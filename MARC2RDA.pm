@@ -32,9 +32,8 @@ sub transform {
 	my $xslt = slurp($self->{'xslt_transformation_file'});
 
 	my $trans  = XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
-	my $output = $trans->transform($marc_xml);
 
-	return $trans->transform($marc_xml);;
+	return $trans->transform($marc_xml);
 }
 
 1;
