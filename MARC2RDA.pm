@@ -8,7 +8,7 @@ use File::Share ':all';
 use Perl6::Slurp qw(slurp);
 use XML::Saxon::XSLT3;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub new {
 	my ($class, @params) = @_;
