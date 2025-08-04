@@ -27,13 +27,13 @@ sub new {
 }
 
 sub transform {
-	my ($self, $marc_xml) = @_;
+	my ($self, $marc_xml, @params) = @_;
 
 	my $xslt = slurp($self->{'xslt_transformation_file'});
 
 	my $trans  = XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
 
-	return $trans->transform($marc_xml);
+	return $trans->transform($marc_xml, @params);
 }
 
 1;
