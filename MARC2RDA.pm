@@ -37,3 +37,15 @@ sub transform {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+NKC::Transform::MARC2RDA - marc2rda transformation class.
+
+=cut
