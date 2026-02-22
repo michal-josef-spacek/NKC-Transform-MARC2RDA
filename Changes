@@ -1,5 +1,6 @@
 0.02
  - Add @params to transform() method.
+ - Add ACKNOWLEDGEMENTS section to doc.
  - Add doc stub.
  - Remove obsolete code.
 
