@@ -38,7 +38,11 @@ share/m2r-relator-round-2.xsl
 share/m2r-relator-test.xsl
 share/m2r.xsl
 SIGNATURE
+t/data/cnb002955079-expected.xml
+t/data/cnb002955079.xml
 t/NKC-Transform-MARC2RDA/01-use.t
 t/NKC-Transform-MARC2RDA/02-version.t
+t/NKC-Transform-MARC2RDA/03-new.t
+t/NKC-Transform-MARC2RDA/04-transform.t
 xt/NKC-Transform-MARC2RDA/01-pod_coverage.t
 xt/NKC-Transform-MARC2RDA/02-pod.t

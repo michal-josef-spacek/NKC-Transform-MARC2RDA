@@ -2,6 +2,7 @@
  - Add @params to transform() method.
  - Add ACKNOWLEDGEMENTS section to doc.
  - Add doc stub.
+ - Add tests.
  - Remove obsolete code.
  - Update copyright years.
 
