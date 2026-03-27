@@ -21,6 +21,7 @@ share/appendLabels.xsl
 share/getmarc.xsl
 share/INFO
 share/lexicalAliases.xsl
+share/LICENSE
 share/lookup/dollar5-preprocessedRDA.xml
 share/lookup/relatorTable-2024-03-28.xml
 share/m2r-0xx.xsl
