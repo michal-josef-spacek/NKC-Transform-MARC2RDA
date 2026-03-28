@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes">
+      <rdfs:label xml:lang="en">National Bibliography Number Source Codes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/abc">
+            <madsrdf:authoritativeLabel>Anuario bibliográfico colombiano</madsrdf:authoritativeLabel>
+            <madsrdf:code>abc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/abd">
+            <madsrdf:authoritativeLabel>Anuario bibliográfico dominicana</madsrdf:authoritativeLabel>
+            <madsrdf:code>abd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/abe">
+            <madsrdf:authoritativeLabel>Anuario bibliográfico ecuatoriano</madsrdf:authoritativeLabel>
+            <madsrdf:code>abe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/abp">
+            <madsrdf:authoritativeLabel>Anuario bibliográfico peruano</madsrdf:authoritativeLabel>
+            <madsrdf:code>abp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/abu">
+            <madsrdf:authoritativeLabel>Anuario bibliográfico uruguayo</madsrdf:authoritativeLabel>
+            <madsrdf:code>abu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/anb">
+            <madsrdf:authoritativeLabel>Australian national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>anb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/ba">
+            <madsrdf:authoritativeLabel>Bibliografía d'Andorra</madsrdf:authoritativeLabel>
+            <madsrdf:code>ba</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bbe">
+            <madsrdf:authoritativeLabel>Bibliographie de Belgique</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bbo">
+            <madsrdf:authoritativeLabel>Bibliografía boliviana</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bbr">
+            <madsrdf:authoritativeLabel>Bibliografia brasileira</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bc">
+            <madsrdf:authoritativeLabel>Bibliografía cubana</madsrdf:authoritativeLabel>
+            <madsrdf:code>bc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bccb">
+            <madsrdf:authoritativeLabel>Brinkman's cumulatieve catalogus van boeken</madsrdf:authoritativeLabel>
+            <madsrdf:code>bccb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bcl">
+            <madsrdf:authoritativeLabel>Bibliografía chilena</madsrdf:authoritativeLabel>
+            <madsrdf:code>bcl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/be">
+            <madsrdf:authoritativeLabel>Bibliografía española</madsrdf:authoritativeLabel>
+            <madsrdf:code>be</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bk">
+            <madsrdf:authoritativeLabel>Bulgarski knigopis</madsrdf:authoritativeLabel>
+            <madsrdf:code>bk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bkck">
+            <madsrdf:authoritativeLabel>Bibliograficky katalog: Ceské knihy</madsrdf:authoritativeLabel>
+            <madsrdf:code>bkck</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bksk">
+            <madsrdf:authoritativeLabel>Bibliograficky katalog: Slovenské knihy</madsrdf:authoritativeLabel>
+            <madsrdf:code>bksk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bl">
+            <madsrdf:authoritativeLabel>Bibliographie luxembourgeoise pour l'année</madsrdf:authoritativeLabel>
+            <madsrdf:code>bl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bm">
+            <madsrdf:authoritativeLabel>Bibliografía mexicana</madsrdf:authoritativeLabel>
+            <madsrdf:code>bm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bnb">
+            <madsrdf:authoritativeLabel>British national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bnc">
+            <madsrdf:authoritativeLabel>Bibliografia nacional de Catalunya</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bne">
+            <madsrdf:authoritativeLabel>Bibliografía nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>bne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bnf">
+            <madsrdf:authoritativeLabel>Bibliographie nationale française</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bni">
+            <madsrdf:authoritativeLabel>Bibliografia nazionale italiana</madsrdf:authoritativeLabel>
+            <madsrdf:code>bni</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bnm">
+            <madsrdf:authoritativeLabel>Bibljografija nazzjonal ta' Malta</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bnr">
+            <madsrdf:authoritativeLabel>Bibliografia nationala româna</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/bv">
+            <madsrdf:authoritativeLabel>Bibliografía venezolana</madsrdf:authoritativeLabel>
+            <madsrdf:code>bv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/can">
+            <madsrdf:authoritativeLabel>Canadiana</madsrdf:authoritativeLabel>
+            <madsrdf:code>can</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/cncr">
+            <madsrdf:authoritativeLabel>Catálogo nacional de Costa Rica</madsrdf:authoritativeLabel>
+            <madsrdf:code>cncr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/db">
+            <madsrdf:authoritativeLabel>Deutsche Bibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>db</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/dbf">
+            <madsrdf:authoritativeLabel>Dansk bogfortegnelse</madsrdf:authoritativeLabel>
+            <madsrdf:code>dbf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/dnb">
+            <madsrdf:authoritativeLabel>Deutsche Nationalbibliografie</madsrdf:authoritativeLabel>
+            <madsrdf:code>dnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/dnd">
+            <madsrdf:authoritativeLabel>Danish National Bibliographic Number for Musical Recordings</madsrdf:authoritativeLabel>
+            <madsrdf:code>dnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/eev">
+            <madsrdf:authoritativeLabel>Ellenikê ethnikê vivliografia</madsrdf:authoritativeLabel>
+            <madsrdf:code>eev</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/hb">
+            <madsrdf:authoritativeLabel>Hrvatska bibliografija</madsrdf:authoritativeLabel>
+            <madsrdf:code>hb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/ib">
+            <madsrdf:authoritativeLabel>Islensk bókaskrá </madsrdf:authoritativeLabel>
+            <madsrdf:code>ib</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/ipr">
+            <madsrdf:authoritativeLabel>Irish publishing record</madsrdf:authoritativeLabel>
+            <madsrdf:code>ipr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/jnb">
+            <madsrdf:authoritativeLabel>Japanese National Bibliography </madsrdf:authoritativeLabel>
+            <madsrdf:code>jnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/kktzm">
+            <madsrdf:authoritativeLabel>Kokuritsu kokkai Toshokan zosho mokuroku</madsrdf:authoritativeLabel>
+            <madsrdf:code>kktzm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/kl">
+            <madsrdf:authoritativeLabel>Knizhnaíà letopis'</madsrdf:authoritativeLabel>
+            <madsrdf:code>kl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/la">
+            <madsrdf:authoritativeLabel>Libros argentinos</madsrdf:authoritativeLabel>
+            <madsrdf:code>la</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/lb">
+            <madsrdf:authoritativeLabel>Liechtensteinische Bibliographie </madsrdf:authoritativeLabel>
+            <madsrdf:code>lb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/ldb">
+            <madsrdf:authoritativeLabel>Letapis Druku Belarusi</madsrdf:authoritativeLabel>
+            <madsrdf:code>ldb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/mnb">
+            <madsrdf:authoritativeLabel>Magyar nemzeti bibliográfia</madsrdf:authoritativeLabel>
+            <madsrdf:code>mnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/nbf">
+            <madsrdf:authoritativeLabel>Norsk bokfortegnelse</madsrdf:authoritativeLabel>
+            <madsrdf:code>nbf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/nznb">
+            <madsrdf:authoritativeLabel>New Zealand national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>nznb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/oeb">
+            <madsrdf:authoritativeLabel>Oesterreichische Bibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>oeb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/pb">
+            <madsrdf:authoritativeLabel>Przewodnik bibliograficzny</madsrdf:authoritativeLabel>
+            <madsrdf:code>pb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/sanb">
+            <madsrdf:authoritativeLabel>South African national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>sanb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/sbf">
+            <madsrdf:authoritativeLabel>Svensk bokförteckning</madsrdf:authoritativeLabel>
+            <madsrdf:code>sbf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/skl">
+            <madsrdf:authoritativeLabel>Suomen kirjallisuus</madsrdf:authoritativeLabel>
+            <madsrdf:code>skl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/slb">
+            <madsrdf:authoritativeLabel>Slovenska bibliografija</madsrdf:authoritativeLabel>
+            <madsrdf:code>slb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/szb">
+            <madsrdf:authoritativeLabel>Das Schweizer Buch: Schweizerische Nationalbibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>szb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/tnb">
+            <madsrdf:authoritativeLabel>Taiwan National Bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>tnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/ulk">
+            <madsrdf:authoritativeLabel>Ukraïna: litopys knih</madsrdf:authoritativeLabel>
+            <madsrdf:code>ulk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nationalbibschemes/znb">
+            <madsrdf:authoritativeLabel>Zimbabwe national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>znb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-03T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/nationalbibschemes"/>
+            <cs:creatorName rdf:resource="dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-03T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

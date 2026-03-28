@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm">
+      <rdfs:label xml:lang="en">Access Restriction Term Source Codes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Terms used to record access restrictions and assigns a code to each source, which enables the use of standardized terms indicating the level or type of restriction imposed on access to the resource.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/cc">
+            <madsrdf:authoritativeLabel>Creative Commons</madsrdf:authoritativeLabel>
+            <madsrdf:code>cc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/coarar">
+            <madsrdf:authoritativeLabel>COAR Access Rights Vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>coarar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/eprints">
+            <madsrdf:authoritativeLabel>Eprints access rights vocabulary encoding scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>eprints</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/rs">
+            <madsrdf:authoritativeLabel>Rights Statements</madsrdf:authoritativeLabel>
+            <madsrdf:code>rs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/star">
+            <madsrdf:authoritativeLabel>Standardized terminology for access restriction</madsrdf:authoritativeLabel>
+            <madsrdf:code>star</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/accessrestrictionterm/wikidata">
+            <madsrdf:authoritativeLabel>Wikidata</madsrdf:authoritativeLabel>
+            <madsrdf:code>wikidata</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-31T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Terms used to record access restrictions and assigns a code to each source, which enables the use of standardized terms indicating the level or type of restriction imposed on access to the resource.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/accessrestrictionterm"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-31T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

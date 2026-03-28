@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/mplayspeed">
+      <rdfs:label xml:lang="en">Playing Speed</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Playback speed of the sound recording rendered on a mechanical device. Speed is associated with the kind of item with which it is associated; either disc, cylinder, or tape.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/a">
+            <madsrdf:authoritativeLabel>16 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>a</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/b">
+            <madsrdf:authoritativeLabel>33 1/3 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>b</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/c">
+            <madsrdf:authoritativeLabel>45 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>c</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/d">
+            <madsrdf:authoritativeLabel>78 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>d</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/e">
+            <madsrdf:authoritativeLabel>8 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>e</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/f">
+            <madsrdf:authoritativeLabel>1.4 m/s</madsrdf:authoritativeLabel>
+            <madsrdf:code>f</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/h">
+            <madsrdf:authoritativeLabel>120 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>h</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/i">
+            <madsrdf:authoritativeLabel>160 rpm</madsrdf:authoritativeLabel>
+            <madsrdf:code>i</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/k">
+            <madsrdf:authoritativeLabel>15/16 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>k</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/l">
+            <madsrdf:authoritativeLabel>1 7/8 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>l</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/m">
+            <madsrdf:authoritativeLabel>3 3/4 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>m</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/o">
+            <madsrdf:authoritativeLabel>7 1/2 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>o</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/p">
+            <madsrdf:authoritativeLabel>15 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>p</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mplayspeed/r">
+            <madsrdf:authoritativeLabel>30 ips</madsrdf:authoritativeLabel>
+            <madsrdf:code>r</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-22T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Playback speed of the sound recording rendered on a mechanical device. Speed is associated with the kind of item with which it is associated; either disc, cylinder, or tape.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/mplayspeed"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-22T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

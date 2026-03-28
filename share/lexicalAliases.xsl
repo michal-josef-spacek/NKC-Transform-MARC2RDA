@@ -23,7 +23,17 @@
     xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
-    xmlns:rdawo="http://rdaregistry.info/Elements/w/object/" exclude-result-prefixes=""
+    xmlns:rdawo="http://rdaregistry.info/Elements/w/object/" 
+    xmlns:rdan="http://rdaregistry.info/Elements/n/"
+    xmlns:rdand="http://rdaregistry.info/Elements/n/datatype/"
+    xmlns:rdano="http://rdaregistry.info/Elements/n/object/"
+    xmlns:rdap="http://rdaregistry.info/Elements/p/"
+    xmlns:rdapd="http://rdaregistry.info/Elements/p/datatype/"
+    xmlns:rdapo="http://rdaregistry.info/Elements/p/object/"
+    xmlns:rdat="http://rdaregistry.info/Elements/t/"
+    xmlns:rdatd="http://rdaregistry.info/Elements/t/datatype/"
+    xmlns:rdato="http://rdaregistry.info/Elements/t/object/"
+    exclude-result-prefixes=""
     version="3.0">
 
     <xsl:variable name="w" select="document('http://www.rdaregistry.info/xml/Elements/w.xml')"/>
@@ -31,6 +41,9 @@
     <xsl:variable name="m" select="document('http://www.rdaregistry.info/xml/Elements/m.xml')"/>
     <xsl:variable name="i" select="document('http://www.rdaregistry.info/xml/Elements/i.xml')"/>
     <xsl:variable name="n" select="document('http://www.rdaregistry.info/xml/Elements/n.xml')"/>
+    <xsl:variable name="a" select="document('http://www.rdaregistry.info/xml/Elements/a.xml')"/>
+    <xsl:variable name="p" select="document('http://www.rdaregistry.info/xml/Elements/p.xml')"/>
+    <xsl:variable name="t" select="document('http://www.rdaregistry.info/xml/Elements/t.xml')"/>
     <xsl:key name="rdawDoc" match="$w/rdf:RDF/rdf:Description"
         use="substring-after(@rdf:about, '/P')"/>
     <xsl:key name="rdaeDoc" match="$e/rdf:RDF/rdf:Description"
@@ -41,6 +54,12 @@
         use="substring-after(@rdf:about, '/P')"/>
     <xsl:key name="rdanDoc" match="$n/rdf:RDF/rdf:Description"
         use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdaaDoc" match="$a/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdapDoc" match="$p/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdatDoc" match="$t/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
     <xsl:mode on-no-match="shallow-copy"/>
     
     <xsl:template match="/rdf:RDF/rdf:Description/rdf:type">
@@ -49,6 +68,26 @@
                 <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10001'">
                     <xsl:attribute name="rdf:resource">
                         <xsl:value-of select="'http://rdaregistry.info/Elements/c/Work.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource= 'http://rdaregistry.info/Elements/c/C10002'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Agent.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10003'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Item.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10004'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Person.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10005'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/CorporateBody.en'"/>
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10006'">
@@ -61,9 +100,24 @@
                         <xsl:value-of select="'http://rdaregistry.info/Elements/c/Manifestation.en'"/>
                     </xsl:attribute>
                 </xsl:when>
-                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10003'">
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10008'">
                     <xsl:attribute name="rdf:resource">
-                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Item.en'"/>
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Family.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10009'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Place.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10010'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/Timespan.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10011'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/CollectiveAgent.en'"/>
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10012'">
@@ -71,6 +125,16 @@
                         <xsl:value-of select="'http://rdaregistry.info/Elements/c/Nomen.en'"/>
                     </xsl:attribute>
                 </xsl:when>
+                <xsl:when test="@rdf:resource = 'http://rdaregistry.info/Elements/c/C10013'">
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="'http://rdaregistry.info/Elements/c/RDAEntity.en'"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:value-of select="@rdf:resource"/>
+                    </xsl:attribute>
+                </xsl:otherwise>
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
@@ -132,6 +196,45 @@
             test="contains(name(.), 'rdan:') or contains(name(.), 'rdand:') or contains(name(.), 'rdano:')">
             <xsl:variable name="prefix" select="substring-before(name(.), ':')"/>
             <xsl:variable name="alias" select="key('rdanDoc', substring-after(name(.), ':P'), $n)/reg:lexicalAlias/@rdf:resource => substring-after('/n/')"/>
+            <xsl:element name="{$prefix || ':' || $alias}">
+                <xsl:for-each select="@*">
+                    <xsl:attribute name="{name(.)}">
+                        <xsl:value-of select="."/>
+                    </xsl:attribute>
+                </xsl:for-each>
+                <xsl:value-of select="."/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdaa:') or contains(name(.), 'rdaad:') or contains(name(.), 'rdaao:')">
+            <xsl:variable name="prefix" select="substring-before(name(.), ':')"/>
+            <xsl:variable name="alias" select="key('rdaaDoc', substring-after(name(.), ':P'), $a)/reg:lexicalAlias/@rdf:resource => substring-after('/a/')"/>
+            <xsl:element name="{$prefix || ':' || $alias}">
+                <xsl:for-each select="@*">
+                    <xsl:attribute name="{name(.)}">
+                        <xsl:value-of select="."/>
+                    </xsl:attribute>
+                </xsl:for-each>
+                <xsl:value-of select="."/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdaap:') or contains(name(.), 'rdapd:') or contains(name(.), 'rdapo:')">
+            <xsl:variable name="prefix" select="substring-before(name(.), ':')"/>
+            <xsl:variable name="alias" select="key('rdapDoc', substring-after(name(.), ':P'), $p)/reg:lexicalAlias/@rdf:resource => substring-after('/p/')"/>
+            <xsl:element name="{$prefix || ':' || $alias}">
+                <xsl:for-each select="@*">
+                    <xsl:attribute name="{name(.)}">
+                        <xsl:value-of select="."/>
+                    </xsl:attribute>
+                </xsl:for-each>
+                <xsl:value-of select="."/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdat:') or contains(name(.), 'rdatd:') or contains(name(.), 'rdato:')">
+            <xsl:variable name="prefix" select="substring-before(name(.), ':')"/>
+            <xsl:variable name="alias" select="key('rdatDoc', substring-after(name(.), ':P'), $t)/reg:lexicalAlias/@rdf:resource => substring-after('/t/')"/>
             <xsl:element name="{$prefix || ':' || $alias}">
                 <xsl:for-each select="@*">
                     <xsl:attribute name="{name(.)}">

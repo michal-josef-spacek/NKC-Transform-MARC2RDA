@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/identifiers">
+      <rdfs:label xml:lang="en">Standard Identifiers</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">The Standard Identifiers Scheme lists standard number or code systems and assigns a URI to each database or publication that defines or contains the identifiers. The purpose of these source codes is to enable the type of standard numbers or codes in resource descriptions to be indicated by URI.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/agorha">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>AGORHA (Accès global et organisé aux ressources en histoire de l'art)</madsrdf:authoritativeLabel>
+            <madsrdf:code>agorha</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/agrovoc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>AGROVOC multilingual agricultural thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrovoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/allmovie">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>AllMovie</madsrdf:authoritativeLabel>
+            <madsrdf:code>allmovie</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/allmusic">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>AllMusic</madsrdf:authoritativeLabel>
+            <madsrdf:code>allmusic</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/allocine">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>AlloCiné</madsrdf:authoritativeLabel>
+            <madsrdf:code>allocine</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/amnbo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>American National Biography Online</madsrdf:authoritativeLabel>
+            <madsrdf:code>amnbo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ansi">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>American National Standards Institute and National Information Standards Organisation number for an ANSI or ANSI/NISO standard</madsrdf:authoritativeLabel>
+            <madsrdf:code>ansi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/archinl">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>archINFORM index of locations</madsrdf:authoritativeLabel>
+            <madsrdf:code>archinl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/archinpe">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>archINFORM index of persons</madsrdf:authoritativeLabel>
+            <madsrdf:code>archinpe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/archinpr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>archINFORM projects</madsrdf:authoritativeLabel>
+            <madsrdf:code>archinpr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/archna">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Archnet authorities</madsrdf:authoritativeLabel>
+            <madsrdf:code>archna</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/archns">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Archnet sites</madsrdf:authoritativeLabel>
+            <madsrdf:code>archns</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ark">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Archival resource key (ARK) identifiers</madsrdf:authoritativeLabel>
+            <madsrdf:code>ark</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/artsy">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Artsy</madsrdf:authoritativeLabel>
+            <madsrdf:code>artsy</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/artukart">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Art UK artists</madsrdf:authoritativeLabel>
+            <madsrdf:code>artukart</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/artukaw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Art UK artworks</madsrdf:authoritativeLabel>
+            <madsrdf:code>artukaw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/arxiv">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>arXiv</madsrdf:authoritativeLabel>
+            <madsrdf:code>arxiv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/atg">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Agricultural thesaurus and glossary</madsrdf:authoritativeLabel>
+            <madsrdf:code>atg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ausbn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Australian business number (ABN)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ausbn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/auscn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Australian company number (ACN)</madsrdf:authoritativeLabel>
+            <madsrdf:code>auscn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ausnzst">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Australian/New Zealand standards</madsrdf:authoritativeLabel>
+            <madsrdf:code>ausnzst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ausrn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Australian registered body number (ABRN)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ausrn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ausst">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Australian standards (Standards Australia)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ausst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/balat">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BALaT (Belgian art links and tools) People &amp; institutions</madsrdf:authoritativeLabel>
+            <madsrdf:code>balat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bbcth">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BBC things</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbcth</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bbrainza">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BookBrainz author</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbrainza</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bbrainzp">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BookBrainz publisher</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbrainzp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bbrainzw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BookBrainz work</madsrdf:authoritativeLabel>
+            <madsrdf:code>bbrainzw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bdrc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Buddhist Digital Resource Center</madsrdf:authoritativeLabel>
+            <madsrdf:code>bdrc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bdusc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Biographical directory of the United States Congress</madsrdf:authoritativeLabel>
+            <madsrdf:code>bdusc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/belvku">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Belvedere Künstler</madsrdf:authoritativeLabel>
+            <madsrdf:code>belvku</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/belvwrk">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Belvedere Werke</madsrdf:authoritativeLabel>
+            <madsrdf:code>belvwrk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/benezit">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Benezit dictionary of artists</madsrdf:authoritativeLabel>
+            <madsrdf:code>benezit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bew">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Biographies of the entomologists of the world</madsrdf:authoritativeLabel>
+            <madsrdf:code>bew</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bfi">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BFI - British Film Institute</madsrdf:authoritativeLabel>
+            <madsrdf:code>bfi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bhb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Bibliography of the Hebrew book</madsrdf:authoritativeLabel>
+            <madsrdf:code>bhb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bibbi">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BIBBI autoriteter</madsrdf:authoritativeLabel>
+            <madsrdf:code>bibbi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bigenc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Большая российская энциклопедия = Bolʹshai︠a︡ rossiĭskai︠a︡ ėnt︠s︡iklopedii︠a︡ (Great Russian Encyclopedia)</madsrdf:authoritativeLabel>
+            <madsrdf:code>bigenc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bnfcg">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>BnF catalogue général</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnfcg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bpn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Biografisch Portaal van Nederland = Biography portal of the Netherlands</madsrdf:authoritativeLabel>
+            <madsrdf:code>bpn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/bsi">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>British Standards Institution</madsrdf:authoritativeLabel>
+            <madsrdf:code>bsi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cabt">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>CABI thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cabt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cana">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Canadiana authorities</madsrdf:authoritativeLabel>
+            <madsrdf:code>cana</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cantic">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>CANTIC (Catàleg d'autoritats de noms i títols de Catalunya)</madsrdf:authoritativeLabel>
+            <madsrdf:code>cantic</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cbwpid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Collective biographies of women</madsrdf:authoritativeLabel>
+            <madsrdf:code>cbwpid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cerl">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>CERL thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cerl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cgndb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Canadian geographical names database</madsrdf:authoritativeLabel>
+            <madsrdf:code>cgndb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/clara">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Clara: database of women artists</madsrdf:authoritativeLabel>
+            <madsrdf:code>clara</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/cnbksy">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Quan guo bao kan suo yin (CNBKSY)</madsrdf:authoritativeLabel>
+            <madsrdf:code>cnbksy</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/conccc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Congress.gov congressional committee codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>conccc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/csfdcz">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Česko-Slovenská filmová databáze</madsrdf:authoritativeLabel>
+            <madsrdf:code>csfdcz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/danacode">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Danacode</madsrdf:authoritativeLabel>
+            <madsrdf:code>danacode</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/darome">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Digital atlas of the Roman Empire</madsrdf:authoritativeLabel>
+            <madsrdf:code>darome</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/datoses">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>datos.bne.es</madsrdf:authoritativeLabel>
+            <madsrdf:code>datoses</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/discogs">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Discogs</madsrdf:authoritativeLabel>
+            <madsrdf:code>discogs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/dkfilm">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Det Danske Filminstitut Filmdatabasen</madsrdf:authoritativeLabel>
+            <madsrdf:code>dkfilm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/dma">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Digital musikkarkiv</madsrdf:authoritativeLabel>
+            <madsrdf:code>dma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/doi">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Digital object identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>doi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/dpb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Dictionnaire des peintres belges</madsrdf:authoritativeLabel>
+            <madsrdf:code>dpb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ean">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International article number</madsrdf:authoritativeLabel>
+            <madsrdf:code>ean</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ecli">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>European case law identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>ecli</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/eidr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>EIDR: entertainment identifier registry</madsrdf:authoritativeLabel>
+            <madsrdf:code>eidr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/elsst">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ELSST thesaurus - European language social science thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>elsst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/emanus-vlid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Digital platform for manuscript material from Swiss libraries and archives</madsrdf:authoritativeLabel>
+            <madsrdf:code>emanus-vlid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/emlo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Early modern letters online</madsrdf:authoritativeLabel>
+            <madsrdf:code>emlo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/erara-vlid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>The platform for digitized rare books from Swiss institutions</madsrdf:authoritativeLabel>
+            <madsrdf:code>erara-vlid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/famsea">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>FamilySearch</madsrdf:authoritativeLabel>
+            <madsrdf:code>famsea</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/fast">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>FAST: faceted application of subject terminology</madsrdf:authoritativeLabel>
+            <madsrdf:code>fast</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/fidecp">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Fide chess profile</madsrdf:authoritativeLabel>
+            <madsrdf:code>fidecp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/filmaff">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Film affinity</madsrdf:authoritativeLabel>
+            <madsrdf:code>filmaff</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/filmport">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>filmportal.de</madsrdf:authoritativeLabel>
+            <madsrdf:code>filmport</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/findagr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Find a Grave</madsrdf:authoritativeLabel>
+            <madsrdf:code>findagr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/fisa">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>FIS athlete</madsrdf:authoritativeLabel>
+            <madsrdf:code>fisa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/freebase">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Freebase</madsrdf:authoritativeLabel>
+            <madsrdf:code>freebase</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gacsch">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Global agricultural concept space (GACS)</madsrdf:authoritativeLabel>
+            <madsrdf:code>gacsch</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gec">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Gran enciclopèdia catalana</madsrdf:authoritativeLabel>
+            <madsrdf:code>gec</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gemet">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>GEMET thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>gemet</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/geogndb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Geographic names database</madsrdf:authoritativeLabel>
+            <madsrdf:code>geogndb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/geonames">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>GeoNames</madsrdf:authoritativeLabel>
+            <madsrdf:code>geonames</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/geprishisp">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>GEPRIS Historisch ID (Person)</madsrdf:authoritativeLabel>
+            <madsrdf:code>geprishisp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gettyaat">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Art &amp; architecture theasurus online</madsrdf:authoritativeLabel>
+            <madsrdf:code>gettyaat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gettyart">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>J. Paul Getty Museum artists</madsrdf:authoritativeLabel>
+            <madsrdf:code>gettyart</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gettyobj">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>J. Paul Getty Museum objects</madsrdf:authoritativeLabel>
+            <madsrdf:code>gettyobj</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gettytgn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Getty thesaurus of geographic names online</madsrdf:authoritativeLabel>
+            <madsrdf:code>gettytgn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gettyulan">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Union list of artist names online</madsrdf:authoritativeLabel>
+            <madsrdf:code>gettyulan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gnd">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gnis">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Geographic names information system (GNIS)</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/goodra">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Goodreads authors</madsrdf:authoritativeLabel>
+            <madsrdf:code>goodra</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gtaa">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Gemeenschappelijke Thesaurus voor Audiovisuele Archieven</madsrdf:authoritativeLabel>
+            <madsrdf:code>gtaa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/gtin-14">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Global trade identification number 14 (EAN/UCC-128 or ITF-14)</madsrdf:authoritativeLabel>
+            <madsrdf:code>gtin-14</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/hdl">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Handle</madsrdf:authoritativeLabel>
+            <madsrdf:code>hdl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/iaafa">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>World Athletics</madsrdf:authoritativeLabel>
+            <madsrdf:code>iaafa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ibdb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>IBDB: Internet Broadway database</madsrdf:authoritativeLabel>
+            <madsrdf:code>ibdb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/iconauth">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Iconography authority</madsrdf:authoritativeLabel>
+            <madsrdf:code>iconauth</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/iconclass">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Iconclass</madsrdf:authoritativeLabel>
+            <madsrdf:code>iconclass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/idref">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>IdRef: identifiants et référentiels</madsrdf:authoritativeLabel>
+            <madsrdf:code>idref</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ilot">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ILO Thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ilot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/imdb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>IMDB: Internet Movie Database</madsrdf:authoritativeLabel>
+            <madsrdf:code>imdb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/inspire">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>INSPIRE HEP</madsrdf:authoritativeLabel>
+            <madsrdf:code>inspire</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isan">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard audiovisual number</madsrdf:authoritativeLabel>
+            <madsrdf:code>isan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isbn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard book number</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isbn-a">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard book number (the actionable ISBN)</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbn-a</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isbnre">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISBN (International Standard Book Number) registrant element</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbnre</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isbnsbn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Identificativo SBN</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbnsbn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ismm">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard music number</madsrdf:authoritativeLabel>
+            <madsrdf:code>ismm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isni">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard name identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>isni</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/iso">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International Organization for Standardization number for an ISO standard</madsrdf:authoritativeLabel>
+            <madsrdf:code>iso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isfdbau">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISFDB author directory</madsrdf:authoritativeLabel>
+            <madsrdf:code>isfdbau</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isfdbaw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISFDB award directory</madsrdf:authoritativeLabel>
+            <madsrdf:code>isfdbaw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isfdbma">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISFDB magazine directory</madsrdf:authoritativeLabel>
+            <madsrdf:code>isfdbma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isfdbpu">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISFDB publisher directory</madsrdf:authoritativeLabel>
+            <madsrdf:code>isfdbpu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isil">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ISIL (International standard identifier for libraries and related organizations)</madsrdf:authoritativeLabel>
+            <madsrdf:code>isil</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/isrc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard recording code</madsrdf:authoritativeLabel>
+            <madsrdf:code>isrc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/issn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard serial number</madsrdf:authoritativeLabel>
+            <madsrdf:code>issn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/issn-l">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Linking International standard serial number</madsrdf:authoritativeLabel>
+            <madsrdf:code>issn-l</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/issue-number">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sound recording issue number</madsrdf:authoritativeLabel>
+            <madsrdf:code>issue-number</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/istc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard text code</madsrdf:authoritativeLabel>
+            <madsrdf:code>istc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/iswc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>International standard musical work code</madsrdf:authoritativeLabel>
+            <madsrdf:code>iswc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/it-acnp">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Catalogo italiano dei periodici</madsrdf:authoritativeLabel>
+            <madsrdf:code>it-acnp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/itar">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ITAR (Importtjeneste og autoritetsregistre)</madsrdf:authoritativeLabel>
+            <madsrdf:code>itar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/kaken">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Researcher Number of the Grants-in-Aid for Scientific Research (KAKENHI) Program</madsrdf:authoritativeLabel>
+            <madsrdf:code>kaken</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/kda">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Kunstindeks Danmark artist</madsrdf:authoritativeLabel>
+            <madsrdf:code>kda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/kdw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Kunstindeks Danmark work</madsrdf:authoritativeLabel>
+            <madsrdf:code>kdw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/kinopo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>KinoPoisk</madsrdf:authoritativeLabel>
+            <madsrdf:code>kinopo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/knpam">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Russian National Heritage Registry for Books</madsrdf:authoritativeLabel>
+            <madsrdf:code>knpam</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ktga">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Author ID of the Union Catalogue Database of Japanese Texts</madsrdf:authoritativeLabel>
+            <madsrdf:code>ktga</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ktgw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Work ID of the Union Catalogue Database of Japanese Texts</madsrdf:authoritativeLabel>
+            <madsrdf:code>ktgw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/kulturnav">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Kulturnav</madsrdf:authoritativeLabel>
+            <madsrdf:code>kulturnav</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/lattes">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Curriculo Lattes</madsrdf:authoritativeLabel>
+            <madsrdf:code>lattes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/lccn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Library of Congress control number</madsrdf:authoritativeLabel>
+            <madsrdf:code>lccn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/lcmd">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Library of Congress Manuscript Division field of history codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcmd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/lei">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Legal entity identifier system</madsrdf:authoritativeLabel>
+            <madsrdf:code>lei</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/libaus">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Libraries Australia</madsrdf:authoritativeLabel>
+            <madsrdf:code>libaus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/local">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Locally defined identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>local</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/manto">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>MANTO</madsrdf:authoritativeLabel>
+            <madsrdf:code>manto</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/margaz">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Marine Gazetteer</madsrdf:authoritativeLabel>
+            <madsrdf:code>margaz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/matrix-number">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sound recording matrix number</madsrdf:authoritativeLabel>
+            <madsrdf:code>matrix-number</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/mesh">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Medical Subject Headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>mesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/mggo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>MGG Online</madsrdf:authoritativeLabel>
+            <madsrdf:code>mggo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/mocofo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Musée d'Orsay Catalogue des oeuvres fiche oeuvre</madsrdf:authoritativeLabel>
+            <madsrdf:code>mocofo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/moma">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Museum of Modern Art</madsrdf:authoritativeLabel>
+            <madsrdf:code>moma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/morana">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Musée d'Orsay Répertoire des artistes notice artiste</madsrdf:authoritativeLabel>
+            <madsrdf:code>morana</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/moviemetf">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>MovieMeter films</madsrdf:authoritativeLabel>
+            <madsrdf:code>moviemetf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/moviemetr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>MovieMeter regisseurs</madsrdf:authoritativeLabel>
+            <madsrdf:code>moviemetr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/munzing">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Munzinger</madsrdf:authoritativeLabel>
+            <madsrdf:code>munzing</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/muscl">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Music Sales Classical</madsrdf:authoritativeLabel>
+            <madsrdf:code>muscl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/music-plate">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Publisher's music plate number</madsrdf:authoritativeLabel>
+            <madsrdf:code>music-plate</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/music-publisher">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Publisher-assigned music number</madsrdf:authoritativeLabel>
+            <madsrdf:code>music-publisher</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/musicb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>MusicBrainz</madsrdf:authoritativeLabel>
+            <madsrdf:code>musicb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nacat">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Archives Catalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>nacat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nagv">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>The National Archives (Great Britain)</madsrdf:authoritativeLabel>
+            <madsrdf:code>nagv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/natgazfid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>U.S. National Gazetteer Feature Name Identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>natgazfid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nga">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Gallery of Art</madsrdf:authoritativeLabel>
+            <madsrdf:code>nga</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ngva">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Gallery of Victoria artist</madsrdf:authoritativeLabel>
+            <madsrdf:code>ngva</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ngvw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Gallery of Victoria work</madsrdf:authoritativeLabel>
+            <madsrdf:code>ngvw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nii">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Author Authority ID of NACSIS-CAT</madsrdf:authoritativeLabel>
+            <madsrdf:code>nii</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nipo">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>NIPO (Número de Identificación de las Publicaciones Oficiales)</madsrdf:authoritativeLabel>
+            <madsrdf:code>nipo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nlg">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Library of Greece</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nndb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>NNDB (Notable Names Database)</madsrdf:authoritativeLabel>
+            <madsrdf:code>nndb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/npg">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Portrait Gallery</madsrdf:authoritativeLabel>
+            <madsrdf:code>npg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nstc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>National Standard Text Code</madsrdf:authoritativeLabel>
+            <madsrdf:code>nstc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nzst">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Standards New Zealand</madsrdf:authoritativeLabel>
+            <madsrdf:code>nzst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/nzggn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>New Zealand gazetteer of place names</madsrdf:authoritativeLabel>
+            <madsrdf:code>nzggn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/oalex">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>OpenAlex</madsrdf:authoritativeLabel>
+            <madsrdf:code>oalex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/odnb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Oxford Dictionary of National Biography</madsrdf:authoritativeLabel>
+            <madsrdf:code>odnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ofdb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>OFDb: Online-Filmdatenbank</madsrdf:authoritativeLabel>
+            <madsrdf:code>ofdb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/onix">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ONIX (Online Information Exchange)</madsrdf:authoritativeLabel>
+            <madsrdf:code>onix</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/opensm">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>OpenStreetMap</madsrdf:authoritativeLabel>
+            <madsrdf:code>opensm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/orcid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Open researcher and contributor identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>orcid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/orgnr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Norwegian national organization number</madsrdf:authoritativeLabel>
+            <madsrdf:code>orgnr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/oxforddnb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Oxford biography index</madsrdf:authoritativeLabel>
+            <madsrdf:code>oxforddnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pares">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Autoridades del Portal de Archivos Españoles (PARES) - Spanish Archives Portal</madsrdf:authoritativeLabel>
+            <madsrdf:code>pares</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pcadpe">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Pacific Coast Architecture Database - persons list</madsrdf:authoritativeLabel>
+            <madsrdf:code>pcadpe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pcadpf">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Pacific Coast Architecture Database - practices and firms</madsrdf:authoritativeLabel>
+            <madsrdf:code>pcadpf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/permid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>PermID</madsrdf:authoritativeLabel>
+            <madsrdf:code>permid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/picnypl">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>PIC - Photographers' Identities Catalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>picnypl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pleiades">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Pleiades: a gazetteer of past places</madsrdf:authoritativeLabel>
+            <madsrdf:code>pleiades</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pnta">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Personen uit de Nederlandse Thesaurus van Auteursnamen</madsrdf:authoritativeLabel>
+            <madsrdf:code>pnta</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/porthu">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>PORT.hu</madsrdf:authoritativeLabel>
+            <madsrdf:code>porthu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/prabook">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Prabook</madsrdf:authoritativeLabel>
+            <madsrdf:code>prabook</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pmc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>PubMed Central</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/pmid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>PubMed</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/rid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ResearcherID</madsrdf:authoritativeLabel>
+            <madsrdf:code>rid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/rijkspid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Rijksmuseum persistent identifiers</madsrdf:authoritativeLabel>
+            <madsrdf:code>rijkspid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/rism">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Repertoire International des Sources Musicale (RISM)</madsrdf:authoritativeLabel>
+            <madsrdf:code>rism</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/rkda">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>RKDartists</madsrdf:authoritativeLabel>
+            <madsrdf:code>rkda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ror">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Research Organization Registry</madsrdf:authoritativeLabel>
+            <madsrdf:code>ror</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/s2a3bd">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>S2A3 biographical database of southern African science</madsrdf:authoritativeLabel>
+            <madsrdf:code>s2a3bd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/saam">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Smithsonian American Art Museum</madsrdf:authoritativeLabel>
+            <madsrdf:code>saam</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/schins">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ScholarGPS instutution</madsrdf:authoritativeLabel>
+            <madsrdf:code>schins</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/schsch">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ScholarGPS scholar</madsrdf:authoritativeLabel>
+            <madsrdf:code>schsch</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/scholaru">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Scholar Universe</madsrdf:authoritativeLabel>
+            <madsrdf:code>scholaru</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/scope">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Scope</madsrdf:authoritativeLabel>
+            <madsrdf:code>scope</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/scopus">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Scopus author identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>scopus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sici">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Serial item and contribution identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>sici</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/smgp">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Science Museum Group People</madsrdf:authoritativeLabel>
+            <madsrdf:code>smgp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/snac">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Social Networks and Archival Context</madsrdf:authoritativeLabel>
+            <madsrdf:code>snac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/spotify">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Spotify</madsrdf:authoritativeLabel>
+            <madsrdf:code>spotify</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfbsb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: Baseball</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfbsb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfbsk">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: Basketball</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfbsk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfcbb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: College Basketball</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfcbb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfcfb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: College Football</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfcfb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfhoc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: Hockey</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfhoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfoly">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: Olympic Sports</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfoly</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/sprfpfb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Sports Reference: Pro Football</madsrdf:authoritativeLabel>
+            <madsrdf:code>sprfpfb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/ssaut">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Semantic Scholar (Author)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ssaut</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/stock-number">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Publisher, distributor, or vendor stock number</madsrdf:authoritativeLabel>
+            <madsrdf:code>stock-number</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/strn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Standard technical report number</madsrdf:authoritativeLabel>
+            <madsrdf:code>strn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/stw">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Standard-Thesaurus Wirtschaft = STW thesaurus for economics</madsrdf:authoritativeLabel>
+            <madsrdf:code>stw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/svfilm">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Svensk Filmdatabas</madsrdf:authoritativeLabel>
+            <madsrdf:code>svfilm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/tatearid">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Tate artist identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>tatearid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/theatr">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Theatricalia</madsrdf:authoritativeLabel>
+            <madsrdf:code>theatr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/tpce">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Tesauros del Patrimonio Cultural de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>tpce</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/trove">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Trove</madsrdf:authoritativeLabel>
+            <madsrdf:code>trove</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/twnaf">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Taiwan name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>twnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/unescot">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>UNESCO thesaurus = Thésaurus de l'UNESCO = Tesauro de la UNESCO</madsrdf:authoritativeLabel>
+            <madsrdf:code>unescot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/upc">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Universal product code</madsrdf:authoritativeLabel>
+            <madsrdf:code>upc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/urbe">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Parsifal</madsrdf:authoritativeLabel>
+            <madsrdf:code>urbe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/uri">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Uniform resource identifier</madsrdf:authoritativeLabel>
+            <madsrdf:code>uri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/urn">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Uniform resource name</madsrdf:authoritativeLabel>
+            <madsrdf:code>urn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/vd16">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Verzeichnis der Drucke des 16. Jahrhunderts</madsrdf:authoritativeLabel>
+            <madsrdf:code>vd16</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/vd17">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Verzeichnis der Drucke des 17. Jahrhunderts</madsrdf:authoritativeLabel>
+            <madsrdf:code>vd17</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/vd18">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Verzeichnis der Drucke des 18. Jahrhunderts</madsrdf:authoritativeLabel>
+            <madsrdf:code>vd18</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/vera">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Danish Authority File</madsrdf:authoritativeLabel>
+            <madsrdf:code>vera</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/vgmdb">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>VGMdb artists</madsrdf:authoritativeLabel>
+            <madsrdf:code>vgmdb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/viaf">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Virtual International Authority File number</madsrdf:authoritativeLabel>
+            <madsrdf:code>viaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/videorecording-identifer">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Publisher-assigned videorecording number</madsrdf:authoritativeLabel>
+            <madsrdf:code>videorecording-identifer</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/wikidata">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Wikidata</madsrdf:authoritativeLabel>
+            <madsrdf:code>wikidata</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/wndla">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>Web NDL authorities</madsrdf:authoritativeLabel>
+            <madsrdf:code>wndla</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/worldcat">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>WorldCat Entities</madsrdf:authoritativeLabel>
+            <madsrdf:code>worldcat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/xgamea">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>X Games athletes</madsrdf:authoritativeLabel>
+            <madsrdf:code>xgamea</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/identifiers/zbaut">
+            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+            <madsrdf:authoritativeLabel>ZooBank</madsrdf:authoritativeLabel>
+            <madsrdf:code>zbaut</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">The Standard Identifiers Scheme lists standard number or code systems and assigns a URI to each database or publication that defines or contains the identifiers. The purpose of these source codes is to enable the type of standard numbers or codes in resource descriptions to be indicated by URI.</skos:definition>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

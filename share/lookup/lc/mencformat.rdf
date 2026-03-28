@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/mencformat">
+      <rdfs:label xml:lang="en">Encoding Format</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">A schema or standard used to encode the digital content of a resource.</madsrdf:definitionNote>
+      <madsrdf:historyNote xml:lang="en">MARC bib: 347 $b</madsrdf:historyNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/4kubr">
+            <madsrdf:authoritativeLabel>4K Ultra HD Blu-ray</madsrdf:authoritativeLabel>
+            <madsrdf:code>4kubr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/avi">
+            <madsrdf:authoritativeLabel>AVI file</madsrdf:authoritativeLabel>
+            <madsrdf:code>avi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/azw3">
+            <madsrdf:authoritativeLabel>AZW3 file</madsrdf:authoritativeLabel>
+            <madsrdf:code>azw3</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/bluray">
+            <madsrdf:authoritativeLabel>Blu-ray</madsrdf:authoritativeLabel>
+            <madsrdf:code>bluray</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/cda">
+            <madsrdf:authoritativeLabel>CD audio</madsrdf:authoritativeLabel>
+            <madsrdf:code>cda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/dvda">
+            <madsrdf:authoritativeLabel>DVD audio</madsrdf:authoritativeLabel>
+            <madsrdf:code>dvda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/dvdrv">
+            <madsrdf:authoritativeLabel>DVD-R video</madsrdf:authoritativeLabel>
+            <madsrdf:code>dvdrv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/dvdv">
+            <madsrdf:authoritativeLabel>DVD video</madsrdf:authoritativeLabel>
+            <madsrdf:code>dvdv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/excel">
+            <madsrdf:authoritativeLabel>Excel file</madsrdf:authoritativeLabel>
+            <madsrdf:code>excel</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/gif">
+            <madsrdf:authoritativeLabel>GIF image</madsrdf:authoritativeLabel>
+            <madsrdf:code>gif</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/html">
+            <madsrdf:authoritativeLabel>HTML file</madsrdf:authoritativeLabel>
+            <madsrdf:code>html</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/jpeg">
+            <madsrdf:authoritativeLabel>JPEG image</madsrdf:authoritativeLabel>
+            <madsrdf:code>jpeg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/mp3">
+            <madsrdf:authoritativeLabel>MP3 audio</madsrdf:authoritativeLabel>
+            <madsrdf:code>mp3</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/mp4">
+            <madsrdf:authoritativeLabel>MP4 video</madsrdf:authoritativeLabel>
+            <madsrdf:code>mp4</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/pdf">
+            <madsrdf:authoritativeLabel>PDF file</madsrdf:authoritativeLabel>
+            <madsrdf:code>pdf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/png">
+            <madsrdf:authoritativeLabel>PNG image</madsrdf:authoritativeLabel>
+            <madsrdf:code>png</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/qtime">
+            <madsrdf:authoritativeLabel>QuickTime file</madsrdf:authoritativeLabel>
+            <madsrdf:code>qtime</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/sacd">
+            <madsrdf:authoritativeLabel>SACD audio</madsrdf:authoritativeLabel>
+            <madsrdf:code>sacd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/swf">
+            <madsrdf:authoritativeLabel>SWF video</madsrdf:authoritativeLabel>
+            <madsrdf:code>swf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/tiff">
+            <madsrdf:authoritativeLabel>TIFF image</madsrdf:authoritativeLabel>
+            <madsrdf:code>tiff</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/vcd">
+            <madsrdf:authoritativeLabel>VCD video</madsrdf:authoritativeLabel>
+            <madsrdf:code>vcd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/wma">
+            <madsrdf:authoritativeLabel>WMA file</madsrdf:authoritativeLabel>
+            <madsrdf:code>wma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mencformat/xml">
+            <madsrdf:authoritativeLabel>XML file</madsrdf:authoritativeLabel>
+            <madsrdf:code>xml</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-02T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">A schema or standard used to encode the digital content of a resource.</skos:definition>
+      <skos:historyNote xml:lang="en">MARC bib: 347 $b</skos:historyNote>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/mencformat"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-02T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

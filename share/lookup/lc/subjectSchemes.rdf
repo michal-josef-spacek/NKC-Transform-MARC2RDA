@@ -1,0 +1,2806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/subjectSchemes">
+      <rdfs:label xml:lang="en">Subject Schemes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Subject Schemes contains a list of subject schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate controlled subjects with the appropriate subject scheme. These schemes are general subject heading and thesauri, such as the Library of Congress Subject Headings, along with a number of focused subject term lists like Medical Subject Headings or Getty Thesaurus of Geographic Names.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aass">
+            <madsrdf:authoritativeLabel>Asian American Studies Library subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>aass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aat">
+            <madsrdf:authoritativeLabel>Art &amp; architecture thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>aat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aatnor">
+            <madsrdf:authoritativeLabel>Art and architectural thesaurus terms translated into Norwegian</madsrdf:authoritativeLabel>
+            <madsrdf:code>aatnor</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/abne">
+            <madsrdf:authoritativeLabel>Autoridades de la Biblioteca Nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>abne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aedoml">
+            <madsrdf:authoritativeLabel>Listado de encabezamientos de materia de música</madsrdf:authoritativeLabel>
+            <madsrdf:code>aedoml</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/afo">
+            <madsrdf:authoritativeLabel>AFO - Viikin kampuskirjaston ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>afo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/afset">
+            <madsrdf:authoritativeLabel>American Folklore Society ethnographic thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>afset</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/agrifors">
+            <madsrdf:authoritativeLabel>AGRIFOREST-sanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrifors</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/agrovoc">
+            <madsrdf:authoritativeLabel>AGROVOC multilingual agricultural thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrovoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/agrovocf">
+            <madsrdf:authoritativeLabel>AGROVOC thésaurus agricole multilingue</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrovocf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/agrovocs">
+            <madsrdf:authoritativeLabel>AGROVOC tesauro agrícola multilingée</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrovocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ahecc">
+            <madsrdf:authoritativeLabel>Australian harmonized export commodity classification (AHECC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ahecc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aiatsisl">
+            <madsrdf:authoritativeLabel>AIATSIS language thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>aiatsisl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aiatsisp">
+            <madsrdf:authoritativeLabel>AIATSIS place thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>aiatsisp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aiatsiss">
+            <madsrdf:authoritativeLabel>AIATSIS subject thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>aiatsiss</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aktp">
+            <madsrdf:authoritativeLabel>Alphavētikos Katalogos Thematikōn Perigrapheōn</madsrdf:authoritativeLabel>
+            <madsrdf:code>aktp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/albt">
+            <madsrdf:authoritativeLabel>Arbetslivsbibliotekets tesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>albt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/allars">
+            <madsrdf:authoritativeLabel>Allärs: allmän tesaurus pä svenska</madsrdf:authoritativeLabel>
+            <madsrdf:code>allars</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/anzsic">
+            <madsrdf:authoritativeLabel>Australian and New Zealand standard industrial classification (ANZSIC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>anzsic</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/anzsoc">
+            <madsrdf:authoritativeLabel>Australian and New Zealand standard offence classification (ANZSOC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>anzsoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/anzsrc">
+            <madsrdf:authoritativeLabel>Australian and New Zealand research classification (ANZSRC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>anzsrc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/apaist">
+            <madsrdf:authoritativeLabel>APAIS thesaurus: a list of subject terms used in the Australian Public Affairs Information Service</madsrdf:authoritativeLabel>
+            <madsrdf:code>apaist</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/armarc">
+            <madsrdf:authoritativeLabel>Lista ARMARC de encabezamientos de materia para bibliotecas mayores</madsrdf:authoritativeLabel>
+            <madsrdf:code>armarc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ascdc">
+            <madsrdf:authoritativeLabel>Australian standard classification of drugs of concern</madsrdf:authoritativeLabel>
+            <madsrdf:code>ascdc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asced">
+            <madsrdf:authoritativeLabel>Australian standard classification of education (ASCED)</madsrdf:authoritativeLabel>
+            <madsrdf:code>asced</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ascl">
+            <madsrdf:authoritativeLabel>African Studies thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ascl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asft">
+            <madsrdf:authoritativeLabel>Aquatic sciences and fisheries thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>asft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ashlnl">
+            <madsrdf:authoritativeLabel>Arabic subject headings of the Lebanese National Library (ASH) = Ru'ûs al-Mawdû'ât al-'Arabîyah lil-Maktabah al-Waṭanīyah al-Lubnānīyah</madsrdf:authoritativeLabel>
+            <madsrdf:code>ashlnl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asrcrfcd">
+            <madsrdf:authoritativeLabel>Australian standard research classification: research fields, courses and disciplines (RFCD) classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>asrcrfcd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asrcseo">
+            <madsrdf:authoritativeLabel>Australian standard research classification: socio-economic objective (SEO) classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>asrcseo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asrctoa">
+            <madsrdf:authoritativeLabel>Australian standard research classification: type of activity (TOA) classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>asrctoa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/asth">
+            <madsrdf:authoritativeLabel>Astronomy thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>asth</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ated">
+            <madsrdf:authoritativeLabel>Australian thesaurus of education descriptors (ATED)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ated</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/atg">
+            <madsrdf:authoritativeLabel>Agricultural thesaurus and glossary</madsrdf:authoritativeLabel>
+            <madsrdf:code>atg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/atla">
+            <madsrdf:authoritativeLabel>Religion indexes: thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>atla</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/aucsh">
+            <madsrdf:authoritativeLabel>Qâ'imat ru'ûs mawdû'ât al-fahras al-'Arabîyah al-mowahad = Arabic Union Catalog Subject Headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>aucsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ausext">
+            <madsrdf:authoritativeLabel>Australian extension to LCSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>ausext</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bare">
+            <madsrdf:authoritativeLabel>Norwegian Authority File: Persons and Corporate Bodies</madsrdf:authoritativeLabel>
+            <madsrdf:code>bare</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/barn">
+            <madsrdf:authoritativeLabel>Svenska ämnesord för barn</madsrdf:authoritativeLabel>
+            <madsrdf:code>barn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bella">
+            <madsrdf:authoritativeLabel>Bella: specialtesaurus för skönlitteratur</madsrdf:authoritativeLabel>
+            <madsrdf:code>bella</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bdrc">
+            <madsrdf:authoritativeLabel>Buddhist Digital Resource Center</madsrdf:authoritativeLabel>
+            <madsrdf:code>bdrc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bet">
+            <madsrdf:authoritativeLabel>British education thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>bet</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bhammf">
+            <madsrdf:authoritativeLabel>BHA, Bibliographie d'histoire de l'art, mots-matière/français</madsrdf:authoritativeLabel>
+            <madsrdf:code>bhammf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bhashe">
+            <madsrdf:authoritativeLabel>BHA, Bibliography of the history of art, subject headings/English</madsrdf:authoritativeLabel>
+            <madsrdf:code>bhashe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bhb">
+            <madsrdf:authoritativeLabel>Bibliography of the Hebrew book</madsrdf:authoritativeLabel>
+            <madsrdf:code>bhb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bib1814">
+            <madsrdf:authoritativeLabel>1814-bibliografi: emneord for 1814-bibliografi</madsrdf:authoritativeLabel>
+            <madsrdf:code>bib1814</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bibalex">
+            <madsrdf:authoritativeLabel>Bibliotheca Alexandrina name and subject authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>bibalex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bibbi">
+            <madsrdf:authoritativeLabel>BIBBI autoriteter</madsrdf:authoritativeLabel>
+            <madsrdf:code>bibbi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/biccbmc">
+            <madsrdf:authoritativeLabel>BIC children's books marketing classifications</madsrdf:authoritativeLabel>
+            <madsrdf:code>biccbmc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bicssc">
+            <madsrdf:authoritativeLabel>BIC standard subject categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>bicssc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bidex">
+            <madsrdf:authoritativeLabel>Bilindex: a bilingual Spanish-English subject heading list</madsrdf:authoritativeLabel>
+            <madsrdf:code>bidex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bisacmt">
+            <madsrdf:authoritativeLabel>BISAC merchandising themes</madsrdf:authoritativeLabel>
+            <madsrdf:code>bisacmt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bisacrt">
+            <madsrdf:authoritativeLabel>BISAC regional themes</madsrdf:authoritativeLabel>
+            <madsrdf:code>bisacrt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bisacsh">
+            <madsrdf:authoritativeLabel>BISAC subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>bisacsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bjornson">
+            <madsrdf:authoritativeLabel>Bjornson: emneord for Bjornsonbibliografien</madsrdf:authoritativeLabel>
+            <madsrdf:code>bjornson</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/blcpss">
+            <madsrdf:authoritativeLabel>COMPASS subject authority system</madsrdf:authoritativeLabel>
+            <madsrdf:code>blcpss</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/blmlsh">
+            <madsrdf:authoritativeLabel>British Library - Map library subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>blmlsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/blnpn">
+            <madsrdf:authoritativeLabel>British Library newspaper place names</madsrdf:authoritativeLabel>
+            <madsrdf:code>blnpn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bokbas">
+            <madsrdf:authoritativeLabel>Bokbasen</madsrdf:authoritativeLabel>
+            <madsrdf:code>bokbas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/bt">
+            <madsrdf:authoritativeLabel>Bioethics thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>bt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/btr">
+            <madsrdf:authoritativeLabel>Brinkman onderwerp thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>btr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/buscem">
+            <madsrdf:authoritativeLabel>University Library of Santiago de Compostela headings in Galician</madsrdf:authoritativeLabel>
+            <madsrdf:code>buscem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cabt">
+            <madsrdf:authoritativeLabel>CAB thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cabt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cash">
+            <madsrdf:authoritativeLabel>Canadian subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>cash</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cbk">
+            <madsrdf:authoritativeLabel>Centraal Bestand Kinderboeken</madsrdf:authoritativeLabel>
+            <madsrdf:code>cbk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cccv">
+            <madsrdf:authoritativeLabel>Chicago Collections Consortium controlled vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>cccv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cck">
+            <madsrdf:authoritativeLabel>Centrale catalogus kaarten</madsrdf:authoritativeLabel>
+            <madsrdf:code>cck</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cckthema">
+            <madsrdf:authoritativeLabel>Thematrefwoorden CCK</madsrdf:authoritativeLabel>
+            <madsrdf:code>cckthema</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ccsa">
+            <madsrdf:authoritativeLabel>Catalogue collectif suisse des affiches</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccsa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cct">
+            <madsrdf:authoritativeLabel>Zhong guo fen lei zhu ti ci biao (di er ban) = Chinese classified thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cct</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ccte">
+            <madsrdf:authoritativeLabel>Carto-Canadiana thesaurus - English</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccte</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cctf">
+            <madsrdf:authoritativeLabel>Carto-Canadiana thésaurus - Français</madsrdf:authoritativeLabel>
+            <madsrdf:code>cctf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cdcng">
+            <madsrdf:authoritativeLabel>Catalogage des documents cartographiques: forme et structure des vedettes noms géographiques - NF Z 44-081</madsrdf:authoritativeLabel>
+            <madsrdf:code>cdcng</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ceeus">
+            <madsrdf:authoritativeLabel>Counties and equivalent entities of the United States its possessions, and associated areas</madsrdf:authoritativeLabel>
+            <madsrdf:code>ceeus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cgpa">
+            <madsrdf:authoritativeLabel>Congress.gov Policy Areas</madsrdf:authoritativeLabel>
+            <madsrdf:code>cgpa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cgndb">
+            <madsrdf:authoritativeLabel>Canadian Geographical Names Database</madsrdf:authoritativeLabel>
+            <madsrdf:code>cgndb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/chirosh">
+            <madsrdf:authoritativeLabel>Chiropractic subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>chirosh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cht">
+            <madsrdf:authoritativeLabel>Chicano thesaurus for indexing Chicano materials in Chicano periodical index</madsrdf:authoritativeLabel>
+            <madsrdf:code>cht</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ciesiniv">
+            <madsrdf:authoritativeLabel>CIESIN indexing vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>ciesiniv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cilla">
+            <madsrdf:authoritativeLabel>Cilla: specialtesaurus för musik</madsrdf:authoritativeLabel>
+            <madsrdf:code>cilla</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/collett">
+            <madsrdf:authoritativeLabel>Collett-bibliografi: litteratur av og om Camilla Collett</madsrdf:authoritativeLabel>
+            <madsrdf:code>collett</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/conorsi">
+            <madsrdf:authoritativeLabel>CONOR.SI (name authority file)</madsrdf:authoritativeLabel>
+            <madsrdf:code>conorsi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/conorsr">
+            <madsrdf:authoritativeLabel>CONOR.SR authority files of personal and corporate names</madsrdf:authoritativeLabel>
+            <madsrdf:code>conorsr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/csahssa">
+            <madsrdf:authoritativeLabel>Controlled vocabulary in Health and safety science abstracts</madsrdf:authoritativeLabel>
+            <madsrdf:code>csahssa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/csalsct">
+            <madsrdf:authoritativeLabel>CSA life sciences collection thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>csalsct</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/csapa">
+            <madsrdf:authoritativeLabel>Controlled vocabulary in Pollution abstracts</madsrdf:authoritativeLabel>
+            <madsrdf:code>csapa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/csh">
+            <madsrdf:authoritativeLabel>Kapsner, Oliver Leonard. Catholic subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>csh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/csht">
+            <madsrdf:authoritativeLabel>Chinese subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>csht</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cstud">
+            <madsrdf:authoritativeLabel>Classificatieschema's Bibliotheek TU Delft</madsrdf:authoritativeLabel>
+            <madsrdf:code>cstud</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/cyac">
+            <madsrdf:authoritativeLabel>Children’s and Young Adults’ Cataloging subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>cyac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/czenas">
+            <madsrdf:authoritativeLabel>Soubor vĕcných autorit Národní knihovny ČR = CZENAS thesaurus: a list of subject terms used in the National Library of the Czech Republic</madsrdf:authoritativeLabel>
+            <madsrdf:code>czenas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/czmesh">
+            <madsrdf:authoritativeLabel>Czech MeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>czmesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dbcsh">
+            <madsrdf:authoritativeLabel>DBC Subject Headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>dbcsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dbn">
+            <madsrdf:authoritativeLabel>Deskryptory Biblioteki Narodowej = National Library of Poland descriptors</madsrdf:authoritativeLabel>
+            <madsrdf:code>dbn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dcs">
+            <madsrdf:authoritativeLabel>Descritores em ciências da saúde = Descriptores en ciencias de la salud = Health sciences descriptors</madsrdf:authoritativeLabel>
+            <madsrdf:code>dcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ddcri">
+            <madsrdf:authoritativeLabel>Dewey Decimal Classification relative index</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddcri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ddcrit">
+            <madsrdf:authoritativeLabel>DDC retrieval and indexing terminology; posting terms with hierarchy and KWOC</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddcrit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ddcut">
+            <madsrdf:authoritativeLabel>Dewey Decimal Classification user terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddcut</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dhb-jdg">
+            <madsrdf:authoritativeLabel>Deutsche Historische Bibliografie - Jahresberichte für deutsche Geschichte - Schlagwörter (Bibliography of German History - Annual Bibliography on German History - Subject Headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>dhb-jdg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dicgenam">
+            <madsrdf:authoritativeLabel>Callegari, Horacio. Diccionario de gentilicios americanos</madsrdf:authoritativeLabel>
+            <madsrdf:code>dicgenam</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dicgenes">
+            <madsrdf:authoritativeLabel>Torre Aparicio, Tomás de la. Diccionario de gentilicios: toponimicos españoles</madsrdf:authoritativeLabel>
+            <madsrdf:code>dicgenes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dicgentop">
+            <madsrdf:authoritativeLabel>Dicionário de gentílicos e topónimos</madsrdf:authoritativeLabel>
+            <madsrdf:code>dicgentop</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dissao">
+            <madsrdf:authoritativeLabel>Dissertation abstracts online in Search tools: the guide to UNI/Data Courier Online</madsrdf:authoritativeLabel>
+            <madsrdf:code>dissao</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dit">
+            <madsrdf:authoritativeLabel>Defense intelligence thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>dit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dltlt">
+            <madsrdf:authoritativeLabel>Cuddon, J. A. A dictionary of literary terms and literary theory</madsrdf:authoritativeLabel>
+            <madsrdf:code>dltlt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dltt">
+            <madsrdf:authoritativeLabel>Quinn, E. A dictionary of literary and thematic terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>dltt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/drama">
+            <madsrdf:authoritativeLabel>Drama: specialtesaurus för teater och dans</madsrdf:authoritativeLabel>
+            <madsrdf:code>drama</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dtict">
+            <madsrdf:authoritativeLabel>Defense Technical Information Center thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>dtict</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/dugfr">
+            <madsrdf:authoritativeLabel>Dugas, Jean-Yves. Dictionnaire universel des gentilés en français</madsrdf:authoritativeLabel>
+            <madsrdf:code>dugfr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ebfem">
+            <madsrdf:authoritativeLabel>Encabezamientos bilingües de la Fundación Educativa Ana G. Mendez</madsrdf:authoritativeLabel>
+            <madsrdf:code>ebfem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eclas">
+            <madsrdf:authoritativeLabel>ECLAS thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>eclas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eet">
+            <madsrdf:authoritativeLabel>European education thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>eet</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eflch">
+            <madsrdf:authoritativeLabel>E4Libraries category headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>eflch</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eks">
+            <madsrdf:authoritativeLabel>Eduskunnan kirjaston asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>eks</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/elsst">
+            <madsrdf:authoritativeLabel>ELSST Thesaurus - European Language Social Science Thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>elsst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/embehu">
+            <madsrdf:authoritativeLabel>Encabezamientos de materia de la Biblioteca de la Universidad del País Vasco/Euskal Herriko Unibertsitatea</madsrdf:authoritativeLabel>
+            <madsrdf:code>embehu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/embiaecid">
+            <madsrdf:authoritativeLabel>Encabezamientos de materia de la Biblioteca Islámica de la Biblioteca AECID</madsrdf:authoritativeLabel>
+            <madsrdf:code>embiaecid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/embne">
+            <madsrdf:authoritativeLabel>Encabezamientos de materia de la Biblioteca Nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>embne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/embucm">
+            <madsrdf:authoritativeLabel>Encabezamientos de materia de la Biblioteca Complutense</madsrdf:authoritativeLabel>
+            <madsrdf:code>embucm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/embuz">
+            <madsrdf:authoritativeLabel>Encabezamientos de materia de la Biblioteca de la Universidad de Zaragoza</madsrdf:authoritativeLabel>
+            <madsrdf:code>embuz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/emnmus">
+            <madsrdf:authoritativeLabel>Emneord for musikkdokument i EDB-kataloger</madsrdf:authoritativeLabel>
+            <madsrdf:code>emnmus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ept">
+            <madsrdf:authoritativeLabel>Evropski pedagoški tezaver = European education thesaurus (EET) : slovenska razlčica - izdelana po angleški različci</madsrdf:authoritativeLabel>
+            <madsrdf:code>ept</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/erfemn">
+            <madsrdf:authoritativeLabel>Erfaringskompetanses emneord</madsrdf:authoritativeLabel>
+            <madsrdf:code>erfemn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ericd">
+            <madsrdf:authoritativeLabel>Thesaurus of ERIC descriptors</madsrdf:authoritativeLabel>
+            <madsrdf:code>ericd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/est">
+            <madsrdf:authoritativeLabel>Energy subject thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>est</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/etiras">
+            <madsrdf:authoritativeLabel>European Thesaurus on International Relations and Area Studies</madsrdf:authoritativeLabel>
+            <madsrdf:code>etiras</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/etuesh">
+            <madsrdf:authoritativeLabel>TOBB ETU English Subject Headings = TOBB ETÜ İngilizce Konu Başlıkları</madsrdf:authoritativeLabel>
+            <madsrdf:code>etuesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/etuturkob">
+            <madsrdf:authoritativeLabel>TOBB ETU Turkish Subject Headings = TOBB ETÜ Türkçe Konu Başlıkları</madsrdf:authoritativeLabel>
+            <madsrdf:code>etuturkob</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eum">
+            <madsrdf:authoritativeLabel>Eesti uldine märksonastik</madsrdf:authoritativeLabel>
+            <madsrdf:code>eum</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eurovoc">
+            <madsrdf:authoritativeLabel>EuroVoc thesaurus (Multilingual)</madsrdf:authoritativeLabel>
+            <madsrdf:code>eurovoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eurovocen">
+            <madsrdf:authoritativeLabel>Eurovoc thesaurus (English)</madsrdf:authoritativeLabel>
+            <madsrdf:code>eurovocen</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eurovoces">
+            <madsrdf:authoritativeLabel>Eurovoc thesaurus (Spanish)</madsrdf:authoritativeLabel>
+            <madsrdf:code>eurovoces</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eurovocfr">
+            <madsrdf:authoritativeLabel>Eurovoc thesaurus (French)</madsrdf:authoritativeLabel>
+            <madsrdf:code>eurovocfr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/eurovocsl">
+            <madsrdf:authoritativeLabel>Eurovoc thesaurus (Slovenian)</madsrdf:authoritativeLabel>
+            <madsrdf:code>eurovocsl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fast">
+            <madsrdf:authoritativeLabel>Faceted application of subject terminology</madsrdf:authoritativeLabel>
+            <madsrdf:code>fast</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fcb">
+            <madsrdf:authoritativeLabel>Functional classification of buildings</madsrdf:authoritativeLabel>
+            <madsrdf:code>fcb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fes">
+            <madsrdf:authoritativeLabel>Thesaurus der Bibliothek der FES / FES</madsrdf:authoritativeLabel>
+            <madsrdf:code>fes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/finmesh">
+            <madsrdf:authoritativeLabel>FinMeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>finmesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fire">
+            <madsrdf:authoritativeLabel>FireTalk, IFSI thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>fire</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/flgeo">
+            <madsrdf:authoritativeLabel>Thesaurus of Florida place names</madsrdf:authoritativeLabel>
+            <madsrdf:code>flgeo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fmesh">
+            <madsrdf:authoritativeLabel>Liste systématique et liste permutée des descripteurs français MeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>fmesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fnhl">
+            <madsrdf:authoritativeLabel>First Nations House of Learning subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>fnhl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/francis">
+            <madsrdf:authoritativeLabel>Base de donneés FRANCIS: plan de classement = FRANCIS database classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>francis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/frst">
+            <madsrdf:authoritativeLabel>Federal Reserve Subject Taxonomy</madsrdf:authoritativeLabel>
+            <madsrdf:code>frst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/fssh">
+            <madsrdf:authoritativeLabel>FamilySearch subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>fssh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/galestne">
+            <madsrdf:authoritativeLabel>Gale Group subject thesaurus and named entity vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>galestne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gbd">
+            <madsrdf:authoritativeLabel>Thesaurus der Gnomon Bibliographischen Datenbank</madsrdf:authoritativeLabel>
+            <madsrdf:code>gbd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gccst">
+            <madsrdf:authoritativeLabel>Government of Canada core subject thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>gccst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gcipmedia">
+            <madsrdf:authoritativeLabel>GAMECIP - computer game media formats</madsrdf:authoritativeLabel>
+            <madsrdf:code>gcipmedia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gcipplatform">
+            <madsrdf:authoritativeLabel>GAMECIP - computer game platforms</madsrdf:authoritativeLabel>
+            <madsrdf:code>gcipplatform</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gem">
+            <madsrdf:authoritativeLabel>GEM controlled vocabularies</madsrdf:authoritativeLabel>
+            <madsrdf:code>gem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gemet">
+            <madsrdf:authoritativeLabel>GEMET thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>gemet</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/geonames">
+            <madsrdf:authoritativeLabel>GeoNames</madsrdf:authoritativeLabel>
+            <madsrdf:code>geonames</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/geonet">
+            <madsrdf:authoritativeLabel>Geographic Names Server (GNS)</madsrdf:authoritativeLabel>
+            <madsrdf:code>geonet</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/georeft">
+            <madsrdf:authoritativeLabel>GeoRef thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>georeft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gnd">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gnis">
+            <madsrdf:authoritativeLabel>Geographic Names Information System (GNIS)</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gpn">
+            <madsrdf:authoritativeLabel>Gazetteer of planetary nomenclature</madsrdf:authoritativeLabel>
+            <madsrdf:code>gpn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gsso">
+            <madsrdf:authoritativeLabel>Gender, sex, and sexual orientation (GSSO) ontology</madsrdf:authoritativeLabel>
+            <madsrdf:code>gsso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gst">
+            <madsrdf:authoritativeLabel>Gay studies thesaurus: a controlled vocabulary for indexing and accessing materials of relevance to gay culture, history, politics and psychology</madsrdf:authoritativeLabel>
+            <madsrdf:code>gst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/gtt">
+            <madsrdf:authoritativeLabel>GOO-trefwoorden thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>gtt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/habibe">
+            <madsrdf:authoritativeLabel>Habitants.be - Nom des habitants de Belgique</madsrdf:authoritativeLabel>
+            <madsrdf:code>habibe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/habich">
+            <madsrdf:authoritativeLabel>Habitants.ch - Nom des habitants de Suisse</madsrdf:authoritativeLabel>
+            <madsrdf:code>habich</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/habifr">
+            <madsrdf:authoritativeLabel>Habitants.fr</madsrdf:authoritativeLabel>
+            <madsrdf:code>habifr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/habiit">
+            <madsrdf:authoritativeLabel>Habitants.it - Nomi di abitanti d'Italia</madsrdf:authoritativeLabel>
+            <madsrdf:code>habiit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hamsun">
+            <madsrdf:authoritativeLabel>Hamsun: emneord for Hamsunbibliografien</madsrdf:authoritativeLabel>
+            <madsrdf:code>hamsun</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hapi">
+            <madsrdf:authoritativeLabel>HAPI thesaurus and name authority, 1970-2000</madsrdf:authoritativeLabel>
+            <madsrdf:code>hapi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/helecon">
+            <madsrdf:authoritativeLabel>Asiasanasto HELECON-tietikantoihin</madsrdf:authoritativeLabel>
+            <madsrdf:code>helecon</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/henn">
+            <madsrdf:authoritativeLabel>Hennepin County Library cumulative authority list</madsrdf:authoritativeLabel>
+            <madsrdf:code>henn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hkcan">
+            <madsrdf:authoritativeLabel>Hong Kong Chinese authority file (Name) - HKCAN</madsrdf:authoritativeLabel>
+            <madsrdf:code>hkcan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hlasstg">
+            <madsrdf:authoritativeLabel>HLAS subject term glossary</madsrdf:authoritativeLabel>
+            <madsrdf:code>hlasstg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hoidokki">
+            <madsrdf:authoritativeLabel>Hoitotieteellinen asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>hoidokki</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/homoit">
+            <madsrdf:authoritativeLabel>Homosaurus: an international LGBTQ linked data vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>homoit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hrvmesh">
+            <madsrdf:authoritativeLabel>Croatian MeSH / Hrvatski MeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>hrvmesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/hrvmr">
+            <madsrdf:authoritativeLabel>Hrvatski mjesni rječnik</madsrdf:authoritativeLabel>
+            <madsrdf:code>hrvmr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/huc">
+            <madsrdf:authoritativeLabel>U.S. Geological Survey water-supply paper 2294: hydrologic basins unit codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>huc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/humord">
+            <madsrdf:authoritativeLabel>HUMORD</madsrdf:authoritativeLabel>
+            <madsrdf:code>humord</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ibsen">
+            <madsrdf:authoritativeLabel>Ibsen: emneord for den internasjonale Ibsen-bibliografien</madsrdf:authoritativeLabel>
+            <madsrdf:code>ibsen</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ica">
+            <madsrdf:authoritativeLabel>Index of Christian art</madsrdf:authoritativeLabel>
+            <madsrdf:code>ica</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/iconauth">
+            <madsrdf:authoritativeLabel>Iconography authority</madsrdf:authoritativeLabel>
+            <madsrdf:code>iconauth</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/icpsr">
+            <madsrdf:authoritativeLabel>ICPSR controlled vocabulary system</madsrdf:authoritativeLabel>
+            <madsrdf:code>icpsr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idas">
+            <madsrdf:authoritativeLabel>ID-Archivschlüssel [Informationsdienst zur Verbreitung unterbliebener Nachrichten]</madsrdf:authoritativeLabel>
+            <madsrdf:code>idas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idref">
+            <madsrdf:authoritativeLabel>IdRef: identifiants et référentiels</madsrdf:authoritativeLabel>
+            <madsrdf:code>idref</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idsbb">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Basel Bern</madsrdf:authoritativeLabel>
+            <madsrdf:code>idsbb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbz">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Zentralbibliothek Zürich</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbzes">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Bibliothek Englisches Seminar der Universität Zürich</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbzes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbzna">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Zentralbibliothek Zürich, Nordamerika-Bibliothek</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbzna</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbzzg">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Zentralbibliothek Zürich, Graphische Sammlung</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbzzg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbzzh">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Zentralbibliothek Zürich, Handschriftenabteilung</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbzzh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/idszbzzk">
+            <madsrdf:authoritativeLabel>Thesaurus IDS Nebis Zentralbibliothek Zürich, Kartensammlung</madsrdf:authoritativeLabel>
+            <madsrdf:code>idszbzzk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/iescs">
+            <madsrdf:authoritativeLabel>International energy subject categories and scope</madsrdf:authoritativeLabel>
+            <madsrdf:code>iescs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/iest">
+            <madsrdf:authoritativeLabel>International energy: subject thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>iest</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ilot">
+            <madsrdf:authoritativeLabel>ILO thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ilot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ilpt">
+            <madsrdf:authoritativeLabel>Index to legal periodicals: thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ilpt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/inist">
+            <madsrdf:authoritativeLabel>INIS: thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>inist</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/inspect">
+            <madsrdf:authoritativeLabel>INSPEC thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>inspect</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ipat">
+            <madsrdf:authoritativeLabel>IPA thesaurus and frequency list</madsrdf:authoritativeLabel>
+            <madsrdf:code>ipat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ipsp">
+            <madsrdf:authoritativeLabel>Defense intelligence production schedule</madsrdf:authoritativeLabel>
+            <madsrdf:code>ipsp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/iptcnc">
+            <madsrdf:authoritativeLabel>IPTC NewsCodes</madsrdf:authoritativeLabel>
+            <madsrdf:code>iptcnc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/isis">
+            <madsrdf:authoritativeLabel>Classification scheme in Isis</madsrdf:authoritativeLabel>
+            <madsrdf:code>isis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/itglit">
+            <madsrdf:authoritativeLabel>International thesaurus of gay and lesbian index terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>itglit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/itis">
+            <madsrdf:authoritativeLabel>Integrated Taxonomic Information System (ITIS)</madsrdf:authoritativeLabel>
+            <madsrdf:code>itis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/itrt">
+            <madsrdf:authoritativeLabel>International thesaurus of refugee terminology</madsrdf:authoritativeLabel>
+            <madsrdf:code>itrt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/jhpb">
+            <madsrdf:authoritativeLabel>Język haseł przedmiotowych Biblioteki Narodowej = National Library of Poland subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>jhpb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/jhpk">
+            <madsrdf:authoritativeLabel>Język haseł przedmiotowych KABA</madsrdf:authoritativeLabel>
+            <madsrdf:code>jhpk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/jlabsh">
+            <madsrdf:authoritativeLabel>Kihon kenmei hyômokuhyô = [Japan Library Association] Basic subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>jlabsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/juho">
+            <madsrdf:authoritativeLabel>JUHO - Julkishallinnon ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>juho</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/jupo">
+            <madsrdf:authoritativeLabel>JUPO - Julkisen hallinnon palveluontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>jupo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/jurivoc">
+            <madsrdf:authoritativeLabel>JURIVOC</madsrdf:authoritativeLabel>
+            <madsrdf:code>jurivoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kaa">
+            <madsrdf:authoritativeLabel>Kasvatusalan asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>kaa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kaba">
+            <madsrdf:authoritativeLabel>Język haseł przedmiotowych KABA = KABA subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>kaba</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kao">
+            <madsrdf:authoritativeLabel>KVINNSAM ämnesordsregister = KVINNSAM subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>kao</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kassu">
+            <madsrdf:authoritativeLabel>Kassu - Kasvien suomenkieliset nimet</madsrdf:authoritativeLabel>
+            <madsrdf:code>kassu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kauno">
+            <madsrdf:authoritativeLabel>KAUNO - Kaunokki-ontologin</madsrdf:authoritativeLabel>
+            <madsrdf:code>kauno</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kaunokki">
+            <madsrdf:authoritativeLabel>Kaunokki: kaunokirjallisuuden asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>kaunokki</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kdm">
+            <madsrdf:authoritativeLabel>Khung dê muc hê thông thông tin khoa hoc và ky thuât quôc gia</madsrdf:authoritativeLabel>
+            <madsrdf:code>kdm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/khib">
+            <madsrdf:authoritativeLabel>Emneord, KHiB Biblioteket</madsrdf:authoritativeLabel>
+            <madsrdf:code>khib</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kito">
+            <madsrdf:authoritativeLabel>KITO - Kirjallisuudentutkimuksen ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>kito</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kitu">
+            <madsrdf:authoritativeLabel>Kirjallisuudentutkimuksen asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>kitu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kkts">
+            <madsrdf:authoritativeLabel>Katalogos Kathierōmenōn Typōn Syllogikou Katalogou Demosion Vivliothekon</madsrdf:authoritativeLabel>
+            <madsrdf:code>kkts</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/koko">
+            <madsrdf:authoritativeLabel>KOKO-ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>koko</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kssbar">
+            <madsrdf:authoritativeLabel>Klassifikationssystem for svenska bibliotek. Ämnesordregister. Alfabetisk del</madsrdf:authoritativeLabel>
+            <madsrdf:code>kssbar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kta">
+            <madsrdf:authoritativeLabel>Kielitieteen asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>kta</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kto">
+            <madsrdf:authoritativeLabel>KTO - Kielitieteen ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>kto</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ktpt">
+            <madsrdf:authoritativeLabel>Kirjasto- ja tietopalvelualan tesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ktpt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ktta">
+            <madsrdf:authoritativeLabel>Käsi - ja taideteollisuuden asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>ktta</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kubikat">
+            <madsrdf:authoritativeLabel>kubikat</madsrdf:authoritativeLabel>
+            <madsrdf:code>kubikat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kula">
+            <madsrdf:authoritativeLabel>Kulttuurien tutkimuksen asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>kula</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kulo">
+            <madsrdf:authoritativeLabel>KULO - Kulttuurien tutkimuksen ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>kulo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/kupu">
+            <madsrdf:authoritativeLabel>He puna kupu / Maori Wordnet</madsrdf:authoritativeLabel>
+            <madsrdf:code>kupu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/labloc">
+            <madsrdf:authoritativeLabel>Dickson, Paul. Labels for locals</madsrdf:authoritativeLabel>
+            <madsrdf:code>labloc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lacnaf">
+            <madsrdf:authoritativeLabel>Library and Archives Canada name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>lacnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lapponica">
+            <madsrdf:authoritativeLabel>Lapponica</madsrdf:authoritativeLabel>
+            <madsrdf:code>lapponica</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/larpcal">
+            <madsrdf:authoritativeLabel>Lista de assuntos referente ao programa de cadastramento automatizado de livros da USP</madsrdf:authoritativeLabel>
+            <madsrdf:code>larpcal</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lcac">
+            <madsrdf:authoritativeLabel>Library of Congress Annotated Children's Cataloging Program subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lcdgt">
+            <madsrdf:authoritativeLabel>Library of Congress demographic group term and code list</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcdgt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lcsh">
+            <madsrdf:authoritativeLabel>Library of Congress subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lcshac">
+            <madsrdf:authoritativeLabel>Children's subject headings in Library of Congress subject headings: supplementary vocabularies</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcshac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lcstt">
+            <madsrdf:authoritativeLabel>List of Chinese subject terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcstt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lctgm">
+            <madsrdf:authoritativeLabel>Thesaurus for graphic materials: TGM I, Subject terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>lctgm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/leaubsh">
+            <madsrdf:authoritativeLabel>American University of Beirut subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>leaubsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lemac">
+            <madsrdf:authoritativeLabel>Llista d'encapçalaments de matèria en català</madsrdf:authoritativeLabel>
+            <madsrdf:code>lemac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lemb">
+            <madsrdf:authoritativeLabel>Lista de encabezamientos de materia para bibliotecas</madsrdf:authoritativeLabel>
+            <madsrdf:code>lemb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/liito">
+            <madsrdf:authoritativeLabel>LIITO - Liiketoimintaontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>liito</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/liv">
+            <madsrdf:authoritativeLabel>Legislative indexing vocabulary</madsrdf:authoritativeLabel>
+            <madsrdf:code>liv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lnmmbr">
+            <madsrdf:authoritativeLabel>Lietuvos nacionalines Martyno Mazvydo bibliotekos rubrikynas</madsrdf:authoritativeLabel>
+            <madsrdf:code>lnmmbr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/local">
+            <madsrdf:authoritativeLabel>Locally assigned term</madsrdf:authoritativeLabel>
+            <madsrdf:code>local</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lst">
+            <madsrdf:authoritativeLabel>Legislative subject terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>lst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ltcsh">
+            <madsrdf:authoritativeLabel>Land Tenure Center Library list of subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>ltcsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/lua">
+            <madsrdf:authoritativeLabel>Liikunnan ja urheilun asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>lua</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/maaq">
+            <madsrdf:authoritativeLabel>Madâkhil al-asmâ' al-'arabîyah al-qadîmah</madsrdf:authoritativeLabel>
+            <madsrdf:code>maaq</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/maknaz">
+            <madsrdf:authoritativeLabel>Expanded thesaurus (Maknaz) = al-Maknaz al-Muwassa'</madsrdf:authoritativeLabel>
+            <madsrdf:code>maknaz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/maotao">
+            <madsrdf:authoritativeLabel>MAO/TAO - Ontologi för museibranschen och Konstindustriella ontologin</madsrdf:authoritativeLabel>
+            <madsrdf:code>maotao</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mar">
+            <madsrdf:authoritativeLabel>Merenkulun asiasanasto = MariTerm (Maritime technology)</madsrdf:authoritativeLabel>
+            <madsrdf:code>mar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/masa">
+            <madsrdf:authoritativeLabel>Museoalan asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>masa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mech">
+            <madsrdf:authoritativeLabel>Iskanje po zbirki MECH</madsrdf:authoritativeLabel>
+            <madsrdf:code>mech</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mero">
+            <madsrdf:authoritativeLabel>MERO - Merenkulkualan ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>mero</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mesh">
+            <madsrdf:authoritativeLabel>Medical subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>mesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/meshscr">
+            <madsrdf:authoritativeLabel>Medical subject headings supplementary records</madsrdf:authoritativeLabel>
+            <madsrdf:code>meshscr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/minecost">
+            <madsrdf:authoritativeLabel>Tesauro de Economía de la Biblioteca Central de MINECO</madsrdf:authoritativeLabel>
+            <madsrdf:code>minecost</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mipfesd">
+            <madsrdf:authoritativeLabel>Macrothesaurus for information processing in the field of economic and social development</madsrdf:authoritativeLabel>
+            <madsrdf:code>mipfesd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mmm">
+            <madsrdf:authoritativeLabel>Subject key in Marxism and the mass media</madsrdf:authoritativeLabel>
+            <madsrdf:code>mmm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mpirdes">
+            <madsrdf:authoritativeLabel>Macrothesaurus para el procesamiento de la información relativa al desarrollo económico y social</madsrdf:authoritativeLabel>
+            <madsrdf:code>mpirdes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/msc">
+            <madsrdf:authoritativeLabel>Mathematical subject classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>msc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/msh">
+            <madsrdf:authoritativeLabel>Trimboli, T., and Martyn S. Marianist subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>msh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mtirdes">
+            <madsrdf:authoritativeLabel>Macrothésaurus pour le traitement de l'information relative au développement économique et social</madsrdf:authoritativeLabel>
+            <madsrdf:code>mtirdes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/mts">
+            <madsrdf:authoritativeLabel>Metatietosanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>mts</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/musa">
+            <madsrdf:authoritativeLabel>Musiikin asiasanasto: erikoissanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>musa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/muso">
+            <madsrdf:authoritativeLabel>MUSO - Ontologi för musik</madsrdf:authoritativeLabel>
+            <madsrdf:code>muso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/muzeukc">
+            <madsrdf:authoritativeLabel>MuzeMusic UK classical music classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>muzeukc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/muzeukn">
+            <madsrdf:authoritativeLabel>MuzeMusic UK non-classical music classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>muzeukn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/muzvukci">
+            <madsrdf:authoritativeLabel>MuzeVideo UK contributor index</madsrdf:authoritativeLabel>
+            <madsrdf:code>muzvukci</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/naf">
+            <madsrdf:authoritativeLabel>NACO authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>naf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nal">
+            <madsrdf:authoritativeLabel>National Agricultural Library subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>nal</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nalnaf">
+            <madsrdf:authoritativeLabel>National Agricultural Library name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nalnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nasat">
+            <madsrdf:authoritativeLabel>NASA thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>nasat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nbdbt">
+            <madsrdf:authoritativeLabel>NBD Biblion Trefwoordenthesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>nbdbt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nbiemnfag">
+            <madsrdf:authoritativeLabel>NBIs emneordsliste for faglitteratur</madsrdf:authoritativeLabel>
+            <madsrdf:code>nbiemnfag</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ncjt">
+            <madsrdf:authoritativeLabel>National criminal justice thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncjt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ndlsh">
+            <madsrdf:authoritativeLabel>Koktsu Kokkai Toshokan kenmei hyômokuhyô = National Diet Library list of subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>ndlsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/neo">
+            <madsrdf:authoritativeLabel>Norske emneord</madsrdf:authoritativeLabel>
+            <madsrdf:code>neo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/netc">
+            <madsrdf:authoritativeLabel>National Emergency Training Center thesaurus (NETC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>netc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nicem">
+            <madsrdf:authoritativeLabel>NICEM subject headings and classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>nicem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nimacsc">
+            <madsrdf:authoritativeLabel>NIMA cartographic subject categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>nimacsc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/niodt">
+            <madsrdf:authoritativeLabel>WO2-thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>niodt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nlgaf">
+            <madsrdf:authoritativeLabel>Archeio Kathierōmenōn Epikephalidōn</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlgaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nlgkk">
+            <madsrdf:authoritativeLabel>Katalogos kathierōmenōn onomatōn physikōn prosōpōn</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlgkk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nlgsh">
+            <madsrdf:authoritativeLabel>Katalogos Hellēnikōn thematikōn epikephalidōn</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlgsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nli">
+            <madsrdf:authoritativeLabel>National Library of Israel authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nli</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nlksh">
+            <madsrdf:authoritativeLabel>National Library of Korea subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlksh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nlmnaf">
+            <madsrdf:authoritativeLabel>National Library of Medicine name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlmnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nmaict">
+            <madsrdf:authoritativeLabel>National Museum of the American Indian culture thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>nmaict</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/no-ubo-mr">
+            <madsrdf:authoritativeLabel>Menneskerettighets-tesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ubo-mr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/noraf">
+            <madsrdf:authoritativeLabel>Norwegian authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>noraf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/noram">
+            <madsrdf:authoritativeLabel>Noram: emneord for Norsk-amerikansk samling</madsrdf:authoritativeLabel>
+            <madsrdf:code>noram</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/norbok">
+            <madsrdf:authoritativeLabel>Norbok: emneord i Norsk bokfortegnelse (Norbok)</madsrdf:authoritativeLabel>
+            <madsrdf:code>norbok</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/normesh">
+            <madsrdf:authoritativeLabel>Norwegian MeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>normesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/norvok">
+            <madsrdf:authoritativeLabel>Nasjonalbibliotekets emne- og sjangervokabular</madsrdf:authoritativeLabel>
+            <madsrdf:code>norvok</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/noubojur">
+            <madsrdf:authoritativeLabel>Thesaurus of law</madsrdf:authoritativeLabel>
+            <madsrdf:code>noubojur</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/noubomn">
+            <madsrdf:authoritativeLabel>University of Oslo Library thesaurus of science (Realfagstermer)</madsrdf:authoritativeLabel>
+            <madsrdf:code>noubomn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nsbncf">
+            <madsrdf:authoritativeLabel>Nuovo soggettario</madsrdf:authoritativeLabel>
+            <madsrdf:code>nsbncf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nskps">
+            <madsrdf:authoritativeLabel>Priručnik za izradu predmetnog kataloga u Nacionalnoj i sveučilišnoj knjičnici u Zagrebu (Manual for NSK subject headings)</madsrdf:authoritativeLabel>
+            <madsrdf:code>nskps</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nta">
+            <madsrdf:authoritativeLabel>Nederlandse Thesaurus van Auteursnamen</madsrdf:authoritativeLabel>
+            <madsrdf:code>nta</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ntc">
+            <madsrdf:authoritativeLabel>Nederlandse Thesaurus voor Corporaties = Dutch corporations authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ntcpsc">
+            <madsrdf:authoritativeLabel>National Translations Center primary subject classification in National Translations Center primary subject classification and secondary descriptors</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntcpsc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ntcsd">
+            <madsrdf:authoritativeLabel>National Translations Center secondary descriptor in National Translation Center primary subject classification and secondary descriptor</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntcsd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ntids">
+            <madsrdf:authoritativeLabel>Norske tidsskrifter 1700-1820: emneord</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntids</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ntissc">
+            <madsrdf:authoritativeLabel>NTIS subject categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntissc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nzggn">
+            <madsrdf:authoritativeLabel>New Zealand gazetteer of official geographic names</madsrdf:authoritativeLabel>
+            <madsrdf:code>nzggn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/nznb">
+            <madsrdf:authoritativeLabel>New Zealand national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>nznb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/odlt">
+            <madsrdf:authoritativeLabel>Baldick, C. The Oxford dictionary of literary terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>odlt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ogst">
+            <madsrdf:authoritativeLabel>Oregon GILS subject tree</madsrdf:authoritativeLabel>
+            <madsrdf:code>ogst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/opat">
+            <madsrdf:authoritativeLabel>Authority tables</madsrdf:authoritativeLabel>
+            <madsrdf:code>opat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/opms">
+            <madsrdf:authoritativeLabel>Opetusministeriön asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>opms</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ordnok">
+            <madsrdf:authoritativeLabel>Ordnokkelen: tesaurus for kulturminnevern</madsrdf:authoritativeLabel>
+            <madsrdf:code>ordnok</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pana">
+            <madsrdf:authoritativeLabel>Pan-American authorities</madsrdf:authoritativeLabel>
+            <madsrdf:code>pana</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pascal">
+            <madsrdf:authoritativeLabel>Base de donneés PASCAL: plan de classement = PASCAL database classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>pascal</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/peakbag">
+            <madsrdf:authoritativeLabel>Peakbagger.com</madsrdf:authoritativeLabel>
+            <madsrdf:code>peakbag</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pepp">
+            <madsrdf:authoritativeLabel>Princeton encyclopedia of poetry and poetics</madsrdf:authoritativeLabel>
+            <madsrdf:code>pepp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/peri">
+            <madsrdf:authoritativeLabel>Perinnetieteiden asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>peri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/periodo">
+            <madsrdf:authoritativeLabel>PeriodO: a gazetteer of period definitions for linking and visualizing data</madsrdf:authoritativeLabel>
+            <madsrdf:code>periodo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pha">
+            <madsrdf:authoritativeLabel>Puolostushallinnon asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>pha</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pkk">
+            <madsrdf:authoritativeLabel>Predmetnik za katoliške knjižnice</madsrdf:authoritativeLabel>
+            <madsrdf:code>pkk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pldi">
+            <madsrdf:authoritativeLabel>Placenames database of Ireland</madsrdf:authoritativeLabel>
+            <madsrdf:code>pldi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pleiades">
+            <madsrdf:authoritativeLabel>Pleiades: a gazetteer of past places</madsrdf:authoritativeLabel>
+            <madsrdf:code>pleiades</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pmbok">
+            <madsrdf:authoritativeLabel>Guide to the project management body of knowledge (PMBOK guide)</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmbok</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pmcsg">
+            <madsrdf:authoritativeLabel>Combined standards glossary</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmcsg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pmont">
+            <madsrdf:authoritativeLabel>Powerhouse Museum object name thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmont</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pmt">
+            <madsrdf:authoritativeLabel>Project management terminology</madsrdf:authoritativeLabel>
+            <madsrdf:code>pmt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/poliscit">
+            <madsrdf:authoritativeLabel>Political science thesaurus II</madsrdf:authoritativeLabel>
+            <madsrdf:code>poliscit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/poha">
+            <madsrdf:authoritativeLabel>POHA thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>poha</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/popinte">
+            <madsrdf:authoritativeLabel>POPIN thesaurus: population multilingual thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>popinte</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/pplt">
+            <madsrdf:authoritativeLabel>Peace Palace thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>pplt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ppluk">
+            <madsrdf:authoritativeLabel>Peoplefrom.co.uk - Demonyms of the United Kingdom</madsrdf:authoritativeLabel>
+            <madsrdf:code>ppluk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/precis">
+            <madsrdf:authoritativeLabel>PRECIS: a manual of concept analysis and subject indexing</madsrdf:authoritativeLabel>
+            <madsrdf:code>precis</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/prnpdi">
+            <madsrdf:authoritativeLabel>Le petit Robert des noms propres: dictionnaire illustré</madsrdf:authoritativeLabel>
+            <madsrdf:code>prnpdi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/proqsc">
+            <madsrdf:authoritativeLabel>ProQuest subject categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>proqsc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/prvt">
+            <madsrdf:authoritativeLabel>Patent- och registreringsverkets tesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>prvt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/psychit">
+            <madsrdf:authoritativeLabel>Thesaurus of psychological index terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>psychit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/puho">
+            <madsrdf:authoritativeLabel>PUHO - Puolustushallinnon ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>puho</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qlit">
+            <madsrdf:authoritativeLabel>Queer literature indexing thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>qlit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qlsp">
+            <madsrdf:authoritativeLabel>Queens Library Spanish language subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>qlsp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qnaf">
+            <madsrdf:authoritativeLabel>Qatar National Library name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>qnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qnlsh">
+            <madsrdf:authoritativeLabel>Qatar National Library subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>qnlsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qrma">
+            <madsrdf:authoritativeLabel>Qâ'imat ru'ûs al-mawdûât al-'Arabîyah = List of Arabic subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>qrma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qrmak">
+            <madsrdf:authoritativeLabel>Qâ'imat ru'ûs al-mawdû'ât al-'Arabîyah al-qiyâsîyah al-maktabât wa-marâkaz al-ma'lûmât wa-qawâid al-bayânât</madsrdf:authoritativeLabel>
+            <madsrdf:code>qrmak</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/qtglit">
+            <madsrdf:authoritativeLabel>Queer thesaurus: an international thesaurus of gay and lesbian index terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>qtglit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/quiding">
+            <madsrdf:authoritativeLabel>Quiding, Nils Herman. Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862</madsrdf:authoritativeLabel>
+            <madsrdf:code>quiding</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ram">
+            <madsrdf:authoritativeLabel>RAMEAU: répertoire d'autorité-matière encyclopédique et alphabétique unifié</madsrdf:authoritativeLabel>
+            <madsrdf:code>ram</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rasuqam">
+            <madsrdf:authoritativeLabel>Répertoire d'autorités-sujet de l'UQAM</madsrdf:authoritativeLabel>
+            <madsrdf:code>rasuqam</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/renib">
+            <madsrdf:authoritativeLabel>Renib [base de datos de autoridad]</madsrdf:authoritativeLabel>
+            <madsrdf:code>renib</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/reo">
+            <madsrdf:authoritativeLabel>Māori subject headings thesaurus - Ngā Ūpoko Tukutuku</madsrdf:authoritativeLabel>
+            <madsrdf:code>reo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rero">
+            <madsrdf:authoritativeLabel>Indexation matiéres RERO</madsrdf:authoritativeLabel>
+            <madsrdf:code>rero</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rerovoc">
+            <madsrdf:authoritativeLabel>Indexation matiéres RERO autorités</madsrdf:authoritativeLabel>
+            <madsrdf:code>rerovoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rma">
+            <madsrdf:authoritativeLabel>Ru'us al-mawdu'at al-'Arabiyah</madsrdf:authoritativeLabel>
+            <madsrdf:code>rma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/root">
+            <madsrdf:authoritativeLabel>BSI ROOT thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>root</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rpe">
+            <madsrdf:authoritativeLabel>Rubrikator po ekonomike = Rubricator on economics</madsrdf:authoritativeLabel>
+            <madsrdf:code>rpe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rswk">
+            <madsrdf:authoritativeLabel>Regeln für den Schlagwortkatalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>rswk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rswkaf">
+            <madsrdf:authoritativeLabel>Alternativform zum Hauptschlagwort</madsrdf:authoritativeLabel>
+            <madsrdf:code>rswkaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rugeo">
+            <madsrdf:authoritativeLabel>Natsional'nyi normativnyi fail geograficheskikh nazvanii Rossiiskoi Federatsii</madsrdf:authoritativeLabel>
+            <madsrdf:code>rugeo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rurkp">
+            <madsrdf:authoritativeLabel>Predmetnye rubriki Rossiiskoi knizhnoi palaty</madsrdf:authoritativeLabel>
+            <madsrdf:code>rurkp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rvm">
+            <madsrdf:authoritativeLabel>Répertoire de vedettes-matière</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rvmfast">
+            <madsrdf:authoritativeLabel>Répertoire de vedettes-matière: vocabulaire à facettes normalisé</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvmfast</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/rvmgd">
+            <madsrdf:authoritativeLabel>Thésaurus des descripteurs de groupes démographiques de l'Université Laval</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvmgd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/samisk">
+            <madsrdf:authoritativeLabel>Sámi bibliografia (Norga) = Samisk bibliografi (Norge) = Sami bibliography (Norway)</madsrdf:authoritativeLabel>
+            <madsrdf:code>samisk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sanb">
+            <madsrdf:authoritativeLabel>South African national bibliography authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>sanb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sao">
+            <madsrdf:authoritativeLabel>Svenska ämnesord</madsrdf:authoritativeLabel>
+            <madsrdf:code>sao</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sbaa">
+            <madsrdf:authoritativeLabel>Soggettario della Biblioteca "Angelicum" (Pontificia Università S. Tommaso d'Aquino Roma)</madsrdf:authoritativeLabel>
+            <madsrdf:code>sbaa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sbiao">
+            <madsrdf:authoritativeLabel>Svenska barnboksinstitutets ämnesordslista</madsrdf:authoritativeLabel>
+            <madsrdf:code>sbiao</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sbt">
+            <madsrdf:authoritativeLabel>Soggettario sistema Bibliotecario Ticinese</madsrdf:authoritativeLabel>
+            <madsrdf:code>sbt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/scbi">
+            <madsrdf:authoritativeLabel>Soggettario per i cataloghi delle biblioteche italiane</madsrdf:authoritativeLabel>
+            <madsrdf:code>scbi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/scgdst">
+            <madsrdf:authoritativeLabel>Subject categorization guide for defense science and technology</madsrdf:authoritativeLabel>
+            <madsrdf:code>scgdst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/scisshl">
+            <madsrdf:authoritativeLabel>SCIS subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>scisshl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/scot">
+            <madsrdf:authoritativeLabel>Schools online thesaurus (ScOT)</madsrdf:authoritativeLabel>
+            <madsrdf:code>scot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sears">
+            <madsrdf:authoritativeLabel>Sears list of subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>sears</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sesca">
+            <madsrdf:authoritativeLabel>Standard economic sector classifications of Australia (SESCA)</madsrdf:authoritativeLabel>
+            <madsrdf:code>sesca</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sfit">
+            <madsrdf:authoritativeLabel>Svenska filminstitutets tesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>sfit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sgc">
+            <madsrdf:authoritativeLabel>Splolšni geslovnik COBISS.SI = COBISS.SI general list of subject headings (Slovenian subject headings)</madsrdf:authoritativeLabel>
+            <madsrdf:code>sgc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sgce">
+            <madsrdf:authoritativeLabel>Splošni geslovnik COBISS.SI = COBISS.SI general list of subject headings (English subject headings)</madsrdf:authoritativeLabel>
+            <madsrdf:code>sgce</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/shbe">
+            <madsrdf:authoritativeLabel>Subject headings in business and economics</madsrdf:authoritativeLabel>
+            <madsrdf:code>shbe</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/she">
+            <madsrdf:authoritativeLabel>SHE: subject headings for engineering</madsrdf:authoritativeLabel>
+            <madsrdf:code>she</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/shsples">
+            <madsrdf:authoritativeLabel>Subject headings for school and public libraries = Encabezamientos de materia para bibliotecas escolares y públicas</madsrdf:authoritativeLabel>
+            <madsrdf:code>shsples</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/skish">
+            <madsrdf:authoritativeLabel>Saskatchewan indigenous subject heading</madsrdf:authoritativeLabel>
+            <madsrdf:code>skish</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sigle">
+            <madsrdf:authoritativeLabel>SIGLE [System for information on grey literature in Europe] manual, Part 2, Subject category list</madsrdf:authoritativeLabel>
+            <madsrdf:code>sigle</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sipri">
+            <madsrdf:authoritativeLabel>SIPRI library thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>sipri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sk">
+            <madsrdf:authoritativeLabel>Zhong guo gu ji shan ban shu zong mu fen lei biao [Si ku]</madsrdf:authoritativeLabel>
+            <madsrdf:code>sk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/skbb">
+            <madsrdf:authoritativeLabel>Zhongguo gu ji zong mu</madsrdf:authoritativeLabel>
+            <madsrdf:code>skbb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/skon">
+            <madsrdf:authoritativeLabel>Att indexera skönlitteratur: Ämnesordslista, vuxenlitteratur</madsrdf:authoritativeLabel>
+            <madsrdf:code>skon</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/slem">
+            <madsrdf:authoritativeLabel>Sears: lista de encabezamientos de materia</madsrdf:authoritativeLabel>
+            <madsrdf:code>slem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/smda">
+            <madsrdf:authoritativeLabel>Smithsonian National Air and Space Museum directory of airplanes</madsrdf:authoritativeLabel>
+            <madsrdf:code>smda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/snt">
+            <madsrdf:authoritativeLabel>Sexual nomenclature: a thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>snt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/socio">
+            <madsrdf:authoritativeLabel>Sociological abstracts thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>socio</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/solstad">
+            <madsrdf:authoritativeLabel>Solstad: emneord for Solstadbibliografien</madsrdf:authoritativeLabel>
+            <madsrdf:code>solstad</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sosa">
+            <madsrdf:authoritativeLabel>Sociaalialan asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>sosa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/soto">
+            <madsrdf:authoritativeLabel>SOTO - Sotatieteen ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>soto</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/spines">
+            <madsrdf:authoritativeLabel>Tesauro SPINES: un vocabulario controlado y estructurado para el tratamiento de información sobre ciencia y tecnología para el desarrollo</madsrdf:authoritativeLabel>
+            <madsrdf:code>spines</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ssg">
+            <madsrdf:authoritativeLabel>Splošni slovenski geslovnik</madsrdf:authoritativeLabel>
+            <madsrdf:code>ssg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/stcv">
+            <madsrdf:authoritativeLabel>Short Title Catalogus Vlaanderen = Short title catalogue Flanders</madsrdf:authoritativeLabel>
+            <madsrdf:code>stcv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/sthus">
+            <madsrdf:authoritativeLabel>Subject taxonomy of the history of U.S. foreign relations</madsrdf:authoritativeLabel>
+            <madsrdf:code>sthus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/stw">
+            <madsrdf:authoritativeLabel>Standard-Thesaurus Wirtschaft = STW thesaurus for economics</madsrdf:authoritativeLabel>
+            <madsrdf:code>stw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/swd">
+            <madsrdf:authoritativeLabel>Schlagwortnormdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>swd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/swemesh">
+            <madsrdf:authoritativeLabel>Svenska MeSH = Swedish MeSH</madsrdf:authoritativeLabel>
+            <madsrdf:code>swemesh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/taika">
+            <madsrdf:authoritativeLabel>Taideteollisuuden asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>taika</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tasmas">
+            <madsrdf:authoritativeLabel>Tesaurus de asuntos sociales del Ministerio de Asuntos Sociales de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>tasmas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/taxhs">
+            <madsrdf:authoritativeLabel>Taxonomy or human services: a conceptual framework with standardized terminology and definitions for the field</madsrdf:authoritativeLabel>
+            <madsrdf:code>taxhs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tbjvp">
+            <madsrdf:authoritativeLabel>Tesauro de la Biblioteca Dr. Jorge Villalobos Padilla, S.J.</madsrdf:authoritativeLabel>
+            <madsrdf:code>tbjvp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tef">
+            <madsrdf:authoritativeLabel>Tesauro especializado en filosofía, con enfoque de género by Marcia Ugarte Barquero</madsrdf:authoritativeLabel>
+            <madsrdf:code>tef</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tekord">
+            <madsrdf:authoritativeLabel>TEK-ord : UBiTs emneordliste for arkitektur, realfag, og teknolog</madsrdf:authoritativeLabel>
+            <madsrdf:code>tekord</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tero">
+            <madsrdf:authoritativeLabel>TERO - Terveyden ja hyvinvoinnin ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>tero</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tesa">
+            <madsrdf:authoritativeLabel>Tesauro agrícola</madsrdf:authoritativeLabel>
+            <madsrdf:code>tesa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tesbhaecid">
+            <madsrdf:authoritativeLabel>Tesauro de la Biblioteca Hispánica de la Biblioteca AECID</madsrdf:authoritativeLabel>
+            <madsrdf:code>tesbhaecid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/test">
+            <madsrdf:authoritativeLabel>Thesaurus of engineering and scientific terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>test</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tgn">
+            <madsrdf:authoritativeLabel>Getty thesaurus of geographic names</madsrdf:authoritativeLabel>
+            <madsrdf:code>tgn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tha">
+            <madsrdf:authoritativeLabel>Barcala de Moyano, Graciela G., Cristina Voena. Tesauro de Historia Argentina</madsrdf:authoritativeLabel>
+            <madsrdf:code>tha</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/thema">
+            <madsrdf:authoritativeLabel>Thema</madsrdf:authoritativeLabel>
+            <madsrdf:code>thema</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/thesoz">
+            <madsrdf:authoritativeLabel>Thesaurus for the social sciences</madsrdf:authoritativeLabel>
+            <madsrdf:code>thesoz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/thia">
+            <madsrdf:authoritativeLabel>Th.I.A. - Thesaurus italiano infanzia e adolescenza = Th.I.A. - Italian thesaurus on childhood and adolescence</madsrdf:authoritativeLabel>
+            <madsrdf:code>thia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/thla">
+            <madsrdf:authoritativeLabel>ThLA – Thesaurus for landscape</madsrdf:authoritativeLabel>
+            <madsrdf:code>thla</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tho">
+            <madsrdf:authoritativeLabel>Thesauros Hellēnikōn Oron</madsrdf:authoritativeLabel>
+            <madsrdf:code>tho</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/thub">
+            <madsrdf:authoritativeLabel>Thesaurus de la Universitat de Barcelona</madsrdf:authoritativeLabel>
+            <madsrdf:code>thub</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tips">
+            <madsrdf:authoritativeLabel>Tesauro ISOC de psicología</madsrdf:authoritativeLabel>
+            <madsrdf:code>tips</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tisa">
+            <madsrdf:authoritativeLabel>Villagrá Rubio, Angel. Tesauro ISOC de sociología autores</madsrdf:authoritativeLabel>
+            <madsrdf:code>tisa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tlka">
+            <madsrdf:authoritativeLabel>Investigació, Procés Tècnicn kirjaston asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>tlka</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tlsh">
+            <madsrdf:authoritativeLabel>Subject heading authority list</madsrdf:authoritativeLabel>
+            <madsrdf:code>tlsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfarn">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden de Bibliotheek Arnhem</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfarn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfbmb">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden Bibliotheek Midden-Brabant</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfbmb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfdh">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden OB Den Haag</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfdh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfgr">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden Biblionet Groningen</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfgr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfoba">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden OBA</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfoba</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trfzb">
+            <madsrdf:authoritativeLabel>Lokale trefwoorden Zeeuwse Bibliotheken</madsrdf:authoritativeLabel>
+            <madsrdf:code>trfzb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trt">
+            <madsrdf:authoritativeLabel>Transportation research  thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>trt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/trtsa">
+            <madsrdf:authoritativeLabel>Teatterin ja tanssin asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>trtsa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tsaij">
+            <madsrdf:authoritativeLabel>Tesauro SAIJ de derecho Argentino</madsrdf:authoritativeLabel>
+            <madsrdf:code>tsaij</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tshd">
+            <madsrdf:authoritativeLabel>Thai subject heading database: online Thai subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>tshd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tsht">
+            <madsrdf:authoritativeLabel>Thesaurus of subject headings for television</madsrdf:authoritativeLabel>
+            <madsrdf:code>tsht</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tsr">
+            <madsrdf:authoritativeLabel>TSR-ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>tsr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ttka">
+            <madsrdf:authoritativeLabel>Teologisen tiedekunnan kirjaston asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>ttka</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ttll">
+            <madsrdf:authoritativeLabel>Roggau, Zunilda. Tell. Tesauro de lengua y literatura</madsrdf:authoritativeLabel>
+            <madsrdf:code>ttll</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/tucua">
+            <madsrdf:authoritativeLabel>Thesaurus for use in college and university archives</madsrdf:authoritativeLabel>
+            <madsrdf:code>tucua</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/udc">
+            <madsrdf:authoritativeLabel>Universal decimal classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>udc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ukslc">
+            <madsrdf:authoritativeLabel>UK standard library categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>ukslc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ula">
+            <madsrdf:authoritativeLabel>Encabezamientos de  materia de la Universidad Loyola</madsrdf:authoritativeLabel>
+            <madsrdf:code>ula</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ulan">
+            <madsrdf:authoritativeLabel>Union list of artist names</madsrdf:authoritativeLabel>
+            <madsrdf:code>ulan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/umitrist">
+            <madsrdf:authoritativeLabel>University of Michigan Transportation Research Institute structured thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>umitrist</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/unbisn">
+            <madsrdf:authoritativeLabel>UNBIS name authority list</madsrdf:authoritativeLabel>
+            <madsrdf:code>unbisn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/unbist">
+            <madsrdf:authoritativeLabel>UNBIS thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>unbist</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/unescot">
+            <madsrdf:authoritativeLabel>UNESCO thesaurus = Thésaurus de l'UNESCO = Tesauro de la UNESCO</madsrdf:authoritativeLabel>
+            <madsrdf:code>unescot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/unicefirc">
+            <madsrdf:authoritativeLabel>International children's rights thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>unicefirc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/usaidt">
+            <madsrdf:authoritativeLabel>USAID thesaurus: keywords used to index documents included in the USAID Development Experience System</madsrdf:authoritativeLabel>
+            <madsrdf:code>usaidt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/valo">
+            <madsrdf:authoritativeLabel>VALO - Fotografiska ontologin</madsrdf:authoritativeLabel>
+            <madsrdf:code>valo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/vcaadu">
+            <madsrdf:authoritativeLabel>Vocabulario controlado de arquitectura, arte, diseño y urbanismo</madsrdf:authoritativeLabel>
+            <madsrdf:code>vcaadu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/vffyl">
+            <madsrdf:authoritativeLabel>Vocabulario de la Biblioteca Central de la FFyL</madsrdf:authoritativeLabel>
+            <madsrdf:code>vffyl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/vmj">
+            <madsrdf:authoritativeLabel>Vedettes-matière jeunesse</madsrdf:authoritativeLabel>
+            <madsrdf:code>vmj</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/waqaf">
+            <madsrdf:authoritativeLabel>Maknas Uloom al Waqaf</madsrdf:authoritativeLabel>
+            <madsrdf:code>waqaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/watrest">
+            <madsrdf:authoritativeLabel>Thesaurus of water resources terms: a collection of water resources and related terms for use in indexing technical information</madsrdf:authoritativeLabel>
+            <madsrdf:code>watrest</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/wgst">
+            <madsrdf:authoritativeLabel>Washington GILS subject tree</madsrdf:authoritativeLabel>
+            <madsrdf:code>wgst</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/wikidata">
+            <madsrdf:authoritativeLabel>Wikidata</madsrdf:authoritativeLabel>
+            <madsrdf:code>wikidata</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/worldcat">
+            <madsrdf:authoritativeLabel>Worldcat entities</madsrdf:authoritativeLabel>
+            <madsrdf:code>worldcat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/wot">
+            <madsrdf:authoritativeLabel>Women's thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>wot</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/wpicsh">
+            <madsrdf:authoritativeLabel>WPIC Library thesaurus of subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>wpicsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/ysa">
+            <madsrdf:authoritativeLabel>Yleinen suomalainen asiasanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>ysa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/subjectSchemes/yso">
+            <madsrdf:authoritativeLabel>YSO - Yleinen suomalainen ontologia</madsrdf:authoritativeLabel>
+            <madsrdf:code>yso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00/dlc</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/2020-10-14T00:00:00/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Subject Schemes contains a list of subject schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate controlled subjects with the appropriate subject scheme. These schemes are general subject heading and thesauri, such as the Library of Congress Subject Headings, along with a number of focused subject term lists like Medical Subject Headings or Getty Thesaurus of Geographic Names.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/2020-10-14T00:00:00/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00/dlc</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

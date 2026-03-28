@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/carriers">
+      <rdfs:label xml:lang="en">Carriers Scheme</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Values representing the format of the storage medium and housing of a carrier in combination with the type of intermediation device required to views, play, run, etc., the content of a resource</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sg">
+            <madsrdf:authoritativeLabel>audio cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>sg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/se">
+            <madsrdf:authoritativeLabel>audio cylinder</madsrdf:authoritativeLabel>
+            <madsrdf:code>se</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sd">
+            <madsrdf:authoritativeLabel>audio disc</madsrdf:authoritativeLabel>
+            <madsrdf:code>sd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/si">
+            <madsrdf:authoritativeLabel>sound track reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>si</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sq">
+            <madsrdf:authoritativeLabel>audio roll</madsrdf:authoritativeLabel>
+            <madsrdf:code>sq</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ss">
+            <madsrdf:authoritativeLabel>audiocassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>ss</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/st">
+            <madsrdf:authoritativeLabel>audiotape reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>st</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sw">
+            <madsrdf:authoritativeLabel>audio wire reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>sw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sb">
+            <madsrdf:authoritativeLabel>audio belt</madsrdf:authoritativeLabel>
+            <madsrdf:code>sb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/sz">
+            <madsrdf:authoritativeLabel>other audio carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>sz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ck">
+            <madsrdf:authoritativeLabel>computer card</madsrdf:authoritativeLabel>
+            <madsrdf:code>ck</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/cb">
+            <madsrdf:authoritativeLabel>computer chip cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>cb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/cd">
+            <madsrdf:authoritativeLabel>computer disc</madsrdf:authoritativeLabel>
+            <madsrdf:code>cd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ce">
+            <madsrdf:authoritativeLabel>computer disc cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>ce</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ca">
+            <madsrdf:authoritativeLabel>computer tape cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>ca</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/cf">
+            <madsrdf:authoritativeLabel>computer tape cassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>cf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ch">
+            <madsrdf:authoritativeLabel>computer tape reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>ch</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/cr">
+            <madsrdf:authoritativeLabel>online resource</madsrdf:authoritativeLabel>
+            <madsrdf:code>cr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/cz">
+            <madsrdf:authoritativeLabel>other computer carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>cz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ha">
+            <madsrdf:authoritativeLabel>aperture card</madsrdf:authoritativeLabel>
+            <madsrdf:code>ha</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/he">
+            <madsrdf:authoritativeLabel>microfiche</madsrdf:authoritativeLabel>
+            <madsrdf:code>he</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hf">
+            <madsrdf:authoritativeLabel>microfiche cassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>hf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hb">
+            <madsrdf:authoritativeLabel>microfilm cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>hb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hc">
+            <madsrdf:authoritativeLabel>microfilm cassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>hc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hd">
+            <madsrdf:authoritativeLabel>microfilm reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>hd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hj">
+            <madsrdf:authoritativeLabel>microfilm roll</madsrdf:authoritativeLabel>
+            <madsrdf:code>hj</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hh">
+            <madsrdf:authoritativeLabel>microfilm slip</madsrdf:authoritativeLabel>
+            <madsrdf:code>hh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hg">
+            <madsrdf:authoritativeLabel>microopaque</madsrdf:authoritativeLabel>
+            <madsrdf:code>hg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/hz">
+            <madsrdf:authoritativeLabel>other microform carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>hz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/pp">
+            <madsrdf:authoritativeLabel>microscope slide</madsrdf:authoritativeLabel>
+            <madsrdf:code>pp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/pz">
+            <madsrdf:authoritativeLabel>other microscopic carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>pz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/mc">
+            <madsrdf:authoritativeLabel>film cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>mc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/mf">
+            <madsrdf:authoritativeLabel>film cassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>mf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/mr">
+            <madsrdf:authoritativeLabel>film reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>mr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/mo">
+            <madsrdf:authoritativeLabel>film roll</madsrdf:authoritativeLabel>
+            <madsrdf:code>mo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/gd">
+            <madsrdf:authoritativeLabel>filmslip</madsrdf:authoritativeLabel>
+            <madsrdf:code>gd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/gf">
+            <madsrdf:authoritativeLabel>filmstrip</madsrdf:authoritativeLabel>
+            <madsrdf:code>gf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/gc">
+            <madsrdf:authoritativeLabel>filmstrip cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>gc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/gt">
+            <madsrdf:authoritativeLabel>overhead transparency</madsrdf:authoritativeLabel>
+            <madsrdf:code>gt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/gs">
+            <madsrdf:authoritativeLabel>slide</madsrdf:authoritativeLabel>
+            <madsrdf:code>gs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/mz">
+            <madsrdf:authoritativeLabel>other projected carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>mz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/eh">
+            <madsrdf:authoritativeLabel>stereograph card</madsrdf:authoritativeLabel>
+            <madsrdf:code>eh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/es">
+            <madsrdf:authoritativeLabel>stereograph disc</madsrdf:authoritativeLabel>
+            <madsrdf:code>es</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/ez">
+            <madsrdf:authoritativeLabel>other stereographic carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>ez</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/no">
+            <madsrdf:authoritativeLabel>card</madsrdf:authoritativeLabel>
+            <madsrdf:code>no</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/nn">
+            <madsrdf:authoritativeLabel>flipchart</madsrdf:authoritativeLabel>
+            <madsrdf:code>nn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/na">
+            <madsrdf:authoritativeLabel>roll</madsrdf:authoritativeLabel>
+            <madsrdf:code>na</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/nb">
+            <madsrdf:authoritativeLabel>sheet</madsrdf:authoritativeLabel>
+            <madsrdf:code>nb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/nc">
+            <madsrdf:authoritativeLabel>volume</madsrdf:authoritativeLabel>
+            <madsrdf:code>nc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/nr">
+            <madsrdf:authoritativeLabel>object</madsrdf:authoritativeLabel>
+            <madsrdf:code>nr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/nz">
+            <madsrdf:authoritativeLabel>other unmediated carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>nz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/vc">
+            <madsrdf:authoritativeLabel>video cartridge</madsrdf:authoritativeLabel>
+            <madsrdf:code>vc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/vf">
+            <madsrdf:authoritativeLabel>videocassette</madsrdf:authoritativeLabel>
+            <madsrdf:code>vf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/vd">
+            <madsrdf:authoritativeLabel>videodisc</madsrdf:authoritativeLabel>
+            <madsrdf:code>vd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/vr">
+            <madsrdf:authoritativeLabel>videotape reel</madsrdf:authoritativeLabel>
+            <madsrdf:code>vr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/carriers/vz">
+            <madsrdf:authoritativeLabel>other video carrier</madsrdf:authoritativeLabel>
+            <madsrdf:code>vz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-23T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Values representing the format of the storage medium and housing of a carrier in combination with the type of intermediation device required to views, play, run, etc., the content of a resource</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/carriers"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-23T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

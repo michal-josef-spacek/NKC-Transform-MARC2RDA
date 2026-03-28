@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes">
+      <rdfs:label xml:lang="en">Genre Form Schemes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Genre/Form Schemes contains a list of genre/form schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate controlled genre/form term with the appropriate scheme. The schemes include lists that contain the following types of information: content types that indicate the form of communication through which a work is expressed (cartographic dataset, notated music, or text); media types that specify the general type of intermediation device required to view, play, run, etc., the content of a resource; carrier types that specify the format of the storage medium and housing of a resource (audiocassette, microfiche, or online resource); genre types designate the style or technique of the intellectual content of textual materials or, for graphic materials, aspects such as vantage point, intended purpose, characteristics of the creator, publication status, or method of representation (biographies, catechisms, essays, hymns, or reviews); form and physical characteristic types designate historically and functionally specific kinds of materials distinguished by their physical character, the subject of their intellectual content, or the order of information within them (daybooks, diaries, directories, journals, memoranda, questionnaires, syllabi, or time sheets). The purpose of this list is to identify the vocabulary used in records. Only sources that are specific for genre/form are listed here.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/alett">
+            <madsrdf:authoritativeLabel>An alphabetical list of English text types</madsrdf:authoritativeLabel>
+            <madsrdf:code>alett</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/amg">
+            <madsrdf:authoritativeLabel>Audiovisual material glossary</madsrdf:authoritativeLabel>
+            <madsrdf:code>amg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/barngf">
+            <madsrdf:authoritativeLabel>Svenska ämnesord för barn - Genre</madsrdf:authoritativeLabel>
+            <madsrdf:code>barngf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/bdrc">
+            <madsrdf:authoritativeLabel>Buddhist Digital Resource Center</madsrdf:authoritativeLabel>
+            <madsrdf:code>bdrc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/bgtchm">
+            <madsrdf:authoritativeLabel>Basic genre terms for cultural heritage materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>bgtchm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/buscxf">
+            <madsrdf:authoritativeLabel>Termos de xénero e forma en galego</madsrdf:authoritativeLabel>
+            <madsrdf:code>buscxf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/cbk">
+            <madsrdf:authoritativeLabel>Centraal Bestand Kinderboeken</madsrdf:authoritativeLabel>
+            <madsrdf:code>cbk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/cjh">
+            <madsrdf:authoritativeLabel>Center for Jewish History thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cjh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/coarrt">
+            <madsrdf:authoritativeLabel>COAR vocabulary for resource types</madsrdf:authoritativeLabel>
+            <madsrdf:code>coarrt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/dct">
+            <madsrdf:authoritativeLabel>Dublin Core list of resource types</madsrdf:authoritativeLabel>
+            <madsrdf:code>dct</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/doll">
+            <madsrdf:authoritativeLabel>Dictionary of letterlocking</madsrdf:authoritativeLabel>
+            <madsrdf:code>doll</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/estc">
+            <madsrdf:authoritativeLabel>English short title catalogue</madsrdf:authoritativeLabel>
+            <madsrdf:code>estc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/fbg">
+            <madsrdf:authoritativeLabel>Films by genre</madsrdf:authoritativeLabel>
+            <madsrdf:code>fbg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/fgtpcm">
+            <madsrdf:authoritativeLabel>Form/genre terms for printed cartoon material</madsrdf:authoritativeLabel>
+            <madsrdf:code>fgtpcm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ftamc">
+            <madsrdf:authoritativeLabel>Form terms for archival and manuscripts control</madsrdf:authoritativeLabel>
+            <madsrdf:code>ftamc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gatbeg">
+            <madsrdf:authoritativeLabel>Gattungsbegriffe</madsrdf:authoritativeLabel>
+            <madsrdf:code>gatbeg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gemppg">
+            <madsrdf:authoritativeLabel>Glossary of Early Modern Popular Print Genres</madsrdf:authoritativeLabel>
+            <madsrdf:code>gemppg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gmd">
+            <madsrdf:authoritativeLabel>Anglo-American Cataloguing Rules general material designation</madsrdf:authoritativeLabel>
+            <madsrdf:code>gmd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gmgpc">
+            <madsrdf:authoritativeLabel>Thesaurus for graphic materials: TGM II, Genre and physical characteristic terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>gmgpc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gnd">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gnd-carrier">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei: Datenträgertyp</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd-carrier</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gnd-content">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei: Beschreibung des Inhalts</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd-content</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gnd-music">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei: Musikalische Ausgabeform</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd-music</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gsafd">
+            <madsrdf:authoritativeLabel>Guidelines on subject access to individual works of fiction, drama, etc</madsrdf:authoritativeLabel>
+            <madsrdf:code>gsafd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gsso">
+            <madsrdf:authoritativeLabel>Gender, sex, and sexal orientation ontology</madsrdf:authoritativeLabel>
+            <madsrdf:code>gsso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gtlm">
+            <madsrdf:authoritativeLabel>Genre terms for law materials: a thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>gtlm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gtmm">
+            <madsrdf:authoritativeLabel>Genre terms for markerspace materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>gtmm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/gttg">
+            <madsrdf:authoritativeLabel>Genre terms for tabletop games</madsrdf:authoritativeLabel>
+            <madsrdf:code>gttg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/idref">
+            <madsrdf:authoritativeLabel>IdRef: identifiants et référentiels</madsrdf:authoritativeLabel>
+            <madsrdf:code>idref</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/isbdcontent">
+            <madsrdf:authoritativeLabel>ISBD Area 0 [content]</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbdcontent</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/isbdmedia">
+            <madsrdf:authoritativeLabel>ISBD Area 0 [media]</madsrdf:authoritativeLabel>
+            <madsrdf:code>isbdmedia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/lcgft">
+            <madsrdf:authoritativeLabel>Library of Congress genre/form terms for library and archival materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcgft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/lobt">
+            <madsrdf:authoritativeLabel>Language of Bindings Thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>lobt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/marccategory">
+            <madsrdf:authoritativeLabel>MARC form category term list</madsrdf:authoritativeLabel>
+            <madsrdf:code>marccategory</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/marcform">
+            <madsrdf:authoritativeLabel>MARC form of item term list</madsrdf:authoritativeLabel>
+            <madsrdf:code>marcform</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/marcgt">
+            <madsrdf:authoritativeLabel>MARC genre terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>marcgt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/marcsmd">
+            <madsrdf:authoritativeLabel>MARC specific material form term list</madsrdf:authoritativeLabel>
+            <madsrdf:code>marcsmd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/migfg">
+            <madsrdf:authoritativeLabel>Moving image genre-form guide</madsrdf:authoritativeLabel>
+            <madsrdf:code>migfg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/mim">
+            <madsrdf:authoritativeLabel>Moving image materials: genre terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>mim</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/msupplcont">
+            <madsrdf:authoritativeLabel>Supplementary content</madsrdf:authoritativeLabel>
+            <madsrdf:code>msupplcont</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/mts">
+            <madsrdf:authoritativeLabel>Metatietosanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>mts</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/musvok-sf">
+            <madsrdf:authoritativeLabel>Norsk musikkvokabular: sjangre og former</madsrdf:authoritativeLabel>
+            <madsrdf:code>musvok-sf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/muzeukv">
+            <madsrdf:authoritativeLabel>MuzeVideo UK DVD and UMD film genre classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>muzeukv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nbdbgf">
+            <madsrdf:authoritativeLabel>NBD Biblion Genres Fictie</madsrdf:authoritativeLabel>
+            <madsrdf:code>nbdbgf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrbs">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) broadcast standard</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrbs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrcarrier">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) carrier types</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrcarrier</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrcontent">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) content types</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrcontent</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrcpc">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) configuration of playback channels</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrcpc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrfs">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) font size</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrfs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrft">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) file type</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrmat">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) material</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrmat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrmedia">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) media types</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrmedia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrpm">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) production method</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrpm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrpo">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) polarity</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrpo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrrm">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) recording medium</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrrm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrtr">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) type of recording</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrtr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ncrvf">
+            <madsrdf:authoritativeLabel>Nippon Cataloging Rules (2018 ed.) video format</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncrvf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ndlgft">
+            <madsrdf:authoritativeLabel>National Diet Library in Japan genre/form terms for library materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>ndlgft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ngl">
+            <madsrdf:authoritativeLabel>Newspaper genre list</madsrdf:authoritativeLabel>
+            <madsrdf:code>ngl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nimafc">
+            <madsrdf:authoritativeLabel>NIMA form codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>nimafc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nlggf">
+            <madsrdf:authoritativeLabel>National Library of Greece genre/form for library materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlggf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nmc">
+            <madsrdf:authoritativeLabel>Revised nomenclature for museum cataloging: a revised and expanded version of Robert C. Chenhall's system for classifying man-made objects</madsrdf:authoritativeLabel>
+            <madsrdf:code>nmc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nom">
+            <madsrdf:authoritativeLabel>Nomenclature for Museum Cataloging = Nomenclature pour le catalogage des objets de musée</madsrdf:authoritativeLabel>
+            <madsrdf:code>nom</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/ntsf">
+            <madsrdf:authoritativeLabel>Norsk tesaurus for sjanger og form</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntsf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nzcoh">
+            <madsrdf:authoritativeLabel>New Zealand Choral and Orchestral hire form and genre terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>nzcoh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/nskzs">
+            <madsrdf:authoritativeLabel>Tezaurus za žanr ili oblik (Zagreb: Nacionalna i sveučilišna knjižnica u Zagrebu)</madsrdf:authoritativeLabel>
+            <madsrdf:code>nskzs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/oabt">
+            <madsrdf:authoritativeLabel>Opening Artists' Books: artists' book terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>oabt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/olacvggt">
+            <madsrdf:authoritativeLabel>OLAC Video Game Genre Terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>olacvggt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/proysen">
+            <madsrdf:authoritativeLabel>Prøysen: emneord for Prøysen-bibliografien</madsrdf:authoritativeLabel>
+            <madsrdf:code>proysen</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/radfg">
+            <madsrdf:authoritativeLabel>Radio form / genre terms guide</madsrdf:authoritativeLabel>
+            <madsrdf:code>radfg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbbin">
+            <madsrdf:authoritativeLabel>Binding terms: a thesaurus for use in rare book and special collections cataloguing</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbbin</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbgenr">
+            <madsrdf:authoritativeLabel>Genre terms: a thesaurus for use in rare book and special collections cataloguing</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbgenr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbmscv">
+            <madsrdf:authoritativeLabel>RBMS Controlled Vocabularies</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbmscv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbpap">
+            <madsrdf:authoritativeLabel>Paper terms: a thesaurus for use in rare book and special collections cataloging</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbpap</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbpri">
+            <madsrdf:authoritativeLabel>Printing &amp; publishing evidence: a thesaurus for use in rare book and special collections cataloging</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbpri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbprov">
+            <madsrdf:authoritativeLabel>Provenance evidence: a thesaurus for use in rare book and special collections cataloging</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbprov</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbpub">
+            <madsrdf:authoritativeLabel>Printing and publishing evidence: a thesaurus for use in rare book and special collections cataloging</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbpub</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rbtyp">
+            <madsrdf:authoritativeLabel>Type evidence: a thesaurus for use in rare book and special collections cataloging</madsrdf:authoritativeLabel>
+            <madsrdf:code>rbtyp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rda">
+            <madsrdf:authoritativeLabel>Resource description and access</madsrdf:authoritativeLabel>
+            <madsrdf:code>rda</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaar">
+            <madsrdf:authoritativeLabel>RDA aspect ratio designation</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaabf">
+            <madsrdf:authoritativeLabel>RDA bibliographic format</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaabf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdabs">
+            <madsrdf:authoritativeLabel>RDA broadcast standard</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdabs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdacarrier">
+            <madsrdf:authoritativeLabel>Term and code list for RDA carrier types</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdacarrier</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdacc">
+            <madsrdf:authoritativeLabel>RDA colour content</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdacc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaco">
+            <madsrdf:authoritativeLabel>RDA content type</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaco</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdacontent">
+            <madsrdf:authoritativeLabel>Term and code list for RDA content types</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdacontent</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdacpc">
+            <madsrdf:authoritativeLabel>RDA configuration of playback channels</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdacpc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdact">
+            <madsrdf:authoritativeLabel>RDA carrier type</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdact</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaep">
+            <madsrdf:authoritativeLabel>RDA extention plan</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaep</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdafmn">
+            <madsrdf:authoritativeLabel>RDA form of musical notation</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdafmn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdafnm">
+            <madsrdf:authoritativeLabel>RDA form of notated music</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdafnm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdafr">
+            <madsrdf:authoritativeLabel>RDA frequency</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdafr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdafs">
+            <madsrdf:authoritativeLabel>RDA font size</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdafs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaft">
+            <madsrdf:authoritativeLabel>RDA file type</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaft</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdagen">
+            <madsrdf:authoritativeLabel>RDA generation</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdagen</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdagrp">
+            <madsrdf:authoritativeLabel>RDA groove pitch of an analog cylinder</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdagrp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdagw">
+            <madsrdf:authoritativeLabel>RDA groove width of an analog disc</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdagw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaill">
+            <madsrdf:authoritativeLabel>RDA illustrative content</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaill</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdalay">
+            <madsrdf:authoritativeLabel>RDA layout</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdalay</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdamat">
+            <madsrdf:authoritativeLabel>RDA material</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdamat</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdamedia">
+            <madsrdf:authoritativeLabel>Term and code list for RDA media types</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdamedia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdami">
+            <madsrdf:authoritativeLabel>RDA mode of issuance</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdami</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdamt">
+            <madsrdf:authoritativeLabel>RDA media type</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdamt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdapf">
+            <madsrdf:authoritativeLabel>RDA presentation format</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdapf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdapm">
+            <madsrdf:authoritativeLabel>RDA production method</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdapm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdapo">
+            <madsrdf:authoritativeLabel>RDA polarity</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdapo</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdare">
+            <madsrdf:authoritativeLabel>RDA regional encoding</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdare</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdarm">
+            <madsrdf:authoritativeLabel>RDA recording medium</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdarm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdarr">
+            <madsrdf:authoritativeLabel>RDA reduction ratio designation</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdarr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdasco">
+            <madsrdf:authoritativeLabel>RDA sound content</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdasco</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdaspc">
+            <madsrdf:authoritativeLabel>RDA special playback characteristic</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdaspc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdatc">
+            <madsrdf:authoritativeLabel>RDA track configuration</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdatc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdatb">
+            <madsrdf:authoritativeLabel>RDA type of binding</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdatb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdatr">
+            <madsrdf:authoritativeLabel>RDA type of recording</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdatr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rdavf">
+            <madsrdf:authoritativeLabel>RDA video format</madsrdf:authoritativeLabel>
+            <madsrdf:code>rdavf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/reveal">
+            <madsrdf:authoritativeLabel>REVEAL: fiction indexing and genre headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>reveal</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/rvmgf">
+            <madsrdf:authoritativeLabel>Thésaurus des descripteurs de genre/forme de l'Université Laval</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvmgf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/saogf">
+            <madsrdf:authoritativeLabel>Svenska ämnesord - Genre/Form</madsrdf:authoritativeLabel>
+            <madsrdf:code>saogf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/sgp">
+            <madsrdf:authoritativeLabel>Svenska genrebeteckningar för periodika</madsrdf:authoritativeLabel>
+            <madsrdf:code>sgp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/slm">
+            <madsrdf:authoritativeLabel>Suomalainen lajityyppi-ja muotosanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>slm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/tept">
+            <madsrdf:authoritativeLabel>Thesaurus of ephemera terms</madsrdf:authoritativeLabel>
+            <madsrdf:code>tept</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/tgfbne">
+            <madsrdf:authoritativeLabel>Términos de género/forma de la Biblioteca Nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>tgfbne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/tgfc">
+            <madsrdf:authoritativeLabel>Termes de gènere i forma en català</madsrdf:authoritativeLabel>
+            <madsrdf:code>tgfc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/thema">
+            <madsrdf:authoritativeLabel>Thema</madsrdf:authoritativeLabel>
+            <madsrdf:code>thema</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/vgmsgg">
+            <madsrdf:authoritativeLabel>Video game metadata schema: controlled vocabulary for gameplay genre</madsrdf:authoritativeLabel>
+            <madsrdf:code>vgmsgg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/vgmsng">
+            <madsrdf:authoritativeLabel>Video game metadata schema: controlled vocabulary for narrative genre</madsrdf:authoritativeLabel>
+            <madsrdf:code>vgmsng</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/genreFormSchemes/wikidata">
+            <madsrdf:authoritativeLabel>Wikidata</madsrdf:authoritativeLabel>
+            <madsrdf:code>wikidata</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-02T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Genre/Form Schemes contains a list of genre/form schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate controlled genre/form term with the appropriate scheme. The schemes include lists that contain the following types of information: content types that indicate the form of communication through which a work is expressed (cartographic dataset, notated music, or text); media types that specify the general type of intermediation device required to view, play, run, etc., the content of a resource; carrier types that specify the format of the storage medium and housing of a resource (audiocassette, microfiche, or online resource); genre types designate the style or technique of the intellectual content of textual materials or, for graphic materials, aspects such as vantage point, intended purpose, characteristics of the creator, publication status, or method of representation (biographies, catechisms, essays, hymns, or reviews); form and physical characteristic types designate historically and functionally specific kinds of materials distinguished by their physical character, the subject of their intellectual content, or the order of information within them (daybooks, diaries, directories, journals, memoranda, questionnaires, syllabi, or time sheets). The purpose of this list is to identify the vocabulary used in records. Only sources that are specific for genre/form are listed here.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/genreFormSchemes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-02T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

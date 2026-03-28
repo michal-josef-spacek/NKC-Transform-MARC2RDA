@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/mediaTypes">
+      <rdfs:label xml:lang="en">Media Types Schemes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">The Media Types Scheme is derived from a controlled list of values reflecting the general type of intermediation device required to view, play, run, etc., the content of a resource, which is principally used in RDA cataloging.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/s">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>audio</madsrdf:authoritativeLabel>
+            <madsrdf:code>s</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/c">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>computer</madsrdf:authoritativeLabel>
+            <madsrdf:code>c</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/h">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>microform</madsrdf:authoritativeLabel>
+            <madsrdf:code>h</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/p">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>microscopic</madsrdf:authoritativeLabel>
+            <madsrdf:code>p</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/x">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>other</madsrdf:authoritativeLabel>
+            <madsrdf:code>x</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/g">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>projected</madsrdf:authoritativeLabel>
+            <madsrdf:code>g</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/e">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>stereographic</madsrdf:authoritativeLabel>
+            <madsrdf:code>e</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>unmediated</madsrdf:authoritativeLabel>
+            <madsrdf:code>n</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/z">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>unspecified</madsrdf:authoritativeLabel>
+            <madsrdf:code>z</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/mediaTypes/v">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>video</madsrdf:authoritativeLabel>
+            <madsrdf:code>v</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">The Media Types Scheme is derived from a controlled list of values reflecting the general type of intermediation device required to view, play, run, etc., the content of a resource, which is principally used in RDA cataloging.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/mediaTypes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

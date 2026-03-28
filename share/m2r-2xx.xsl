@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:marc="http://www.loc.gov/MARC21/slim"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://fakeIRI.edu/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
     xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
@@ -12,27 +13,954 @@
     xmlns:rdam="http://rdaregistry.info/Elements/m/"
     xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
     xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
-    xmlns:fake="http://fakePropertiesForDemo" exclude-result-prefixes="marc ex" version="3.0">
+    xmlns:rdai="http://rdaregistry.info/Elements/i/"
+    xmlns:rdaid="http://rdaregistry.info/Elements/i/datatype/"
+    xmlns:rdaio="http://rdaregistry.info/Elements/i/object/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+    xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+    xmlns:rdan="http://rdaregistry.info/Elements/n/"
+    xmlns:rdand="http://rdaregistry.info/Elements/n/datatype/"
+    xmlns:rdano="http://rdaregistry.info/Elements/n/object/"
+    xmlns:rdap="http://rdaregistry.info/Elements/p/"
+    xmlns:rdapd="http://rdaregistry.info/Elements/p/datatype/"
+    xmlns:rdapo="http://rdaregistry.info/Elements/p/object/"
+    xmlns:rdat="http://rdaregistry.info/Elements/t/"
+    xmlns:rdatd="http://rdaregistry.info/Elements/t/datatype/"
+    xmlns:rdato="http://rdaregistry.info/Elements/t/object/"
+    xmlns:fake="http://fakePropertiesForDemo" 
+    xmlns:m2r="http://marc2rda.info/functions#"
+    exclude-result-prefixes="marc m2r" version="3.0">
+    
     <xsl:include href="m2r-2xx-named.xsl"/>
-    <xsl:import href="getmarc.xsl"/>
-    <xsl:template match="marc:datafield[@tag = '245']" mode="wor" >
-        <xsl:call-template name="getmarc"/>
-        <xsl:for-each select="marc:subfield[@code='a']">
-            <rdawd:P10088>
-                <xsl:value-of select="replace(.,'\s*[\.,;:/=]','')"/>
-            </rdawd:P10088>
+    
+    <xsl:template match="marc:datafield[@tag = '240'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '240']"
+        mode="aggWor">
+        <!-- title -->
+        <xsl:call-template name="FX30-xx-anp"/>
+        <!-- attributes -->
+        <xsl:call-template name="FXXX-xx-l-wor"/>
+        <xsl:call-template name="FXXX-xx-m-wor"/>
+    </xsl:template> 
+    
+    <xsl:template match="marc:datafield[@tag = '240'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '240']"
+        mode="seWor augWor">
+        <!-- title -->
+        <xsl:call-template name="FX30-xx-anp"/>
+        <!-- attribute subfields -->
+        <xsl:call-template name="FX30-xx-d"/>
+        <xsl:call-template name="FXXX-xx-n"/>
+        <xsl:call-template name="FXXX-xx-r"/>
+    </xsl:template> 
+    
+    <xsl:template match="marc:datafield[@tag = '240'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '240']"
+        mode="exp">
+        <xsl:call-template name="F130F240-xx-f-exp"/>
+        <xsl:call-template name="F130F240-xx-l-exp"/>
+        <xsl:call-template name="F130F240-xx-m-exp"/>
+        <xsl:call-template name="F130F240-xx-o-exp"/>
+        <xsl:call-template name="F130F240-xx-r-exp"/>
+        <xsl:call-template name="F130F240-xx-s-exp"/>
+    </xsl:template> 
+    
+    <xsl:template match="marc:datafield[@tag = '245'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '245']" 
+        mode="wor augWor" >
+        <!--<xsl:call-template name="getmarc"/>-->
+        <!-- copy of 245 where last subfield's ending punctuation (, or .) is removed -->
+        <xsl:variable name="copy245">
+            <xsl:copy select=".">
+                <xsl:copy select="./@tag"/>
+                <xsl:for-each select="child::*">
+                    <xsl:if test="not(preceding-sibling::marc:subfield[@code='a'] and @code='a')">
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <marc:subfield>
+                                    <xsl:attribute name="code" select="./@code"/>
+                                    <xsl:value-of select="m2r:stripEndPunctuation(.)"/>
+                                </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:copy>
+        </xsl:variable>
+        <!-- variable to check whether record contains isbd punctuation -->
+        <xsl:variable name="isISBD">
+            <xsl:choose>
+                <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <!-- go through 245 subfields -->
+        <xsl:for-each select="$copy245/marc:datafield">
+        <xsl:choose>
+            <!-- if there is a subfield $a -->
+            <xsl:when test="marc:subfield[@code = 'a']">
+                <xsl:choose>
+                    <!-- check if it does not have n or p following -->
+                    <xsl:when test="marc:subfield[@code = 'a'][not(following-sibling::*)] or
+                        marc:subfield[@code = 'a']/not(following-sibling::marc:subfield[@code = 'n' or @code = 'p']) or 
+                        (marc:subfield[@code = 'a']/following-sibling::marc:subfield[1][not(@code = 'n' or @code = 'p')]
+                        and marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p'][preceding-sibling::marc:subfield[@code = 'b'][contains(text(), ' = ')]])">
+                        <xsl:for-each select="marc:subfield[@code='a']">
+                            <rdawd:P10088>
+                                <xsl:choose>
+                                    <xsl:when test="$isISBD = true()">
+                                        <xsl:value-of select="normalize-space(.) => replace('\s*[=:;/]$', '') => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="normalize-space(.) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </rdawd:P10088>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-- otherwise there are additional subfields that make up the title proper -->
+                        <xsl:variable name="title">
+                            <xsl:choose>
+                                <!-- remove ISBD punctuation if ISBD -->
+                                <xsl:when test="$isISBD = true()">
+                                    <xsl:value-of select="normalize-space(marc:subfield[@code = 'a']) => replace('\s*[=:;/]$', '') => m2r:removeBrackets()"/>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:for-each select="marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p' or @code = 's'][not(preceding-sibling::marc:subfield[contains(text(), ' = ') or ends-with(text(), ' =')])]">
+                                        <xsl:value-of select="normalize-space(.) => replace('\s*[=:;/]$', '') => m2r:removeBrackets()"/>
+                                        <xsl:if test="position() != last()">
+                                            <xsl:text> </xsl:text>
+                                        </xsl:if>                                    
+                                    </xsl:for-each>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="m2r:removeBrackets(marc:subfield[@code = 'a'])"/>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:for-each select="marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p' or @code = 's'][not(preceding-sibling::marc:subfield[contains(text(), ' = ') or ends-with(text(), ' =')])]">
+                                        <xsl:value-of select="m2r:removeBrackets(.)"/>
+                                        <xsl:if test="position() != last()">
+                                            <xsl:text> </xsl:text>
+                                        </xsl:if>
+                                    </xsl:for-each>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <rdawd:P10088>
+                            <xsl:value-of select="normalize-space($title) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                        </rdawd:P10088>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- no $a - use all subfields before $c -->
+                <xsl:variable name="title">
+                    <xsl:choose>
+                        <xsl:when test="marc:subfield[@code = 'c']">
+                            <xsl:value-of select="marc:subfield[@code = 'c']/preceding-sibling::*" separator=" "/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="marc:subfield" separator=" "/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <rdawd:P10088>
+                    <xsl:choose>
+                        <!-- remove ISBD punctuation if ISBD -->
+                        <xsl:when test="$isISBD = true()">
+                            <xsl:value-of select="normalize-space($title) => replace('\s*[=:;/]$', '') => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="normalize-space($title) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </rdawd:P10088>
+            </xsl:otherwise>
+        </xsl:choose>
         </xsl:for-each>
     </xsl:template>    
-    <xsl:template match="marc:datafield[@tag = '245'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '245']" mode="man">
-        <xsl:call-template name="getmarc"/>
-        <xsl:call-template name="F245-xx-anps"/>
-        <xsl:call-template name="F245-xx-a"/>
-        <xsl:call-template name="F245-xx-b"/>
-        <xsl:call-template name="F245-xx-c"/>
-        <xsl:call-template name="F245-xx-f-g"/>
-        <xsl:call-template name="F245-xx-h"/>
-        <xsl:call-template name="F245-xx-k"/>
+    
+    <xsl:template match="marc:datafield[@tag = '245'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '245']" 
+        mode="exp" >
+        <!--<xsl:call-template name="getmarc"/>-->
+        <!-- copy of 245 where last subfield's ending punctuation (, or .) is removed -->
+        <xsl:variable name="copy245">
+            <xsl:copy select=".">
+                <xsl:copy select="./@tag"/>
+                <xsl:for-each select="child::*">
+                    <xsl:if test="not(preceding-sibling::marc:subfield[@code='a'] and @code='a')">
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <marc:subfield>
+                                    <xsl:attribute name="code" select="./@code"/>
+                                    <xsl:value-of select="m2r:stripEndPunctuation(.)"/>
+                                </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:copy>
+        </xsl:variable>
+        <!-- variable to check whether record contains isbd punctuation -->
+        <xsl:variable name="isISBD">
+            <xsl:choose>
+                <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <!-- go through 245 subfields -->
+        <xsl:for-each select="$copy245/marc:datafield">
+            <xsl:choose>
+                <!-- if there is a subfield $a -->
+                <xsl:when test="marc:subfield[@code = 'a']">
+                    <xsl:choose>
+                        <!-- check if it does not have n or p following -->
+                        <xsl:when test="marc:subfield[@code = 'a'][not(following-sibling::*)] or
+                            marc:subfield[@code = 'a']/not(following-sibling::marc:subfield[@code = 'n' or @code = 'p']) or 
+                            (marc:subfield[@code = 'a']/following-sibling::marc:subfield[1][not(@code = 'n' or @code = 'p')]
+                            and marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p'][preceding-sibling::marc:subfield[@code = 'b'][contains(text(), ' = ')]])">
+                            <xsl:for-each select="marc:subfield[@code='a']">
+                                <rdaed:P20312>
+                                    <xsl:choose>
+                                        <xsl:when test="$isISBD = true()">
+                                            <xsl:value-of select="normalize-space(.) => replace('\s*[=:;/]$', '') => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="normalize-space(.) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </rdaed:P20312>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <!-- otherwise there are additional subfields that make up the title proper -->
+                            <xsl:variable name="title">
+                                <xsl:choose>
+                                    <!-- remove ISBD punctuation if ISBD -->
+                                    <xsl:when test="$isISBD = true()">
+                                        <xsl:value-of select="normalize-space(marc:subfield[@code = 'a']) => replace('\s*[=:;/]$', '') => m2r:removeBrackets()"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:for-each select="marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p' or @code = 's'][not(preceding-sibling::marc:subfield[contains(text(), ' = ') or ends-with(text(), ' =')])]">
+                                            <xsl:value-of select="normalize-space(.) => replace('\s*[=:;/]$', '') => m2r:removeBrackets()"/>
+                                            <xsl:if test="position() != last()">
+                                                <xsl:text> </xsl:text>
+                                            </xsl:if>                                    
+                                        </xsl:for-each>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="m2r:removeBrackets(marc:subfield[@code = 'a'])"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:for-each select="marc:subfield[@code = 'a']/following-sibling::marc:subfield[@code = 'n' or @code = 'p' or @code = 's'][not(preceding-sibling::marc:subfield[contains(text(), ' = ') or ends-with(text(), ' =')])]">
+                                            <xsl:value-of select="m2r:removeBrackets(.)"/>
+                                            <xsl:if test="position() != last()">
+                                                <xsl:text> </xsl:text>
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <rdaed:P20312>
+                                <xsl:value-of select="normalize-space($title) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                            </rdaed:P20312>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- no $a - use all subfields before $c -->
+                    <xsl:variable name="title">
+                        <xsl:choose>
+                            <xsl:when test="marc:subfield[@code = 'c']">
+                                <xsl:value-of select="marc:subfield[@code = 'c']/preceding-sibling::*" separator=" "/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="marc:subfield" separator=" "/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <rdaed:P20312>
+                        <xsl:choose>
+                            <!-- remove ISBD punctuation if ISBD -->
+                            <xsl:when test="$isISBD = true()">
+                                <xsl:value-of select="normalize-space($title) => replace('\s*[=:;/]$', '') => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="normalize-space($title) => replace('\[sic\]', '') => m2r:removeBrackets()"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </rdaed:P20312>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
     </xsl:template>
+    
+    <xsl:template match="marc:datafield[@tag = '245'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '245']" 
+        mode="man origMan">
+        <xsl:param name="type"/>
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:variable name="isISBD">
+            <xsl:choose>
+                <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <!-- copy of 245 where last subfield's ending punctuation (, or .) is removed -->
+        <xsl:variable name="copy245">
+            <xsl:copy select=".">
+                <xsl:copy select="./@tag"/>
+                <xsl:for-each select="child::*">
+                    <xsl:if test="not(preceding-sibling::marc:subfield[@code='a'] and @code='a')">
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <marc:subfield>
+                                    <xsl:attribute name="code" select="./@code"/>
+                                    <xsl:value-of select="m2r:stripEndPunctuation(.)"/>
+                                </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:copy>
+        </xsl:variable>
+        <xsl:for-each select="$copy245/marc:datafield">
+        <xsl:choose>
+            <xsl:when test="marc:subfield[@code = 'a']">
+                <xsl:call-template name="F245-xx-a">
+                    <xsl:with-param name="isISBD" select="$isISBD"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="F245-xx-notA">
+                    <xsl:with-param name="isISBD" select="$isISBD"/>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>
+        <xsl:choose>
+            <xsl:when
+                test="$isISBD = true()">
+                <xsl:if test="marc:subfield[@code = 'a']">
+                    <xsl:call-template name="F245-xx-b-ISBD"/>
+                </xsl:if>
+                <xsl:call-template name="F245-xx-c-ISBD"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:if test="marc:subfield[@code = 'a']">
+                    <xsl:call-template name="F245-xx-b-notISBD"/>
+                </xsl:if>
+                <xsl:call-template name="F245-xx-c-notISBD"/>
+            </xsl:otherwise>
+        </xsl:choose>
+        <xsl:call-template name="F245-xx-f-g"/>
+        <xsl:if test="$type != 'origMan'">
+            <xsl:call-template name="F245-xx-h"/>
+        </xsl:if>
+        <xsl:call-template name="F245-xx-k"/>
+        </xsl:for-each>
+    </xsl:template>
+
+    <!-- 246 - Varying Form of Title -->
+    <xsl:template match="marc:datafield[@tag = '246'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '246']"
+        mode="man" expand-text="yes">
+        <xsl:param name="baseID"/>
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:choose>
+            <xsl:when test="marc:subfield[@code = '5']">
+                <xsl:if test="@tag = '246' or (@tag = '880' and substring(marc:subfield[@code = '6'], 1, 6) = '246-00')">
+                    <rdamo:P30103 rdf:resource="{m2r:itemIRI($baseID, .)}"/>
+                </xsl:if>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <!--has variant title of manifestation-->       
+                    <xsl:when test="@ind2 = '0' or @ind2 = '1' or @ind2 = '2' or @ind2 = '4' or @ind2 = '5' or @ind2 = '6' or @ind2 = '7' or @ind2 = '8' or marc:subfield[@code = 'i'] or marc:subfield[@code = 'g'] or marc:subfield[@code = 'h']">
+                        <rdamd:P30137>
+                            <xsl:call-template name="F246-xx-ind"/>
+                        </rdamd:P30137>
+                    </xsl:when>
+                    <!--has note on manifestation-->       
+                    <xsl:otherwise>
+                        <rdamd:P30128>
+                            <xsl:call-template name="F246-xx-noind"/>
+                        </rdamd:P30128>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+       <!--text 880-->
+       <xsl:if test="marc:subfield[@code = '6'] and @tag = '246'">
+           <xsl:variable name="occNum" select="substring(marc:subfield[@code='6'], 6, 2)"/>
+           <xsl:for-each select="../marc:datafield[@tag='880'][substring(marc:subfield[@code='6'], 6, 2) = $occNum]">
+                <xsl:choose>                       
+                    <xsl:when test="@ind2 = ' '">
+                        <rdaid:P40086>
+                            <xsl:call-template name="F246-xx-noind"/>
+                        </rdaid:P40086>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <rdaid:P40028>
+                            <xsl:call-template name="F246-xx-ind"/>
+                        </rdaid:P40028>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="marc:datafield[@tag = '246'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 6) = '246-00']"
+        mode="ite" expand-text="yes">
+        <xsl:param name="baseID"/>
+        <xsl:param name="manIRI"/>
+        <xsl:variable name="genID" select="generate-id()"/>
+        <xsl:if test="marc:subfield[@code = '5']">
+            <rdf:Description rdf:about="{m2r:itemIRI($baseID, .)}">
+                <!--<xsl:call-template name="getmarc"/>-->
+                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
+                <rdaid:P40001>
+                    <xsl:value-of select="normalize-space(concat('ite#', $baseID, $genID))"/>
+                </rdaid:P40001>
+                <rdaio:P40049 rdf:resource="{$manIRI}"/>
+                <xsl:for-each select="marc:subfield[@code='5']">
+                    <xsl:copy-of select="m2r:s5Lookup(.)"/>
+                </xsl:for-each>
+                <xsl:choose>
+                    <!--has variant title of item-->
+                    <xsl:when test="@ind2 = '0' or @ind2 = '1' or @ind2 = '2' or @ind2 = '4' or @ind2 = '5' or @ind2 = '6' or @ind2 = '7' or @ind2 = '8' or marc:subfield[@code = 'i'] or marc:subfield[@code = 'g'] or marc:subfield[@code = 'h']">
+                        <rdaid:P40028>
+                            <xsl:call-template name="F246-xx-ind"/>
+                        </rdaid:P40028>
+                    </xsl:when>
+                    <!--has note on item-->
+                    <xsl:otherwise>
+                        <rdaid:P40086>
+                            <xsl:call-template name="F246-xx-noind"/>
+                        </rdaid:P40086>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <!--test 880-->
+                <xsl:if test="marc:subfield[@code = '6'] and @tag = '246'">
+                    <xsl:variable name="occNum" select="substring(marc:subfield[@code='6'], 6, 2)"/>
+                    <xsl:for-each select="../marc:datafield[@tag='880'][substring(marc:subfield[@code='6'], 6, 2) = $occNum]">           
+                        <xsl:choose>                       
+                            <xsl:when test="@ind2 = ' '">
+                                <rdaid:P40086>
+                                    <xsl:call-template name="F246-xx-noind"/>
+                                </rdaid:P40086>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <rdaid:P40028>
+                                    <xsl:call-template name="F246-xx-ind"/>
+                                </rdaid:P40028>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:if>
+            </rdf:Description>
+        </xsl:if>
+    </xsl:template>
+    
+    <!-- 250 - Edition statement -->
+    <xsl:template match="marc:datafield[@tag = '250'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '250']" 
+        mode="man origMan" expand-text="yes">
+        <xsl:param name="type"/>
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:if test="$type != 'reproduction'">
+            <xsl:variable name="isISBD">
+                <xsl:choose>
+                    <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                        <xsl:value-of select="true()"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="false()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+            <rdamd:P30107>
+                <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']"/>
+            </rdamd:P30107>
+            <xsl:if test="marc:subfield[@code = '3']">
+                <rdamd:P30137>
+                    <xsl:text>Has edition statement </xsl:text>
+                    <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']"/>
+                    <xsl:text> applies to: {marc:subfield[@code = '3']}</xsl:text>
+                </rdamd:P30137>
+            </xsl:if>
+            <xsl:if test="$isISBD = true()">
+                <xsl:variable name="isbdString">
+                    <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']" separator=" "/>
+                </xsl:variable>
+                <!-- separate out parallel statements -->
+                <xsl:for-each select="tokenize($isbdString, ' = ')">
+                    <!-- only process nonempty strings -->
+                    <xsl:if test="exists(.)">
+                        <xsl:choose>
+                            <!-- separate out statement of responsibility -->
+                            <xsl:when test="contains(., ' / ')">
+                                <xsl:for-each select="tokenize(., ' / ')">
+                                    <xsl:choose>
+                                        <!-- first string is always designation of edition -->
+                                        <xsl:when test="position() = 1">
+                                            <rdamd:P30133>
+                                                <xsl:value-of select="."/>
+                                            </rdamd:P30133>
+                                        </xsl:when>
+                                        <!-- following strings are statements of responsibility -->
+                                        <xsl:otherwise>
+                                            <rdamd:P30121>
+                                                <xsl:value-of select="."/>
+                                            </rdamd:P30121>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </xsl:when>
+                            <!-- no statement of responsibility -->
+                            <xsl:otherwise>
+                                <rdamd:P30133>
+                                    <xsl:value-of select="."/>
+                                </rdamd:P30133>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
+    
+    <!-- 255 - Cartographic Mathematical Data -->
+    <!-- Work -->
+    <xsl:template match="marc:datafield[@tag = '255'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '255']"
+        mode="wor" expand-text="yes">
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:if test="marc:subfield[@code = 'c']">
+            <xsl:for-each select="marc:subfield[@code = 'c']">
+                <rdawd:P10081>
+                    <xsl:value-of 
+                        select="normalize-space(.) => replace('^\(|\)$|\).$|\.$', '') => normalize-space()"
+                    />
+                </rdawd:P10081>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="marc:subfield[@code = 'd']">
+            <xsl:for-each select="marc:subfield[@code='d']">
+                <rdawd:P10082>
+                    <xsl:value-of select="replace(., '^\(+', '')           
+                        => replace('\)\.\s*$', '')          
+                        => replace('\)+$', '')
+                        => replace('[.;]+$', '')
+                        => normalize-space()
+                        "/>
+                </rdawd:P10082>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="marc:subfield[@code = 'e']">
+            <xsl:for-each select="marc:subfield[@code='e']">
+                <rdawd:P10214>
+                    <xsl:value-of select="replace(., '^\(+', '')           
+                        => replace('\)\.\s*$', '')          
+                        => replace('\)+$', '')
+                        => replace('[.;]+$', '')
+                        => normalize-space()
+                        "/>
+                </rdawd:P10214>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="marc:subfield[@code = 'f']">
+            <xsl:for-each select="marc:subfield[@code='f']">
+                <rdawd:P10024>
+                    <xsl:value-of select="concat('Outer G-ring coordinate pairs: ', .)"/>
+                </rdawd:P10024>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="marc:subfield[@code = 'g']">
+            <xsl:for-each select="marc:subfield[@code='g']">
+                <rdawd:P10024>
+                    <xsl:value-of select="concat('Exclusion G-ring coordinate pairs: ', .)"/>
+                </rdawd:P10024>
+            </xsl:for-each>
+        </xsl:if>   
+    </xsl:template>
+    <!-- Aggregating work -->
+    <xsl:template match="marc:datafield[@tag = '255'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '255']"
+        mode="aggWor" expand-text="yes">
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:for-each select="marc:subfield[@code='a']">
+            <!-- Remove trailing punctuation from subfield a -->
+            <xsl:variable name="cleanA" select="normalize-space(replace(., '(\p{P})+$', ''))"/>
+            <xsl:if test="matches($cleanA, '[0-9]')">
+                <rdawd:P10356>
+                    <xsl:value-of select="$cleanA"/>
+                </rdawd:P10356>
+            </xsl:if>
+            <xsl:if test="not(matches($cleanA, '[0-9]'))">
+                <rdawd:P10330>
+                    <xsl:text>Scale designation: </xsl:text>
+                    <xsl:value-of select="$cleanA"/>
+                </rdawd:P10330>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:if test="marc:subfield[@code = 'b']">
+            <xsl:for-each select="marc:subfield[@code='b']">
+                <rdawd:P10355>
+                    <xsl:value-of select="."/>
+                </rdawd:P10355>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+    <!-- Expression -->
+    <xsl:template match="marc:datafield[@tag = '255'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '255']"
+        mode="exp" expand-text="yes">
+        <!--<xsl:call-template name="getmarc"/>-->
+        <!-- Remove trailing punctuation from subfield a -->
+        <xsl:for-each select="marc:subfield[@code='a']">
+            <xsl:variable name="cleanA" select="normalize-space(replace(., '(\p{P})+$', ''))"/>
+            <xsl:if test="matches($cleanA, '[0-9]')">
+                <rdaed:P20228>
+                    <xsl:value-of select="$cleanA"/>
+                </rdaed:P20228>
+            </xsl:if>
+            <xsl:if test="not(matches($cleanA, '[0-9]'))">
+                <rdaed:P20291>
+                    <xsl:value-of select="$cleanA"/>
+                </rdaed:P20291>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:if test="marc:subfield[@code = 'b']">
+            <xsl:for-each select="marc:subfield[@code='b']">
+                <rdaed:P20216>
+                    <xsl:value-of select="."/>
+                </rdaed:P20216>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+ 
+    <!-- 257 - Country of Producing Entity -->
+    <xsl:template match="marc:datafield[@tag='257'] | marc:datafield[@tag='880'][substring(marc:subfield[@code='6'], 1, 3) = '257']"
+        mode="wor" expand-text="yes">
+        <xsl:param name="baseID"/>
+        <xsl:variable name="sub2" select="marc:subfield[@code = '2'][1]"/>
+        <xsl:for-each select="marc:subfield[@code = 'a']">
+        <!-- $2 source -->        
+            <xsl:variable name="suba" select="."/>
+            <xsl:choose>
+                <!-- split on ; or , with optional whitespace -->
+                <xsl:when test="matches(., '\S+.*[;,].*\S+')">
+                    <xsl:for-each select="tokenize(., '\s*[;,]\s*')">
+                        <xsl:choose>
+                            <xsl:when test="$sub2">
+                                <!-- this is okay because it is only minted when there is a source, else there would be a problem with multiple IRIs coming from the same node -->
+                                <rdawo:P10316 rdf:resource="{m2r:placeIRI($baseID, $suba, ., $sub2)}"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <rdawd:P10316>
+                                    <xsl:value-of select="replace(., '\.$|;$', '') => normalize-space()"/>
+                                </rdawd:P10316>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="$sub2">
+                            <rdawo:P10316 rdf:resource="{m2r:placeIRI($baseID, ., ., $sub2)}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <rdawd:P10316>
+                                <xsl:value-of select="replace(., '\.$|;$', '') => normalize-space()"/>
+                            </rdawd:P10316>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code='0']">
+            <xsl:choose>
+                <xsl:when test="contains(., 'id.loc.gov/vocabulary/geographicAreas')">
+                    <rdawo:P10316 rdf:resource="{normalize-space(.)}"/>
+                </xsl:when>
+                <xsl:when test="contains(., 'id.loc.gov/authorities/names/')">
+                    <xsl:variable name="gacSeq"
+                        select="tokenize(normalize-space(m2r:lcNamesToGeographicAreas(.)), '[\s,;]+')"/>
+                    <xsl:choose>
+                        <xsl:when test="exists($gacSeq[normalize-space()])">
+                            <xsl:for-each select="distinct-values($gacSeq[normalize-space()])">
+                                <xsl:variable name="code" select="replace(., '-+$', '')"/>
+                                <xsl:if test="matches($code, '^[a-z]-[a-z0-9-]+$')">
+                                    <rdawo:P10316 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', $code)}"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:comment>Geographic Area Code could not be retrieved from {.}</xsl:comment>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:comment>Unable to parse 257 $0 value of {.}</xsl:comment>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code='1']">
+            <xsl:choose>
+                <xsl:when test="contains(., 'id.loc.gov/vocabulary/geographicAreas')">
+                    <rdawo:P10316 rdf:resource="{normalize-space(.)}"/>
+                </xsl:when>
+                <xsl:when test="contains(., 'id.loc.gov/authorities/names/')">
+                    <xsl:variable name="gacSeq"
+                        select="tokenize(normalize-space(m2r:lcNamesToGeographicAreas(.)), '[\s,;]+')"/>
+                    <xsl:choose>
+                        <xsl:when test="exists($gacSeq[normalize-space()])">
+                            <xsl:for-each select="distinct-values($gacSeq[normalize-space()])">
+                                <xsl:variable name="code" select="replace(., '-+$', '')"/>
+                                <xsl:if test="matches($code, '^[a-z]-[a-z0-9-]+$')">
+                                    <rdawo:P10316 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', $code)}"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:comment>Geographic Area Code could not be retrieved from {.}</xsl:comment>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="contains(., 'id.loc.gov/rwo/')">
+                    <xsl:variable name="id">
+                        <xsl:variable name="tokenizedIRI" select="tokenize(., '/')"/>
+                        <xsl:value-of select="$tokenizedIRI[last()]"/>
+                    </xsl:variable>
+                    <xsl:variable name="authorityFile" select="concat('http://id.loc.gov/authorities/names/', $id)"/>
+                    <xsl:variable name="gacSeq"
+                        select="tokenize(normalize-space(m2r:lcNamesToGeographicAreas($authorityFile)), '[\s,;]+')"/>
+                    <xsl:choose>
+                        <xsl:when test="exists($gacSeq[normalize-space()])">
+                            <xsl:for-each select="distinct-values($gacSeq[normalize-space()])">
+                                <xsl:variable name="code" select="replace(., '-+$', '')"/>
+                                <xsl:if test="matches($code, '^[a-z]-[a-z0-9-]+$')">
+                                    <rdawo:P10316 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', $code)}"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:comment>Geographic Area Code could not be retrieved from {$authorityFile}</xsl:comment>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <rdawo:P10316 rdf:resource="{normalize-space(.)}"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="marc:datafield[@tag='257'] | marc:datafield[@tag='880'][substring(marc:subfield[@code='6'], 1, 3) = '257']"
+        mode="pla" expand-text="yes">
+        <xsl:param name="baseID"/>
+        <xsl:if test="marc:subfield[@code='2']">
+            <xsl:variable name="sub2" select="marc:subfield[@code='2'][1]"/>
+            <xsl:for-each select="marc:subfield[@code='a']">
+                <xsl:variable name="suba" select="."/>
+                <xsl:choose>
+                    <xsl:when test="matches(., '\S+.*[;,].*\S+')">
+                        <xsl:for-each select="tokenize(., '\s*[;,]\s*')">
+                            <rdf:Description rdf:about="{m2r:placeIRI($baseID, $suba, ., $sub2)}">
+                                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10009"/>
+                                <rdapo:P70019 rdf:resource="{m2r:nomenIRI($baseID, $suba, ., $sub2, 'place')}"/>
+                            </rdf:Description>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <rdf:Description rdf:about="{m2r:placeIRI($baseID, ., ., $sub2)}">
+                            <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10009"/>
+                            <rdapo:P70019 rdf:resource="{m2r:nomenIRI($baseID, ., ., $sub2, 'place')}"/>
+                        </rdf:Description>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="marc:datafield[@tag='257'] | marc:datafield[@tag='880'][substring(marc:subfield[@code='6'], 1, 3) = '257']"
+        mode="nom" expand-text="yes">
+        <xsl:param name="baseID"/>
+        <xsl:if test="marc:subfield[@code='2']">
+            <xsl:variable name="sub2" select="marc:subfield[@code='2'][1]"/>
+            <xsl:for-each select="marc:subfield[@code='a']">
+                <xsl:variable name="suba" select="."/>
+                <xsl:choose>
+                    <xsl:when test="matches(., '\S+.*[;,].*\S+')">
+                        <xsl:for-each select="tokenize(., '\s*[;,]\s*')">
+                            <rdf:Description rdf:about="{m2r:nomenIRI($baseID, $suba, ., $sub2, 'place')}">
+                                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+                                <rdand:P80068>
+                                    <xsl:value-of select="replace(., '\.$|;$', '') => normalize-space()"/>
+                                </rdand:P80068>
+                                <xsl:copy-of select="m2r:s2Nomen($sub2)"/>
+                            </rdf:Description>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <rdf:Description rdf:about="{m2r:nomenIRI($baseID, ., ., $sub2, 'place')}">
+                            <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+                            <rdand:P80068>
+                                <xsl:value-of select="replace(., '\.$|;$', '') => normalize-space()"/>
+                            </rdand:P80068>
+                            <xsl:copy-of select="m2r:s2Nomen($sub2)"/>
+                        </rdf:Description>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+    <!-- $2 source (e.g., naf) -->
+    
+    <!-- 260 - Publication, Distribution, etc. (Imprint) -->
+    <xsl:template match="marc:datafield[@tag = '260'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '260']"
+        mode="man" expand-text="yes">
+        <xsl:param name="type"/>
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:variable name="isISBD">
+            <xsl:choose>
+                <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="$isISBD = true()">
+                <xsl:choose>
+                    <xsl:when test="not(matches(marc:subfield[@code = 'b'][1], '(dist)|(sold)|(marketed)|(sale by)|(exported)|(imported)|(offered)|(supplied)|(obtained)|(circulated)|(available)|(leased)|(offered)'))">
+                        <rdamd:P30111>
+                            <xsl:call-template name="F260-xx-abc"/>
+                        </rdamd:P30111>
+                        <xsl:if test="marc:subfield[@code = '3']">
+                            <rdamd:P30137>
+                                <xsl:text>Publication statement </xsl:text>
+                                <xsl:call-template name="F260-xx-abc"/>
+                                <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                            </rdamd:P30137>
+                        </xsl:if>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <rdamd:P30108>
+                            <xsl:call-template name="F260-xx-abc"/>
+                        </rdamd:P30108>
+                        <xsl:if test="marc:subfield[@code = '3']">
+                            <rdamd:P30137>
+                                <xsl:text>Distribution statement </xsl:text>
+                                <xsl:call-template name="F260-xx-abc"/>
+                                <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                            </rdamd:P30137>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="marc:subfield[@code = 'e'] | marc:subfield[@code = 'f'] | marc:subfield[@code = 'g']">
+                    <rdamd:P30109>
+                        <xsl:call-template name="F260-xx-efg"/>
+                    </rdamd:P30109>
+                    <xsl:if test="marc:subfield[@code = '3']">
+                        <rdamd:P30137>
+                            <xsl:text>Manufacture statement </xsl:text>
+                            <xsl:call-template name="F260-xx-abc"/>
+                            <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                        </rdamd:P30137>
+                    </xsl:if>
+                </xsl:if>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="not(matches(marc:subfield[@code = 'b'][1], '(dist)|(sold)|(marketed)|(sale by)|(exported)|(imported)|(offered)|(supplied)|(obtained)|(circulated)|(available)|(leased)|(offered)'))">
+                        <rdamd:P30111>
+                            <xsl:call-template name="F260-xx-abc-notISBD"/>
+                        </rdamd:P30111>
+                        <xsl:if test="marc:subfield[@code = '3']">
+                            <rdamd:P30137>
+                                <xsl:text>Publication statement </xsl:text>
+                                <xsl:call-template name="F260-xx-abc"/>
+                                <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                            </rdamd:P30137>
+                        </xsl:if>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <rdamd:P30108>
+                            <xsl:call-template name="F260-xx-abc-notISBD"/>
+                        </rdamd:P30108>
+                        <xsl:if test="marc:subfield[@code = '3']">
+                            <rdamd:P30137>
+                                <xsl:text>Distribution statement </xsl:text>
+                                <xsl:call-template name="F260-xx-abc"/>
+                                <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                            </rdamd:P30137>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="marc:subfield[@code = 'e'] | marc:subfield[@code = 'f'] | marc:subfield[@code = 'g']">
+                    <rdamd:P30109>
+                        <xsl:call-template name="F260-xx-efg-notISBD"/>
+                    </rdamd:P30109>
+                    <xsl:if test="marc:subfield[@code = '3']">
+                        <rdamd:P30137>
+                            <xsl:text>Manufacture statement </xsl:text>
+                            <xsl:call-template name="F260-xx-abc"/>
+                            <xsl:text> applies to {marc:subfield[@code = '3']}</xsl:text>
+                        </rdamd:P30137>
+                    </xsl:if>
+                </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+        <xsl:for-each select="marc:subfield[@code = 'a']">
+            <xsl:call-template name="F260-xx-a"/>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'b']">
+            <xsl:call-template name="F260-xx-b"/>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'c']">
+            <xsl:call-template name="F260-xx-c"/>
+        </xsl:for-each>
+        
+        <xsl:for-each select="marc:subfield[@code = 'd']">
+            <rdamd:P30066>
+                <xsl:value-of select="."/>
+            </rdamd:P30066>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'e']">
+            <xsl:call-template name="F260-xx-e"/>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'f']">
+            <xsl:call-template name="F260-xx-f"/>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'g']">
+            <xsl:call-template name="F260-xx-g"/>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <!-- 263 - Projected Publication Date -->
+    <xsl:template match="marc:datafield[@tag = '263'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '263']"
+        mode="man" expand-text="yes">
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:for-each select="marc:subfield[@code='a']">
+            <rdamd:P30137>
+                <xsl:value-of select="concat('Projected date of publication: ', .)"/>
+            </rdamd:P30137>
+        </xsl:for-each>
+    </xsl:template>
+    
     <!-- template immediately below, MARC 264:
          all values cocatenated go into RDA "statements";
          if there's isbd punctuation, subfield are not output;
@@ -42,86 +970,79 @@
              considered insignificant to the RDA statements as output below.
          After statements are output, templates are called to process individual fields.
     -->
-    <xsl:template match="marc:datafield[@tag = '264'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '264']" mode="man">
-        <xsl:call-template name="getmarc"/>
-        <xsl:choose>
-            <xsl:when
-                test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
-                <xsl:choose>
-                    <xsl:when test="@ind2 = '0'">
-                        <rdamd:P30110>
-                            <xsl:call-template name="F264-xx-abc"/>
-                        </rdamd:P30110>
-                        <xsl:call-template name="F264-x0-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '1'">
-                        <rdamd:P30111>
-                            <xsl:call-template name="F264-xx-abc"/>
-                        </rdamd:P30111>
-                        <xsl:call-template name="F264-x1-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '2'">
-                        <rdamd:P30108>
-                            <xsl:call-template name="F264-xx-abc"/>
-                        </rdamd:P30108>
-                        <xsl:call-template name="F264-x2-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '3'">
-                        <rdamd:P30109>
-                            <xsl:call-template name="F264-xx-abc"/>
-                        </rdamd:P30109>
-                        <xsl:call-template name="F264-x3-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '4'">
-                        <xsl:for-each select="marc:subfield[@code = 'c']">
-                            <rdamd:P30280>
-                                <xsl:value-of select="."/>
-                            </rdamd:P30280>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <ex:ERROR>F264 IND2 ERROR</ex:ERROR>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:choose>
-                    <xsl:when test="@ind2 = '0'">
-                        <rdamd:P30110>
-                            <xsl:call-template name="F264-xx-abc-notISBD"/>
-                        </rdamd:P30110>
-                        <xsl:call-template name="F264-x0-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '1'">
-                        <rdamd:P30111>
-                            <xsl:call-template name="F264-xx-abc-notISBD"/>
-                        </rdamd:P30111>
-                        <xsl:call-template name="F264-x1-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '2'">
-                        <rdamd:P30108>
-                            <xsl:call-template name="F264-xx-abc-notISBD"/>
-                        </rdamd:P30108>
-                        <xsl:call-template name="F264-x2-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '3'">
-                        <rdamd:P30109>
-                            <xsl:call-template name="F264-xx-abc-notISBD"/>
-                        </rdamd:P30109>
-                        <xsl:call-template name="F264-x3-a_b_c"/>
-                    </xsl:when>
-                    <xsl:when test="@ind2 = '4'">
-                        <xsl:for-each select="marc:subfield[@code = 'c']">
-                            <rdamd:P30280>
-                                <xsl:value-of select="."/>
-                            </rdamd:P30280>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <ex:ERROR>F264 IND2 ERROR</ex:ERROR>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:otherwise>
-        </xsl:choose>
+    <xsl:template match="marc:datafield[@tag = '264'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '264']" mode="man origMan">
+        <xsl:param name="type"/>
+        <!--<xsl:call-template name="getmarc"/>-->
+        <xsl:if test="not(contains($type, 'reproduction'))">
+            <xsl:choose>
+                <!-- check if ISBD punctuation -->
+                <xsl:when
+                    test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                    <xsl:choose>
+                        <xsl:when test="@ind2 = '0'">
+                            <rdamd:P30110>
+                                <xsl:call-template name="F264-xx-abc"/>
+                            </rdamd:P30110>
+                            <xsl:call-template name="F264-x0-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '1'">
+                            <rdamd:P30111>
+                                <xsl:call-template name="F264-xx-abc"/>
+                            </rdamd:P30111>
+                            <xsl:call-template name="F264-x1-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '2'">
+                            <rdamd:P30108>
+                                <xsl:call-template name="F264-xx-abc"/>
+                            </rdamd:P30108>
+                            <xsl:call-template name="F264-x2-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '3'">
+                            <rdamd:P30109>
+                                <xsl:call-template name="F264-xx-abc"/>
+                            </rdamd:P30109>
+                            <xsl:call-template name="F264-x3-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '4'">
+                            <xsl:call-template name="F264-x4-c"/>
+                        </xsl:when>
+                        <xsl:otherwise/>
+                    </xsl:choose>
+                </xsl:when>
+                <!-- no ISBD punctuation -->
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="@ind2 = '0'">
+                            <rdamd:P30110>
+                                <xsl:call-template name="F264-xx-abc-notISBD"/>
+                            </rdamd:P30110>
+                            <xsl:call-template name="F264-x0-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '1'">
+                            <rdamd:P30111>
+                                <xsl:call-template name="F264-xx-abc-notISBD"/>
+                            </rdamd:P30111>
+                            <xsl:call-template name="F264-x1-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '2'">
+                            <rdamd:P30108>
+                                <xsl:call-template name="F264-xx-abc-notISBD"/>
+                            </rdamd:P30108>
+                            <xsl:call-template name="F264-x2-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '3'">
+                            <rdamd:P30109>
+                                <xsl:call-template name="F264-xx-abc-notISBD"/>
+                            </rdamd:P30109>
+                            <xsl:call-template name="F264-x3-a_b_c"/>
+                        </xsl:when>
+                        <xsl:when test="@ind2 = '4'">
+                            <xsl:call-template name="F264-x4-c"/>
+                        </xsl:when>
+                        <xsl:otherwise/>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

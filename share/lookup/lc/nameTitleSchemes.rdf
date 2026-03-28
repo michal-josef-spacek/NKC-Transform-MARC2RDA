@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes">
+      <rdfs:label xml:lang="en">Name and Title Authority Source Codes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/abne">
+            <madsrdf:authoritativeLabel>Autoridades de la Biblioteca Nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>abne</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/anb">
+            <madsrdf:authoritativeLabel>Australian national bibliographic database</madsrdf:authoritativeLabel>
+            <madsrdf:code>anb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/banqa">
+            <madsrdf:authoritativeLabel>Fichier d'autorité local de Bibliothéque et Archives nationales du Québec</madsrdf:authoritativeLabel>
+            <madsrdf:code>banqa</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/bibalex">
+            <madsrdf:authoritativeLabel>Bibliotheca Alexandrina name and subject authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>bibalex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/bibbi">
+            <madsrdf:authoritativeLabel>BIBBI autoriteer</madsrdf:authoritativeLabel>
+            <madsrdf:code>bibbi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/bnfnaf">
+            <madsrdf:authoritativeLabel>Fichier d’autorité personnes, collectivités et titres uniformes de la Bibliothéque nationale de France</madsrdf:authoritativeLabel>
+            <madsrdf:code>bnfnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/cantic">
+            <madsrdf:authoritativeLabel>CANTIC (Catàleg d'autoritats de noms i títols de Catalunya)</madsrdf:authoritativeLabel>
+            <madsrdf:code>cantic</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/ccucaut">
+            <madsrdf:authoritativeLabel>Catàleg Collectiu de les Universitats de Catalunya: CCUC authorities</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccucaut</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/cerlt">
+            <madsrdf:authoritativeLabel>CERL thesaurus</madsrdf:authoritativeLabel>
+            <madsrdf:code>cerlt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/ckhw">
+            <madsrdf:authoritativeLabel>NUKAT Union Authority File</madsrdf:authoritativeLabel>
+            <madsrdf:code>ckhw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/conorsi">
+            <madsrdf:authoritativeLabel>CONOR.SI [name authority file]</madsrdf:authoritativeLabel>
+            <madsrdf:code>conorsi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/conorsr">
+            <madsrdf:authoritativeLabel>CONOR.SR authority files of personal and corporate names</madsrdf:authoritativeLabel>
+            <madsrdf:code>conorsr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/dib">
+            <madsrdf:authoritativeLabel>Dictionary of Irish biography (DIB)</madsrdf:authoritativeLabel>
+            <madsrdf:code>dib</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/fautor">
+            <madsrdf:authoritativeLabel>Fautor</madsrdf:authoritativeLabel>
+            <madsrdf:code>fautor</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/finaf">
+            <madsrdf:authoritativeLabel>Finnish name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>finaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/gkd">
+            <madsrdf:authoritativeLabel>Gemeinsame Körperschaftsdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gkd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/gnd">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/hapi">
+            <madsrdf:authoritativeLabel>HAPI thesaurus and name authority, 1970-2000</madsrdf:authoritativeLabel>
+            <madsrdf:code>hapi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/hkcan">
+            <madsrdf:authoritativeLabel>Hong Kong Chinese authority file (name)</madsrdf:authoritativeLabel>
+            <madsrdf:code>hkcan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/iconauth">
+            <madsrdf:authoritativeLabel>Iconography authority</madsrdf:authoritativeLabel>
+            <madsrdf:code>iconauth</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/idref">
+            <madsrdf:authoritativeLabel>IdRef: identifiants et référentiels</madsrdf:authoritativeLabel>
+            <madsrdf:code>idref</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/lacnaf">
+            <madsrdf:authoritativeLabel>Library and Archives Canada name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>lacnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/mitos">
+            <madsrdf:authoritativeLabel>Authority file of the Hellenic (Greek) Academic Libraries Cataloguing Consortium (ILSaS-Mitos)</madsrdf:authoritativeLabel>
+            <madsrdf:code>mitos</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/naf">
+            <madsrdf:authoritativeLabel>NACO authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>naf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/nalnaf">
+            <madsrdf:authoritativeLabel>National Agricultural Library name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nalnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/nliaf">
+            <madsrdf:authoritativeLabel>National Library of Israel authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nliaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/nlmnaf">
+            <madsrdf:authoritativeLabel>National Library of Medicine name authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlmnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/nta">
+            <madsrdf:authoritativeLabel>Nederlandse Thesaurus van Auteursnamen</madsrdf:authoritativeLabel>
+            <madsrdf:code>nta</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/ntc">
+            <madsrdf:authoritativeLabel>Nederlandse Thesaurus voor Corporaties</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/ntd">
+            <madsrdf:authoritativeLabel>Nederlandse Thesaurus voor Drukkers</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/nznb">
+            <madsrdf:authoritativeLabel>New Zealand national bibliography</madsrdf:authoritativeLabel>
+            <madsrdf:code>nznb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/sanb">
+            <madsrdf:authoritativeLabel>South African national bibliography authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>sanb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/snac">
+            <madsrdf:authoritativeLabel>Social Networks and Archival Context</madsrdf:authoritativeLabel>
+            <madsrdf:code>snac</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/sucnsaf">
+            <madsrdf:authoritativeLabel>Saudi Unified Catalog name and subject authority file</madsrdf:authoritativeLabel>
+            <madsrdf:code>sucnsaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/teka">
+            <madsrdf:authoritativeLabel>Kansalliset teos- ja ekspressiotiedot</madsrdf:authoritativeLabel>
+            <madsrdf:code>teka</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/twnaf">
+            <madsrdf:authoritativeLabel>Taiwan name authority</madsrdf:authoritativeLabel>
+            <madsrdf:code>twnaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/ulan">
+            <madsrdf:authoritativeLabel>Union list of artist names</madsrdf:authoritativeLabel>
+            <madsrdf:code>ulan</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/nameTitleSchemes/unbisn">
+            <madsrdf:authoritativeLabel>UNBIS name authority list</madsrdf:authoritativeLabel>
+            <madsrdf:code>unbisn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/nameTitleSchemes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

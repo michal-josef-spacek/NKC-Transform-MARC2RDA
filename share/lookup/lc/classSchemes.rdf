@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/classSchemes">
+      <rdfs:label xml:lang="en">Classification Schemes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">Classification Schemes contains a list of classification schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate classification numbers with the appropriate classification scheme. An individual URI has been assigned for each edition of Dewey.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/accs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Annehurst curriculum classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>accs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/acmccs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>ACM computing classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>acmccs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/agift">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Australian Governments’ interactive functions thesaurus (AGIFT)</madsrdf:authoritativeLabel>
+            <madsrdf:code>agift</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/agricola">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>AGRICOLA subject category codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>agricola</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/agrissc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>AGRIS: subject categories</madsrdf:authoritativeLabel>
+            <madsrdf:code>agrissc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/anscr">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>The Alpha-numeric system for classification of recordings</madsrdf:authoritativeLabel>
+            <madsrdf:code>anscr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ardocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Arkansas state documents classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>ardocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/asb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Allgemeine Systematik für öffentliche Bibliotheken (ASB)</madsrdf:authoritativeLabel>
+            <madsrdf:code>asb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/azdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Arizona documents: KWOC manual</madsrdf:authoritativeLabel>
+            <madsrdf:code>azdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bar">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Barnard, Cyril C. A classification for medical and veterinary libraries</madsrdf:authoritativeLabel>
+            <madsrdf:code>bar</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bcl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Nederlandse Basisclassificatie = Dutch basic classification codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>bcl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bcmc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Coates, E.J. The British catalogue of music classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>bcmc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bisacsh">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>BISAC subject headings</madsrdf:authoritativeLabel>
+            <madsrdf:code>bisacsh</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bizga">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Bibliographie zur Geschichte der Deutschen Arbeiterbewegung</madsrdf:authoritativeLabel>
+            <madsrdf:code>bizga</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bkl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Basisklassification</madsrdf:authoritativeLabel>
+            <madsrdf:code>bkl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bliss">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>BLISS bibliographic classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>bliss</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/blissc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>British Library Inside service subject classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>blissc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/blsrissc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>British Library - Science reference information service subject classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>blsrissc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bsbddc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassification für die Sacherschließung (BSB-DDC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>bsbddc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/bwlb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Landesbibliographie Baden-Württemberg</madsrdf:authoritativeLabel>
+            <madsrdf:code>bwlb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cacodoc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>CODOC [Canadian federal and provincial government documents classification scheme]</madsrdf:authoritativeLabel>
+            <madsrdf:code>cacodoc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cadocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>California state agency classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>cadocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ccd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Xue ke fen lei yu dai ma = GB/T 13745-2009 Classification and code of disciplines</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ccpgq">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Cadre de classement des publications gouvernementales du Québec</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccpgq</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ccolon">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Colon classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>ccolon</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cddir">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classifiação decimal de direito (CDDIR)</madsrdf:authoritativeLabel>
+            <madsrdf:code>cddir</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/celex">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>CELEX document number</madsrdf:authoritativeLabel>
+            <madsrdf:code>celex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/chfbn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification de l'histoire de France</madsrdf:authoritativeLabel>
+            <madsrdf:code>chfbn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cidades">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Cidades@</madsrdf:authoritativeLabel>
+            <madsrdf:code>cidades</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cjurrom">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification juridique romande</madsrdf:authoritativeLabel>
+            <madsrdf:code>cjurrom</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/clc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Zhongguo tu shu guan fen lei fa = Chinese library classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>clc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/clutscny">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification of the library of Union Theological Seminary in the City of New York</madsrdf:authoritativeLabel>
+            <madsrdf:code>clutscny</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cmedlit">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification for medical literature by Eileen R. Cunningham</madsrdf:authoritativeLabel>
+            <madsrdf:code>cmedlit</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/codocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Colorado State Publications Depository and Distribution Center. Classification schedule</madsrdf:authoritativeLabel>
+            <madsrdf:code>codocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cscjb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>A Classification scheme for Chinese and Japanese books</madsrdf:authoritativeLabel>
+            <madsrdf:code>cscjb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cslj">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Elazar, David H. &amp; Elazar, Daniel J. A classification system for libraries of Judaica</madsrdf:authoritativeLabel>
+            <madsrdf:code>cslj</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cstud">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classificatieschema's Bibliotheek TU Delft</madsrdf:authoritativeLabel>
+            <madsrdf:code>cstud</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/cutterec">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Cutter, Charles Ammi. Expansive classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>cutterec</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc1">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 01</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc1</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc2">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 02</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc2</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc3">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 03</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc3</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc4">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 04</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc4</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc5">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 05</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc5</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc6">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 06</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc6</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc7">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 07</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc7</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc8">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 08</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc8</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc9">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 09</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc9</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc10">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 010</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc10</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc11">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 011</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc11</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc12">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 012</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc12</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc13">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 013</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc13</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc14">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 014</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc14</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc15">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 015</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc15</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc16">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 016</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc16</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc17">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 017</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc17</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc18">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 018</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc18</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc19">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 019</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc19</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc20">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 020</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc20</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc21">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 021</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc21</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc22">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 022</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc22</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ddc23">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Dewey decimal classification and relative index Edition 023</madsrdf:authoritativeLabel>
+            <madsrdf:code>ddc23</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/dfg">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>DFG-Fachsystematik</madsrdf:authoritativeLabel>
+            <madsrdf:code>dfg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/dhb-jdgklass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Deutsche Historische Bibliografie - Jahresberichte für deutsche Geschichte - Klassifikation (Bibliography of German History - Annual Bibliography on German History - Classification)</madsrdf:authoritativeLabel>
+            <madsrdf:code>dhb-jdgklass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/dk5s">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>DK5 Systematik</madsrdf:authoritativeLabel>
+            <madsrdf:code>dk5s</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/dopaed">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>DOPAED der UB Erlangen</madsrdf:authoritativeLabel>
+            <madsrdf:code>dopaed</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/egedeklass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Egede-instituttets klassifikasjonsystem</madsrdf:authoritativeLabel>
+            <madsrdf:code>egedeklass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ekl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Eduskunnan kirjaston luokitus = Library of Parliament Classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>ekl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/farl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Frick Art Reference Library book classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>farl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/farma">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Oversigt over systematisk catalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>farma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fcps">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Class FC: a classification for Canadian history, Class PS8000: a classification for Canadian literature</madsrdf:authoritativeLabel>
+            <madsrdf:code>fcps</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fiaf">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Moulds, Michael. Classification scheme for literature on film and television</madsrdf:authoritativeLabel>
+            <madsrdf:code>fiaf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fid">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Fachinformationsdienste für die Wissenschaft (FID)</madsrdf:authoritativeLabel>
+            <madsrdf:code>fid</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/finagri">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Finagri-luokitus</madsrdf:authoritativeLabel>
+            <madsrdf:code>finagri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fivr">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>FIV-Regionalklassifikation</madsrdf:authoritativeLabel>
+            <madsrdf:code>fivr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fivs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>FIV-Sachklassifikation</madsrdf:authoritativeLabel>
+            <madsrdf:code>fivs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/flarch">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Florida State Archives arrangement and description procedures manual</madsrdf:authoritativeLabel>
+            <madsrdf:code>flarch</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fldocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>A Keyword-in-context to Florida public documents in the Florida Atlantic University Library</madsrdf:authoritativeLabel>
+            <madsrdf:code>fldocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fna">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Fundstellennachweis FNA</madsrdf:authoritativeLabel>
+            <madsrdf:code>fna</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/fnb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Fundstellennachweis FNB</madsrdf:authoritativeLabel>
+            <madsrdf:code>fnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/frtav">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Referentiel du format INTERMAC Bibliographique: Audiovisuel - Matière generale</madsrdf:authoritativeLabel>
+            <madsrdf:code>frtav</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/gadocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Official publications of the State of Georgia: list of classes with index by name of agency and subject/keyword</madsrdf:authoritativeLabel>
+            <madsrdf:code>gadocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/gccn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Government of Canada catalogue number</madsrdf:authoritativeLabel>
+            <madsrdf:code>gccn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/gfdc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Global forest decimal classification (GFDC)</madsrdf:authoritativeLabel>
+            <madsrdf:code>gfdc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/geothes">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>GEOTHES geographical classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>geothes</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/gestsk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Title index to the catalogue of the Gest Oriental Library compiled by I.V. Gillis and Pai Ping-ch'i</madsrdf:authoritativeLabel>
+            <madsrdf:code>gestsk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ghbs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>GHB-Aufstellungssystematik: HBZ Köln</madsrdf:authoritativeLabel>
+            <madsrdf:code>ghbs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/iadocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification of Iowa state documents</madsrdf:authoritativeLabel>
+            <madsrdf:code>iadocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ics">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>International classification for standards</madsrdf:authoritativeLabel>
+            <madsrdf:code>ics</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/iconclass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Iconclass</madsrdf:authoritativeLabel>
+            <madsrdf:code>iconclass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ifzs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik der IfZ-Bibliothek</madsrdf:authoritativeLabel>
+            <madsrdf:code>ifzs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/inspec">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>INSPEC classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>inspec</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ipc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>International patent classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>ipc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/isced">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>International Standard Classification of Education (ISCED)</madsrdf:authoritativeLabel>
+            <madsrdf:code>isced</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ivdcc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>intranda viewer digital collection classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>ivdcc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/jelc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Journal of Economic Literature (JEL) classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>jelc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/jstormcs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>JSTOR multidisciplinary classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>jstormcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/kab">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikation für Allgemeinbibliotheken</madsrdf:authoritativeLabel>
+            <madsrdf:code>kab</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/kfmod">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>KF classification, modified for use in Canadian law libraries</madsrdf:authoritativeLabel>
+            <madsrdf:code>kfmod</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/kktb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Kokuritsu kokkai toshokan bunruihyo = National Diet Library classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>kktb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/knt">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikasjonsnøkkel til norsk topografi</madsrdf:authoritativeLabel>
+            <madsrdf:code>knt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ksdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>State documents of Kansas: list of classes</madsrdf:authoritativeLabel>
+            <madsrdf:code>ksdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/kssb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikationssystem for svenska bibliotek</madsrdf:authoritativeLabel>
+            <madsrdf:code>kssb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/kuvacs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Kuvataideakatemian kirjaston luokitusjärjestelmä = Finnish Academy of Fine Arts Library Classification = Bildkonstakademins biblioteks klassifikationssystem</madsrdf:authoritativeLabel>
+            <madsrdf:code>kuvacs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/laclaw">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Los Angeles County Law Library, class K-Law</madsrdf:authoritativeLabel>
+            <madsrdf:code>laclaw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ladocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Louisiana documents classification schedule</madsrdf:authoritativeLabel>
+            <madsrdf:code>ladocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/lcc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Library of Congress classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/lndn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>League of Nations document numbers</madsrdf:authoritativeLabel>
+            <madsrdf:code>lndn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/loovs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Løøvs klassifikationssystem</madsrdf:authoritativeLabel>
+            <madsrdf:code>loovs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/methepp">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Methode Eppelsheimer</madsrdf:authoritativeLabel>
+            <madsrdf:code>methepp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mf-klass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikasjonssystemet ved Menighetsfakultetes bibliotek</madsrdf:authoritativeLabel>
+            <madsrdf:code>mf-klass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/midocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Michigan documents classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>midocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/misklass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikasjonsskjema (Stavenger: Misjonshogskolen)</madsrdf:authoritativeLabel>
+            <madsrdf:code>misklass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mmlcc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Manual of map library classification and cataloguing</madsrdf:authoritativeLabel>
+            <madsrdf:code>mmlcc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/modocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Missouri state documents classification: post-reorganization agency codes and form divisions</madsrdf:authoritativeLabel>
+            <madsrdf:code>modocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/moys">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Moys, Elizabeth M. Moys classification and thesaurus for legal materials</madsrdf:authoritativeLabel>
+            <madsrdf:code>moys</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mpilcs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>MPI Luxembourg classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>mpilcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mpkkl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Maanpuolustuskorkeakoulun kirjaston luokitusjärjestelmä</madsrdf:authoritativeLabel>
+            <madsrdf:code>mpkkl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/msc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Mathematical subject classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>msc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/msdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Mississippi state government publications. Vol. 1, July 1975/June 1980</madsrdf:authoritativeLabel>
+            <madsrdf:code>msdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mtlc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification of Medialab Tabakalera Library</madsrdf:authoritativeLabel>
+            <madsrdf:code>mtlc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/mu">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Clasificación musical de la Bibliografía Nacional de España</madsrdf:authoritativeLabel>
+            <madsrdf:code>mu</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/naics">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>North American industry classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>naics</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nasasscg">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>NASA scope and subject category guide</madsrdf:authoritativeLabel>
+            <madsrdf:code>nasasscg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nbdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Guide to Nebraska state agencies: state publications classification and ordering directory</madsrdf:authoritativeLabel>
+            <madsrdf:code>nbdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ncdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification scheme for North Carolina state publications: as applied to the documents collection of the N.C. Dept. of Cultural Resources</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ncsclt">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>New classification scheme for Chinese libraries</madsrdf:authoritativeLabel>
+            <madsrdf:code>ncsclt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nhcp">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>NH classification for photography</madsrdf:authoritativeLabel>
+            <madsrdf:code>nhcp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nicem">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>NICEM subject headings and classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>nicem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/niv">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Norsk inndeling av vitenskapsdisipliner</madsrdf:authoritativeLabel>
+            <madsrdf:code>niv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/njb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Nihon jisshin bunruihō = Nippon decimal classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>njb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nlm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>National Library of Medicine classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>nlm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nmdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>New Mexico state documents classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>nmdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/no-ujur-cmr">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Menneskerettighets-klassifikasjon</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ujur-cmr</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/no-ujur-cnip">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>NifsP-klassifikasjon</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ujur-cnip</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/no-ureal-ca">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Astrofysikk</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ureal-ca</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/no-ureal-cb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Biologisk hylleoppstilling</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ureal-cb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/no-ureal-cg">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Geofysikk oppstillingssystem</madsrdf:authoritativeLabel>
+            <madsrdf:code>no-ureal-cg</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/noterlyd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikasjonssystem for noter og lydopptak = Music classification system (Sheet music and recordings)</madsrdf:authoritativeLabel>
+            <madsrdf:code>noterlyd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nvdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Nevada state documents</madsrdf:authoritativeLabel>
+            <madsrdf:code>nvdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nwbib">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Nordrhein-Westfälische Bibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>nwbib</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/nydocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>New York state documents: an introductory manual</madsrdf:authoritativeLabel>
+            <madsrdf:code>nydocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ohdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Ohio documents classification scheme</madsrdf:authoritativeLabel>
+            <madsrdf:code>ohdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/okdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Oklahoma state documents classification and list of Oklahoma state agencies from statehood to the present</madsrdf:authoritativeLabel>
+            <madsrdf:code>okdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/oosk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Oversikt over systematisk katalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>oosk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ordocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>OrDocs: history authority list and classification scheme for Oregon state agencies</madsrdf:authoritativeLabel>
+            <madsrdf:code>ordocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/padocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification scheme for Pennsylvania state publications</madsrdf:authoritativeLabel>
+            <madsrdf:code>padocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/pcesm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Plan de classement des enregistrements sonores musicaux</madsrdf:authoritativeLabel>
+            <madsrdf:code>pcesm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/pcev">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Plan de classement des enregistrements vidéo musicaux</madsrdf:authoritativeLabel>
+            <madsrdf:code>pcev</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/pcjv">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Plan de classement des jeux vidéo</madsrdf:authoritativeLabel>
+            <madsrdf:code>pcjv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/pim">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>PIM [Presentatiesysteem Informatieve Media]</madsrdf:authoritativeLabel>
+            <madsrdf:code>pim</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/pssppbkj">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Popis strucnih skupina i svih podskupina s podacima o broju kataloskih jedinica</madsrdf:authoritativeLabel>
+            <madsrdf:code>pssppbkj</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rich">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Richardson classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>rich</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ridocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Alphabetical list of state agencies and corresponding Swank classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>ridocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rilm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>RILM classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>rilm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/roy">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Classification Roy</madsrdf:authoritativeLabel>
+            <madsrdf:code>roy</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rpb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Rheinland-Pfälzische Bibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>rpb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rswk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Regeln für den Schlagwortkatalog</madsrdf:authoritativeLabel>
+            <madsrdf:code>rswk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà nauchnykh bibliotek v 30-ti tomakh</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbkd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà detskikh bibliotek v 1 t.</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbkd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbkk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà kraevedcheskikh katalogov bibliotek</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbkk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbkm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà massovykh bibliotek v 1. t.</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbkm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbkmv">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà massovykh voennykh bibliotek</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbkmv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbkn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà nauchnykh bibliotek v 4-kh tomakh</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbkn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbknp">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Pereizdanidiíà tablits bibliotechno-bibliograficheskoi klassifikatsii dlíà nauchnykh bibliotek v 30-ti tomakh</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbknp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbko">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tablitsy bibliotechno-bibliograficheskoi klassifikatsii dlíà oblastvykh bibliotek v 4-kh tomakh</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbko</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rubbks">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Bibliotechno-bibliograficheskaíà klassifikatsiíàe: Srednye tablitsy</madsrdf:authoritativeLabel>
+            <madsrdf:code>rubbks</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rueskl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Edinaíà skhema klassifikatsii literatury dlíà knigoizdaniíà v SSSR</madsrdf:authoritativeLabel>
+            <madsrdf:code>rueskl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rugasnti">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Rubrikator Gosudarstvennoi avtomatizirovannoi sistemy nauchno-tekhnicheskoi informatsii</madsrdf:authoritativeLabel>
+            <madsrdf:code>rugasnti</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/rvk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Regensburger Verbundklassifikation (RVK)</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sbb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik der Bayerischen Bibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>sbb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/scdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>South Carolina state documents classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>scdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/scia">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Schema di classificazione infanzia e adolescenza</madsrdf:authoritativeLabel>
+            <madsrdf:code>scia</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sddocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>[South Dakota] State documents classification schedule</madsrdf:authoritativeLabel>
+            <madsrdf:code>sddocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sdnb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik der Deutschen Nationalbibliographie</madsrdf:authoritativeLabel>
+            <madsrdf:code>sdnb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sfb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>SfB: Systematik für Bibliotheken</madsrdf:authoritativeLabel>
+            <madsrdf:code>sfb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/siblcs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Sibelius-Akatemian kirjaston luokitusjärjestelmä - kirjojen luokitus; Sibelius-Akatemian nuottien luokitus</madsrdf:authoritativeLabel>
+            <madsrdf:code>siblcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/siso">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Schema voor de Indeling van de Systematische Catalogus in Openbare Bibliotheken</madsrdf:authoritativeLabel>
+            <madsrdf:code>siso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/skb">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Sachbuch-Systematik für Katholische öffentliche Büchereien</madsrdf:authoritativeLabel>
+            <madsrdf:code>skb</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/smm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik des Musikschrifttums u.d. Musikalien fr ffentl. Musikbibliotheken SMM</madsrdf:authoritativeLabel>
+            <madsrdf:code>smm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/srnlc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Taideyliopiston kirjaston Sörnäisten kampuksen luokitus = University of Arts Helsinki Library Sörnäinen Campus Classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>srnlc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ssd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik: Stadtbücherei Duisburg: Buchaufstellung und Ordnung des systematischen Kataloges</madsrdf:authoritativeLabel>
+            <madsrdf:code>ssd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ssgn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Sondersammelgebiets-Nummer</madsrdf:authoritativeLabel>
+            <madsrdf:code>ssgn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sswd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Subject Classes of the Schlagwortnormdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>sswd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/stub">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Systematik der TUB München</madsrdf:authoritativeLabel>
+            <madsrdf:code>stub</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/suaslc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Seinäjoen korkeakoulukirjaston luokitus</madsrdf:authoritativeLabel>
+            <madsrdf:code>suaslc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/sudocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Superintendent of Documents classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>sudocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/swank">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Swank, Raynard Coe. A classification for state, county, and municipal documents</madsrdf:authoritativeLabel>
+            <madsrdf:code>swank</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/taikclas">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Taideteollisen korkeakoulun kirjaston luokitus = University of Art and Design Helsinki Library Classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>taikclas</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/taykl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Tampereen yliopiston kirjaston luokitus: Systemaattinen osa &amp; Aakkosellinen osa</madsrdf:authoritativeLabel>
+            <madsrdf:code>taykl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/teatkl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Teatterikorkeakoulun kirjaston luokitusopas = Theatre Academy classification guide = Teatterikorkeakoulun luokitusopas</madsrdf:authoritativeLabel>
+            <madsrdf:code>teatkl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/thema">
+            <madsrdf:authoritativeLabel>Thema</madsrdf:authoritativeLabel>
+            <madsrdf:code>thema</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/txdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Texas state documents classification &amp; almost compleat [sic] list of Texas state agencies from statehood to the present</madsrdf:authoritativeLabel>
+            <madsrdf:code>txdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/tykoma">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Turun yliopiston kirjaston vanha luokitus</madsrdf:authoritativeLabel>
+            <madsrdf:code>tykoma</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ubtkl2">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Klassifikasjonsskjema (Trondheim: Fellesbiblioteket, Kongelige Norske videnskabers selskab, Museet, Norges lærerhøgskole)</madsrdf:authoritativeLabel>
+            <madsrdf:code>ubtkl/2</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/udc">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Universal decimal classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>udc</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/uef">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Itä-Suomen yliopiston kokoelmaluokitus = Collection classification of The University of Eastern Finland</madsrdf:authoritativeLabel>
+            <madsrdf:code>uef</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/undocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>United Nations document series symbols: 1946-77 cumulative</madsrdf:authoritativeLabel>
+            <madsrdf:code>undocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/upsylon">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>UPSYLON: classification systématique de la Bibliothèque de la Faculté de psychologie et des sciences de l'éducation de l'Université catholique de Louvain</madsrdf:authoritativeLabel>
+            <madsrdf:code>upsylon</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/usgslcs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>U.S. Geological Survey library classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>usgslcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/utdocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Utah documents classification schedules</madsrdf:authoritativeLabel>
+            <madsrdf:code>utdocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/utk">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>University of Oslo Library classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>utk</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/utklklass">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>L-klassifikasjon</madsrdf:authoritativeLabel>
+            <madsrdf:code>utklklass</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/utklklassex">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>L-klassifikasjon with extensions</madsrdf:authoritativeLabel>
+            <madsrdf:code>utklklassex</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/veera">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>VEERA-luokitus = VEERA-классификация</madsrdf:authoritativeLabel>
+            <madsrdf:code>veera</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/vsiso">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Vlaamse SISO [schema voor de indeling van de systematische catalogus in openbare bibliotheken]</madsrdf:authoritativeLabel>
+            <madsrdf:code>vsiso</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/wadocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Washington State Library state documents collection: state documents call number</madsrdf:authoritativeLabel>
+            <madsrdf:code>wadocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/whulcs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>WHU Library classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>whulcs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/widocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Organizing Wisconsin public documents: cataloging and classification of documents at the State Historical Society Library</madsrdf:authoritativeLabel>
+            <madsrdf:code>widocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/wydocs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>WyDocs: the Wyoming state documents classification system</madsrdf:authoritativeLabel>
+            <madsrdf:code>wydocs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/ykl">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>Yleisten kirjastojen luokitusjärjestelmä = Finnish public libraries classification system  [former code: fplcs]</madsrdf:authoritativeLabel>
+            <madsrdf:code>ykl</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/z">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>other [used when a source code has not yet been assigned to a classification scheme]</madsrdf:authoritativeLabel>
+            <madsrdf:code>z</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/classSchemes/zdbs">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+            <madsrdf:authoritativeLabel>ZDB-Systematik = ZDB-Classification</madsrdf:authoritativeLabel>
+            <madsrdf:code>zdbs</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00/dlc</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/2020-10-14T00:00:00/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">Classification Schemes contains a list of classification schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate classification numbers with the appropriate classification scheme. An individual URI has been assigned for each edition of Dewey.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/classSchemes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/2020-10-14T00:00:00/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T00:00:00/dlc</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

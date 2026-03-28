@@ -1,0 +1,545 @@
+<?xml version="1.0" ?>
+<lookupTable>
+  <entry>
+    <locCode>crd</locCode>
+    <locTerm>cartographic dataset</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/crd</locURI>
+    <rdaTerm>cartographic dataset</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1001</rdaIRI>
+    <rdaCurie>rdaco:1001</rdaCurie>
+  </entry>
+  <entry>
+    <marc007c0c1>ad</marc007c0c1>
+    <marc007c0c1>aj</marc007c0c1>
+    <marc007c0c1>ak</marc007c0c1>
+    <marc007c0c1>ar</marc007c0c1>
+    <marc007c0c1>as</marc007c0c1>
+    <marc007c0c1>ay</marc007c0c1>
+    <marcMP008c25>e</marcMP008c25>
+    <marcMP006c8>e</marcMP006c8>
+    <marcMP008c33orc34>e</marcMP008c33orc34>
+    <marcMP006c16orc17>e</marcMP006c16orc17>
+    <marcMP008c33orc34>k</marcMP008c33orc34>
+    <marcMP006c16orc17>k</marcMP006c16orc17>
+    <marcMP008c33orc34>o</marcMP008c33orc34>
+    <marcMP006c16orc17>o</marcMP006c16orc17>
+    <marc245h>map|atlas</marc245h>
+    <marc300a>map|profile|atlas</marc300a>
+    <xpath>matches(substring(marc:leader, 7, 1), 'e|f')
+      and (exists(marc:controlfield[@tag='007'][matches(substring(., 1, 2), 'ag')]))</xpath>
+    <xpath>matches(substring(marc:leader, 7, 1), 'e|f')
+      and (some $a in marc:datafield[@tag = '300']/marc:subfield[@code = 'a']
+      satisfies matches(lower-case($a), 'view|diagram|chart|jigsaw puzzle|remote sensing image|section|wall chart'))</xpath>
+    <locCode>cri</locCode>
+    <locTerm>cartographic image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/cri</locURI>
+    <rdaTerm>cartographic image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1002</rdaIRI>
+    <rdaCurie>rdaco:1002</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>crm</locCode>
+    <locTerm>cartographic moving image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/crm</locURI>
+    <rdaTerm>cartographic moving image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1003</rdaIRI>
+    <rdaCurie>rdaco:1003</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>crt</locCode>
+    <locTerm>cartographic tactile image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/crt</locURI>
+    <rdaTerm>cartographic tactile image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1004</rdaIRI>
+    <rdaCurie>rdaco:1004</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>crn</locCode>
+    <locTerm>cartographic tactile three-dimensional form</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/crn</locURI>
+    <rdaTerm>cartographic tactile three-dimensional form</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1005</rdaIRI>
+    <rdaCurie>rdaco:1005</rdaCurie>
+  </entry>
+  <entry>
+    <marc007c0>d</marc007c0>
+    <marc007c0c1>aq</marc007c0c1>
+    <marcMP008c25>d</marcMP008c25>
+    <marcMP006c8>d</marcMP006c8>
+    <marcMP008c33orc34>n</marcMP008c33orc34>
+    <marcMP006c16orc17>n</marcMP006c16orc17>
+    <marcMP008c33orc34>l</marcMP008c33orc34>
+    <marcMP006c16orc17>l</marcMP006c16orc17>
+    <marc245h>globe|relief model</marc245h>
+    <marc300a>globe|relief model</marc300a>
+    <locCode>crf</locCode>
+    <locTerm>cartographic three-dimensional form</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/crf</locURI>
+    <rdaTerm>cartographic three-dimensional form</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1006</rdaIRI>
+    <rdaCurie>rdaco:1006</rdaCurie>
+  </entry>
+  <entry>
+    <marcCF008c26>a</marcCF008c26>
+    <marcCF006c9>a</marcCF006c9>
+    <marcCF008c26>j</marcCF008c26>
+    <marcCF006c9>j</marcCF006c9>
+    <locCode>cod</locCode>
+    <locTerm>computer dataset</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/cod</locURI>
+    <rdaTerm>computer dataset</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1007</rdaIRI>
+    <rdaCurie>rdaco:1007</rdaCurie>
+  </entry>
+  <entry>
+    <marcCF008c26>b</marcCF008c26>
+    <marcCF006c9>b</marcCF006c9>
+    <marcCF008c26>c</marcCF008c26>
+    <marcCF006c9>c</marcCF006c9>
+    <marcCF008c26>f</marcCF008c26>
+    <marcCF006c9>f</marcCF006c9>
+    <marcCF008c26>g</marcCF008c26>
+    <marcCF006c9>g</marcCF006c9>
+    <marcCF008c26>h</marcCF008c26>
+    <marcCF006c9>h</marcCF006c9>
+    <marcCF008c26>j</marcCF008c26>
+    <marcCF006c9>j</marcCF006c9>
+    <marc300a>program file</marc300a>
+    <xpath>matches(substring(marc:leader, 7, 1), 'm')
+      and exists(marc:controlfield[@tag='008'][matches(substring(., 27, 1), 'i')])
+      and (some $a in marc:datafield[@tag = '516']/marc:subfield[@code = 'a']
+      satisfies matches(lower-case($a), 'interactive multimedia'))</xpath>
+    <xpath>exists(marc:controlfield[@tag='006'][matches(substring(., 1, 1), 'm')][matches(substring(., 10, 1), 'i')])
+      and (some $a in marc:datafield[@tag = '516']/marc:subfield[@code = 'a']
+      satisfies matches(lower-case($a), 'interactive multimedia'))</xpath>
+    <locCode>cop</locCode>
+    <locTerm>computer program</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/cop</locURI>
+    <rdaTerm>computer program</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1008</rdaIRI>
+    <rdaCurie>rdaco:1008</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>ntv</locCode>
+    <locTerm>notated movement</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/ntv</locURI>
+    <rdaTerm>notated movement</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1009</rdaIRI>
+    <rdaCurie>rdaco:1009</rdaCurie>
+  </entry>
+  <entry>
+    <marcLDRc6>c</marcLDRc6>
+    <marcLDRc6>d</marcLDRc6>
+    <marc007c0>q</marc007c0>
+    <marcMU008c23>a</marcMU008c23>
+    <marcMU006c6>a</marcMU006c6>
+    <marcMU008c23>b</marcMU008c23>
+    <marcMU006c6>b</marcMU006c6>
+    <marcMU008c23>c</marcMU008c23>
+    <marcMU006c6>c</marcMU006c6>
+    <marcMU008c23>r</marcMU008c23>
+    <marcMU006c6>r</marcMU006c6>
+    <marcMU008c30orc31>n</marcMU008c30orc31>
+    <marcMU006c13orc14>n</marcMU006c13orc14>
+    <marcMU008c30orc31>|</marcMU008c30orc31>
+    <marcMU006c13orc14>|</marcMU006c13orc14>
+    <marcMU008c20>a</marcMU008c20>
+    <marcMU006c3>a</marcMU006c3>
+    <marcMU008c20>b</marcMU008c20>
+    <marcMU006c3>b</marcMU006c3>
+    <marcMU008c20>c</marcMU008c20>
+    <marcMU006c3>c</marcMU006c3>
+    <marcMU008c20>d</marcMU008c20>
+    <marcMU006c3>d</marcMU006c3>
+    <marcMU008c20>e</marcMU008c20>
+    <marcMU006c3>e</marcMU006c3>
+    <marcMU008c20>g</marcMU008c20>
+    <marcMU006c3>g</marcMU006c3>
+    <marcMU008c20>h</marcMU008c20>
+    <marcMU006c3>h</marcMU006c3>
+    <marcMU008c20>i</marcMU008c20>
+    <marcMU006c3>i</marcMU006c3>
+    <marcMU008c20>j</marcMU008c20>
+    <marcMU006c3>j</marcMU006c3>
+    <marcMU008c20>k</marcMU008c20>
+    <marcMU006c3>k</marcMU006c3>
+    <marcMU008c20>l</marcMU008c20>
+    <marcMU006c3>l</marcMU006c3>
+    <marcMU008c20>m</marcMU008c20>
+    <marcMU006c3>m</marcMU006c3>
+    <marcMU008c20>p</marcMU008c20>
+    <marcMU006c3>p</marcMU006c3>
+    <marcMU008c20>z</marcMU008c20>
+    <marcMU006c3>z</marcMU006c3>
+    <marc300a>choir book|choral octavo|conductor part|lead sheet|leaf of music|p\. of music|pages of music|leaves of music|sheet of music</marc300a>
+    <xpath>(matches(substring(marc:leader, 7, 1), 'c|d'))
+      and exists(marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'part|score')])</xpath>
+    <locCode>ntm</locCode>
+    <locTerm>notated music</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/ntm</locURI>
+    <rdaTerm>notated music</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1010</rdaIRI>
+    <rdaCurie>rdaco:1010</rdaCurie>
+  </entry>
+  <entry>
+    <marcLDRc6>j</marcLDRc6>
+    <marcMU008c30c31>  </marcMU008c30c31>
+    <marcMU006c13c14>  </marcMU006c13c14>
+    <marc245h>musical recording</marc245h>
+    <locCode>prm</locCode>
+    <locTerm>performed music</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/prm</locURI>
+    <rdaTerm>performed music</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1011</rdaIRI>
+    <rdaCurie>rdaco:1011</rdaCurie>
+  </entry>
+  <entry>
+    <marcCF008c26>h</marcCF008c26>
+    <marcCF006c9>h</marcCF006c9>
+    <marcMU008c30orc31>s</marcMU008c30orc31>
+    <marcMU006c13orc14>s</marcMU006c13orc14>
+    <locCode>snd</locCode>
+    <locTerm>sounds</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/snd</locURI>
+    <rdaTerm>sounds</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1012</rdaIRI>
+    <rdaCurie>rdaco:1012</rdaCurie>
+  </entry>
+  <entry>
+    <marcMU008c30orc31>a</marcMU008c30orc31>
+    <marcMU006c13orc14>a</marcMU006c13orc14>
+    <marcMU008c30orc31>b</marcMU008c30orc31>
+    <marcMU006c13orc14>b</marcMU006c13orc14>
+    <marcMU008c30orc31>c</marcMU008c30orc31>
+    <marcMU006c13orc14>c</marcMU006c13orc14>
+    <marcMU008c30orc31>d</marcMU008c30orc31>
+    <marcMU006c13orc14>d</marcMU006c13orc14>
+    <marcMU008c30orc31>e</marcMU008c30orc31>
+    <marcMU006c13orc14>e</marcMU006c13orc14>
+    <marcMU008c30orc31>f</marcMU008c30orc31>
+    <marcMU006c13orc14>f</marcMU006c13orc14>
+    <marcMU008c30orc31>g</marcMU008c30orc31>
+    <marcMU006c13orc14>g</marcMU006c13orc14>
+    <marcMU008c30orc31>h</marcMU008c30orc31>
+    <marcMU006c13orc14>h</marcMU006c13orc14>
+    <marcMU008c30orc31>i</marcMU008c30orc31>
+    <marcMU006c13orc14>i</marcMU006c13orc14>
+    <marcMU008c30orc31>j</marcMU008c30orc31>
+    <marcMU006c13orc14>j</marcMU006c13orc14>
+    <marcMU008c30orc31>k</marcMU008c30orc31>
+    <marcMU006c13orc14>k</marcMU006c13orc14>
+    <marcMU008c30orc31>l</marcMU008c30orc31>
+    <marcMU006c13orc14>l</marcMU006c13orc14>
+    <marcMU008c30orc31>m</marcMU008c30orc31>
+    <marcMU006c13orc14>m</marcMU006c13orc14>
+    <marcMU008c30orc31>o</marcMU008c30orc31>
+    <marcMU006c13orc14>o</marcMU006c13orc14>
+    <marcMU008c30orc31>p</marcMU008c30orc31>
+    <marcMU006c13orc14>p</marcMU006c13orc14>
+    <marcMU008c30orc31>r</marcMU008c30orc31>
+    <marcMU006c13orc14>r</marcMU006c13orc14>
+    <marcMU008c30orc31>t</marcMU008c30orc31>
+    <marcMU006c13orc14>t</marcMU006c13orc14>
+    <marcMU008c30orc31>z</marcMU008c30orc31>
+    <marcMU006c13orc14>z</marcMU006c13orc14>
+    <marc245h>spoken recording|eaudio|e-audio book</marc245h>
+    <marc300a>eaudio|e-audio book</marc300a>
+    <locCode>spw</locCode>
+    <locTerm>spoken word</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/spw</locURI>
+    <rdaTerm>spoken word</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1013</rdaIRI>
+    <rdaCurie>rdaco:1013</rdaCurie>
+  </entry>
+  <entry>
+    <marcLDRc6>k</marcLDRc6>
+    <marc007c0c1>ka</marc007c0c1>
+    <marc007c0c1>kp</marc007c0c1>
+    <marc007c0c1>kc</marc007c0c1>
+    <marc007c0c1>kd</marc007c0c1>
+    <marc007c0c1>ke</marc007c0c1>
+    <marc007c0c1>kf</marc007c0c1>
+    <marc007c0c1>kg</marc007c0c1>
+    <marc007c0c1>kh</marc007c0c1>
+    <marc007c0c1>ki</marc007c0c1>
+    <marc007c0c1>kj</marc007c0c1>
+    <marc007c0c1>kk</marc007c0c1>
+    <marc007c0c1>kl</marc007c0c1>
+    <marc007c0c1>kp</marc007c0c1>
+    <marc007c0c1>kq</marc007c0c1>
+    <marc007c0c1>kr</marc007c0c1>
+    <marc007c0c1>ks</marc007c0c1>
+    <marc007c0c1>kv</marc007c0c1>
+    <marc007c0c1>kh</marc007c0c1>
+    <marc007c0c1>ko</marc007c0c1>
+    <marc007c0c1>kn</marc007c0c1>
+    <marcVM008c33>o</marcVM008c33>
+    <marcVM006c16>o</marcVM006c16>
+    <marcVM008c33>n</marcVM008c33>
+    <marcVM006c16>n</marcVM006c16>
+    <marcCF008c26>c</marcCF008c26>
+    <marcCF006c9>c</marcCF006c9>
+    <marcVM008c33>k</marcVM008c33>
+    <marcVM006c16>k</marcVM006c16>
+    <marcVM008c33>i</marcVM008c33>
+    <marcVM006c16>i</marcVM006c16>
+    <marcVM008c33>l</marcVM008c33>
+    <marcVM006c16>l</marcVM006c16>
+    <marcVM008c33>t</marcVM008c33>
+    <marcVM006c16>t</marcVM006c16>
+    <marcCR008c24>6</marcCR008c24>
+    <marcCR006c7>6</marcCR006c7>
+    <marcCR008c24>e</marcCR008c24>
+    <marcCR006c7>e</marcCR006c7>
+    <marcCR008c24>y</marcCR008c24>
+    <marcCR006c7>y</marcCR006c7>
+    <marc245h>activity card|collage|drawing|painting|picture|icon|diagram|graphic|photograph|photomechanical|photonegative|photoprint|jigsaw puzzle|flash card|board book</marc245h>
+    <marc300a>graphic|activity card|collage|drawing|painting|poster|postcard|icon|radiograph|study print|photograph|photomechanical|photonegative|photoprint|lithograph|negative|paper fragments|flash card|board book</marc300a>
+    <xpath>(substring(marc:leader, 7, 1) = 'k')
+      and (marc:datafield[@tag='245']/marc:subfield[@code='h'][matches(lower-case(.), 'diagram')]
+      or marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'diagram')])</xpath>
+    <xpath>(not(matches(substring(marc:leader, 7, 1), 'e|f')))
+      and (marc:datafield[@tag='245']/marc:subfield[@code='h'][matches(lower-case(.), 'jigsaw puzzle')]
+      or marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'jigsaw puzzle')])</xpath>
+    <xpath>(substring(marc:leader, 7, 1) = 'k')
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'album|binder|contact sheet|gelatin silver|photoprint|printing plate|prints')])</xpath>
+    <xpath>(substring(marc:leader, 7, 1) = 'k')
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'silver gelatin')][matches(lower-case(.), 'print')])</xpath>
+    <xpath>matches(substring(marc:leader, 7, 1), 'k')
+      and exists(marc:controlfield[@tag='007'][matches(substring(.,1,2), 'gt')])</xpath>
+    <xpath>matches(substring(marc:leader, 7, 1), 'k')
+      and exists(marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'transparencies|transparency')])</xpath>
+    <locCode>sti</locCode>
+    <locTerm>still image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/sti</locURI>
+    <rdaTerm>still image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1014</rdaIRI>
+    <rdaCurie>rdaco:1014</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tci</locCode>
+    <locTerm>tactile image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tci</locURI>
+    <rdaTerm>tactile image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1015</rdaIRI>
+    <rdaCurie>rdaco:1015</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tcn</locCode>
+    <locTerm>tactile notated movement</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tcn</locURI>
+    <rdaTerm>tactile notated movement</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1017</rdaIRI>
+    <rdaCurie>rdaco:1017</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tcm</locCode>
+    <locTerm>tactile notated music</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tcm</locURI>
+    <rdaTerm>tactile notated music</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1016</rdaIRI>
+    <rdaCurie>rdaco:1016</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tct</locCode>
+    <locTerm>tactile text</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tct</locURI>
+    <rdaTerm>tactile text</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1018</rdaIRI>
+    <rdaCurie>rdaco:1018</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tcf</locCode>
+    <locTerm>tactile three-dimensional form</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tcf</locURI>
+    <rdaTerm>tactile three-dimensional form</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1019</rdaIRI>
+    <rdaCurie>rdaco:1019</rdaCurie>
+  </entry>
+  <entry>
+    <marcLDRc6>t</marcLDRc6>
+    <marc007c0c1>ad</marc007c0c1>
+    <marcMP008c25>e</marcMP008c25>
+    <marcMP006c8>e</marcMP006c8>
+    <marcMP008c33orc34>k</marcMP008c33orc34>
+    <marcMP006c16orc17>k</marcMP006c16orc17>
+    <marc007c0c1>ko</marc007c0c1>
+    <marc007c0c1>kn</marc007c0c1>
+    <marcVM008c29>d</marcVM008c29>
+    <marcVM006c12>d</marcVM006c12>
+    <marcVM008c33>o</marcVM008c33>
+    <marcVM006c16>o</marcVM006c16>
+    <marcVM008c33>n</marcVM008c33>
+    <marcVM006c16>n</marcVM006c16>
+    <marc007c0c1>ta</marc007c0c1>
+    <marc007c0c1>td</marc007c0c1>
+    <marcBK008c23>a</marcBK008c23>
+    <marcBK006c6>a</marcBK006c6>
+    <marcBK008c23>b</marcBK008c23>
+    <marcBK006c6>b</marcBK006c6>
+    <marcBK008c23>c</marcBK008c23>
+    <marcBK006c6>c</marcBK006c6>
+    <marcBK008c23>d</marcBK008c23>
+    <marcBK006c6>d</marcBK006c6>
+    <marcBK008c23>o</marcBK008c23>
+    <marcBK006c6>o</marcBK006c6>
+    <marcBK008c23>q</marcBK008c23>
+    <marcBK006c6>q</marcBK006c6>
+    <marcBK008c23>r</marcBK008c23>
+    <marcBK006c6>r</marcBK006c6>
+    <marcBK008c23>s</marcBK008c23>
+    <marcBK006c6>s</marcBK006c6>
+    <marcCF008c26>d</marcCF008c26>
+    <marcCF006c9>d</marcCF006c9>
+    <marcCF008c26>e</marcCF008c26>
+    <marcCF006c9>e</marcCF006c9>
+    <marcCR008c23> </marcCR008c23>
+    <marcCR006c6> </marcCR006c6>
+    <marcCR008c23>a</marcCR008c23>
+    <marcCR006c6>a</marcCR006c6>
+    <marcCR008c23>b</marcCR008c23>
+    <marcCR006c6>b</marcCR006c6>
+    <marcCR008c23>c</marcCR008c23>
+    <marcCR006c6>c</marcCR006c6>
+    <marcCR008c23>d</marcCR008c23>
+    <marcCR006c6>d</marcCR006c6>
+    <marcCR008c23>o</marcCR008c23>
+    <marcCR006c6>o</marcCR006c6>
+    <marcCR008c23>q</marcCR008c23>
+    <marcCR006c6>q</marcCR006c6>
+    <marcCR008c23>r</marcCR008c23>
+    <marcCR006c6>r</marcCR006c6>
+    <marcCR008c24> </marcCR008c24>
+    <marcCR006c7> </marcCR006c7>
+    <marcCR008c24>5</marcCR008c24>
+    <marcCR006c7>5</marcCR006c7>
+    <marcCR008c24>a</marcCR008c24>
+    <marcCR006c7>a</marcCR006c7>
+    <marcCR008c24>b</marcCR008c24>
+    <marcCR006c7>b</marcCR006c7>
+    <marcCR008c24>c</marcCR008c24>
+    <marcCR006c7>c</marcCR006c7>
+    <marcCR008c24>d</marcCR008c24>
+    <marcCR006c7>d</marcCR006c7>
+    <marcCR008c24>f</marcCR008c24>
+    <marcCR006c7>f</marcCR006c7>
+    <marcCR008c24>g</marcCR008c24>
+    <marcCR006c7>g</marcCR006c7>
+    <marcCR008c24>h</marcCR008c24>
+    <marcCR006c7>h</marcCR006c7>
+    <marcCR008c24>i</marcCR008c24>
+    <marcCR006c7>i</marcCR006c7>
+    <marcCR008c24>k</marcCR008c24>
+    <marcCR006c7>k</marcCR006c7>
+    <marcCR008c24>l</marcCR008c24>
+    <marcCR006c7>l</marcCR006c7>
+    <marcCR008c24>m</marcCR008c24>
+    <marcCR006c7>m</marcCR006c7>
+    <marcCR008c24>n</marcCR008c24>
+    <marcCR006c7>n</marcCR006c7>
+    <marcCR008c24>o</marcCR008c24>
+    <marcCR006c7>o</marcCR006c7>
+    <marcCR008c24>p</marcCR008c24>
+    <marcCR006c7>p</marcCR006c7>
+    <marcCR008c24>q</marcCR008c24>
+    <marcCR006c7>q</marcCR006c7>
+    <marcCR008c24>r</marcCR008c24>
+    <marcCR006c7>r</marcCR006c7>
+    <marcCR008c24>s</marcCR008c24>
+    <marcCR006c7>s</marcCR006c7>
+    <marcCR008c24>t</marcCR008c24>
+    <marcCR006c7>t</marcCR006c7>
+    <marcCR008c24>u</marcCR008c24>
+    <marcCR006c7>u</marcCR006c7>
+    <marcCR008c24>v</marcCR008c24>
+    <marcCR006c7>v</marcCR006c7>
+    <marcCR008c24>w</marcCR008c24>
+    <marcCR006c7>w</marcCR006c7>
+    <marcCR008c24>z</marcCR008c24>
+    <marcCR006c7>z</marcCR006c7>
+    <marcCR008c24>6</marcCR008c24>
+    <marcCR006c7>6</marcCR006c7>
+    <marcCR008c24>e</marcCR008c24>
+    <marcCR006c7>e</marcCR006c7>
+    <marcCR008c24>y</marcCR008c24>
+    <marcCR006c7>y</marcCR006c7>
+    <marcMX008c23>d</marcMX008c23>
+    <marcMX006c6>d</marcMX006c6>
+    <marcMU008c23>d</marcMU008c23>
+    <marcMU006c6>d</marcMU006c6>
+    <marcMP008c23>d</marcMP008c23>
+    <marcMP006c6>d</marcMP006c6>
+    <marcMP008c29>d</marcMP008c29>
+    <marcMP008c12>d</marcMP008c12>
+    <marcVM008c23>d</marcVM008c23>
+    <marcVM006c6>d</marcVM006c6>
+    <marc245h>atlas|flash card|board book|microfilm|handbook|large print|newsletter|pamphlet|text|ebook|e-book|serial|typescript|exhibition catalog|paperback</marc245h>
+    <marc300a>atlas|handbook|flash card|board book|handbook|large print|ebook|e-book|large print|exhibition catalog|pamphlet|leaflet|program|script|transcript</marc300a>
+    <xpath>matches(substring(marc:leader, 7, 1), 'a')
+      and not((some $subfield in marc:datafield[@tag = '650']/marc:subfield[@code = 'v']|marc:datafield[@tag='655']/marc:subfield[@code='a']
+      satisfies matches(lower-case($subfield), 'stories without words|coloring book|colouring book')))</xpath>
+    <xpath>(matches(substring(marc:leader, 7, 1), 'a|t'))
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'box|case|folder|page |page$|p\.|papers|portfolio|scrapbook|scroll')])</xpath>
+    <!-- test -->
+    <!--<xpath>(matches(substring(marc:leader, 7, 1), 'a|t'))
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'leaf')][not(matches(lower-case(.), 'leaf of music')))])</xpath>
+    <xpath>(matches(substring(marc:leader, 7, 1), 'a|t'))
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'leaf')][not(matches(lower-case(.), 'leaf of music')))])</xpath>
+    <xpath>(matches(substring(marc:leader, 7, 1), 'a|t'))
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'v\.|vol')])</xpath>
+    <xpath>not(matches(substring(marc:leader, 7, 1), 'a|t'))
+      and (marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'v\.|vol')])</xpath>-->
+    <locCode>txt</locCode>
+    <locTerm>text</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/txt</locURI>
+    <rdaTerm>text</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1020</rdaIRI>
+    <rdaCurie>rdaco:1020</rdaCurie>
+  </entry>
+  <entry>
+    <marcLDRc6>o</marcLDRc6>
+    <marcLDRc6>p</marcLDRc6>
+    <marcLDRc6>r</marcLDRc6>
+    <marcVM008c33>d</marcVM008c33>
+    <marcVM006c16>d</marcVM006c16>
+    <marc245h>realia|diorama</marc245h>
+    <marc300a>diorama|mask|medal|sculpture</marc300a>
+    <!-- test all-->
+    <xpath>(substring(marc:leader, 7, 1) = 'g' or substring(marc:leader, 7, 1) = 'k'
+      or substring(marc:leader, 7, 1) = 'o' or substring(marc:leaer, 7, 1) = 'r')
+      and not(exists(marc:controlfield[@tag='007'][matches(substring(., 1, 2), 'aq')]))
+      and (some $f008 in marc:controlfield[@tag='008']
+      satisfies substring($f008, 34, 1) = 'q')</xpath>
+    <xpath>not(exists(marc:controlfield[@tag='007'][matches(substring(., 1, 2), 'aq')]))
+      and (some $f006 in marc:controlfield[@tag='006']
+      satisfies ((substring($f006, 1, 1) = 'g' or substring($f006, 1, 1) = 'k'
+      or substring($f006, 1, 1) = 'o'  or substring($f006, 1, 1) = 'r')
+      and substring($f006, 17, 1) = 'q'))</xpath>
+    <xpath>not(exists(marc:controlfield[@tag='007'][matches(substring(., 1, 2), 'aq')]))
+      and exists(marc:datafield[@tag='245']/marc:subfield[@code='h'][matches(lower-case(.), 'model')])</xpath>
+    <xpath>not(exists(marc:controlfield[@tag='007'][matches(substring(., 1, 2), 'aq')]))
+      and exists(marc:datafield[@tag='300']/marc:subfield[@code='a'][matches(lower-case(.), 'model')])</xpath>
+    <locCode>tdf</locCode>
+    <locTerm>three-dimensional form</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tdf</locURI>
+    <rdaTerm>three-dimensional form</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1021</rdaIRI>
+    <rdaCurie>rdaco:1021</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tdm</locCode>
+    <locTerm>three-dimensional moving image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tdm</locURI>
+    <rdaTerm>three-dimensional moving image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1022</rdaIRI>
+    <rdaCurie>rdaco:1022</rdaCurie>
+  </entry>
+  <entry>
+    <locCode>tdi</locCode>
+    <locTerm>two-dimensional moving image</locTerm>
+    <locURI>http://id.loc.gov/vocabulary/contentTypes/tdi</locURI>
+    <rdaTerm>two-dimensional moving image</rdaTerm>
+    <rdaIRI>http://rdaregistry.info/termList/RDAContentType/1023</rdaIRI>
+    <rdaCurie>rdaco:1023</rdaCurie>
+  </entry>
+</lookupTable>

@@ -28,7 +28,7 @@ requires:
   Class::Utils: 0
   File::Share: 0
   Perl6::Slurp: 0
-  XML::Saxon::XSLT3: 0
+  XML::Saxon::XSLT3: 0.012
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/michal-josef-spacek/NKC-Transform-MARC2RDA/issues

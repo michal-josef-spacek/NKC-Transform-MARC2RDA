@@ -6,9 +6,11 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:vann="http://purl.org/vocab/vann/"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:ex="http://fakeIRI2.edu/" xmlns:fake="http://fakePropertiesForDemo"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ex="http://fakeIRI2.edu/"
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
     xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
@@ -31,6 +33,9 @@
     <xsl:variable name="m" select="document('http://www.rdaregistry.info/xml/Elements/m.xml')"/>
     <xsl:variable name="i" select="document('http://www.rdaregistry.info/xml/Elements/i.xml')"/>
     <xsl:variable name="n" select="document('http://www.rdaregistry.info/xml/Elements/n.xml')"/>
+    <xsl:variable name="a" select="document('http://www.rdaregistry.info/xml/Elements/a.xml')"/>
+    <xsl:variable name="p" select="document('http://www.rdaregistry.info/xml/Elements/p.xml')"/>
+    <xsl:variable name="t" select="document('http://www.rdaregistry.info/xml/Elements/t.xml')"/>
     <xsl:key name="rdawDoc" match="$w/rdf:RDF/rdf:Description"
         use="substring-after(@rdf:about, '/P')"/>
     <xsl:key name="rdaeDoc" match="$e/rdf:RDF/rdf:Description"
@@ -40,6 +45,12 @@
     <xsl:key name="rdaiDoc" match="$i/rdf:RDF/rdf:Description"
         use="substring-after(@rdf:about, '/P')"/>
     <xsl:key name="rdanDoc" match="$n/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdaaDoc" match="$a/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdapDoc" match="$p/rdf:RDF/rdf:Description"
+        use="substring-after(@rdf:about, '/P')"/>
+    <xsl:key name="rdatDoc" match="$t/rdf:RDF/rdf:Description"
         use="substring-after(@rdf:about, '/P')"/>
     <xsl:mode on-no-match="shallow-copy"/>
 
@@ -83,6 +94,30 @@
                                 <xsl:value-of select="name(.)"/>
                 <xsl:text> = </xsl:text>
                 <xsl:value-of select="key('rdanDoc', substring-after(name(.), ':P'), $n)/rdfs:label[@xml:lang = 'en']"/>
+            </xsl:comment>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdaa:') or contains(name(.), 'rdaad:') or contains(name(.), 'rdaao:')">
+            <xsl:comment>
+                                <xsl:value-of select="name(.)"/>
+                <xsl:text> = </xsl:text>
+                <xsl:value-of select="key('rdaaDoc', substring-after(name(.), ':P'), $a)/rdfs:label[@xml:lang = 'en']"/>
+            </xsl:comment>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdap:') or contains(name(.), 'rdapd:') or contains(name(.), 'rdapo:')">
+            <xsl:comment>
+                                <xsl:value-of select="name(.)"/>
+                <xsl:text> = </xsl:text>
+                <xsl:value-of select="key('rdapDoc', substring-after(name(.), ':P'), $p)/rdfs:label[@xml:lang = 'en']"/>
+            </xsl:comment>
+        </xsl:if>
+        <xsl:if
+            test="contains(name(.), 'rdat:') or contains(name(.), 'rdatd:') or contains(name(.), 'rdato:')">
+            <xsl:comment>
+                                <xsl:value-of select="name(.)"/>
+                <xsl:text> = </xsl:text>
+                <xsl:value-of select="key('rdatDoc', substring-after(name(.), ':P'), $t)/rdfs:label[@xml:lang = 'en']"/>
             </xsl:comment>
         </xsl:if>
     </xsl:template>

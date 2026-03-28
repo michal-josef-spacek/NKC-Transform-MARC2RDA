@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes">
+      <rdfs:label xml:lang="en">Musical Instrumentation and Voice Code Source Codes</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/emnmus">
+            <madsrdf:authoritativeLabel>Emneord for musikkdokument I EDB-kataloger</madsrdf:authoritativeLabel>
+            <madsrdf:code>emnmus</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/gnd">
+            <madsrdf:authoritativeLabel>Gemeinsame Normdatei</madsrdf:authoritativeLabel>
+            <madsrdf:code>gnd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/iamlmp">
+            <madsrdf:authoritativeLabel>International Association of Music Libraries medium of performance codes</madsrdf:authoritativeLabel>
+            <madsrdf:code>iamlmp</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/lcmpt">
+            <madsrdf:authoritativeLabel>Library of Congress medium of performance thesaurus for music</madsrdf:authoritativeLabel>
+            <madsrdf:code>lcmpt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/marcmusperf">
+            <madsrdf:authoritativeLabel>MARC instruments and voices codes list</madsrdf:authoritativeLabel>
+            <madsrdf:code>marcmusperf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/rvmmem">
+            <madsrdf:authoritativeLabel>Thésaurus des moyens d'exécution en musique de l'Université Laval</madsrdf:authoritativeLabel>
+            <madsrdf:code>rvmmem</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/musiccodeschemes/seko">
+            <madsrdf:authoritativeLabel>Suomalainen esityskokoonpanosanasto</madsrdf:authoritativeLabel>
+            <madsrdf:code>seko</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-06T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/musiccodeschemes"/>
+            <cs:creatorName rdf:resource="dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-06T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>

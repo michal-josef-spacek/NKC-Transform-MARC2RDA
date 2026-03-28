@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <madsrdf:MADSScheme xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+                       rdf:about="http://id.loc.gov/vocabulary/contentTypes">
+      <rdfs:label xml:lang="en">Content Types Scheme</rdfs:label>
+      <rdfs:comment xml:lang="en" rdf:parseType="Literal"/>
+      <madsrdf:definitionNote xml:lang="en">The Content Types Scheme is derived from a controlled list of values representing the form of communication through which a work is expressed, which is principally used in RDA cataloging.</madsrdf:definitionNote>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/crd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic dataset</madsrdf:authoritativeLabel>
+            <madsrdf:code>crd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/cri">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic image</madsrdf:authoritativeLabel>
+            <madsrdf:code>cri</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/crm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic moving image</madsrdf:authoritativeLabel>
+            <madsrdf:code>crm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/crt">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic tactile image</madsrdf:authoritativeLabel>
+            <madsrdf:code>crt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/crn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic tactile three-dimensional form</madsrdf:authoritativeLabel>
+            <madsrdf:code>crn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/crf">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>cartographic three-dimensional form</madsrdf:authoritativeLabel>
+            <madsrdf:code>crf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/cod">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>computer dataset</madsrdf:authoritativeLabel>
+            <madsrdf:code>cod</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/cop">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>computer program</madsrdf:authoritativeLabel>
+            <madsrdf:code>cop</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/ntv">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>notated movement</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntv</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/ntm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>notated music</madsrdf:authoritativeLabel>
+            <madsrdf:code>ntm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/xxx">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>other</madsrdf:authoritativeLabel>
+            <madsrdf:code>xxx</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/prm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>performed music</madsrdf:authoritativeLabel>
+            <madsrdf:code>prm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/snd">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>sounds</madsrdf:authoritativeLabel>
+            <madsrdf:code>snd</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/spw">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>spoken word</madsrdf:authoritativeLabel>
+            <madsrdf:code>spw</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/sti">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>still image</madsrdf:authoritativeLabel>
+            <madsrdf:code>sti</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tci">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>tactile image</madsrdf:authoritativeLabel>
+            <madsrdf:code>tci</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tcn">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>tactile notated movement</madsrdf:authoritativeLabel>
+            <madsrdf:code>tcn</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tcm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>tactile notated music</madsrdf:authoritativeLabel>
+            <madsrdf:code>tcm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tct">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>tactile text</madsrdf:authoritativeLabel>
+            <madsrdf:code>tct</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tcf">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>tactile three-dimensional form</madsrdf:authoritativeLabel>
+            <madsrdf:code>tcf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>text</madsrdf:authoritativeLabel>
+            <madsrdf:code>txt</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tdf">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>three-dimensional form</madsrdf:authoritativeLabel>
+            <madsrdf:code>tdf</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tdm">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>three-dimensional moving image</madsrdf:authoritativeLabel>
+            <madsrdf:code>tdm</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/tdi">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdf:type rdf:resource="http://bibframe.org/vocab/Category"/>
+            <madsrdf:authoritativeLabel>two-dimensional moving image</madsrdf:authoritativeLabel>
+            <madsrdf:code>tdi</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:hasMADSSchemeMember>
+         <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/contentTypes/zzz">
+            <madsrdf:authoritativeLabel>unspecified</madsrdf:authoritativeLabel>
+            <madsrdf:code>zzz</madsrdf:code>
+         </madsrdf:Authority>
+      </madsrdf:hasMADSSchemeMember>
+      <madsrdf:adminMetadata>
+         <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+            <ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+            <ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T00:00:00</ri:recordChangeDate>
+            <ri:recordContentSource rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+         </ri:RecordInfo>
+      </madsrdf:adminMetadata>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:definition xml:lang="en">The Content Types Scheme is derived from a controlled list of values representing the form of communication through which a work is expressed, which is principally used in RDA cataloging.</skos:definition>
+      <skos:changeNote>
+         <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+            <cs:subjectOfChange rdf:resource="http://id.loc.gov/vocabulary/contentTypes"/>
+            <cs:creatorName rdf:resource="https://id.loc.gov/vocabulary/organizations/dlc"/>
+            <cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T00:00:00</cs:createdDate>
+            <cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+         </cs:ChangeSet>
+      </skos:changeNote>
+   </madsrdf:MADSScheme>
+</rdf:RDF>
