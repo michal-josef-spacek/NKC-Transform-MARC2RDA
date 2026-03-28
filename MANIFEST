@@ -22,10 +22,10 @@ share/getmarc.xsl
 share/INFO
 share/lexicalAliases.xsl
 share/LICENSE
-share/lookup/$5-preprocessedRDA-2025-09-27.xml
 share/lookup/abbreviations.xml
 share/lookup/aggregatePatterns.xml
 share/lookup/approvedSources.xml
+share/lookup/dollar5-preprocessedRDA-2025-09-27.xml
 share/lookup/lc/accessrestrictionterm.rdf
 share/lookup/lc/carriers.rdf
 share/lookup/lc/classSchemes.rdf
@@ -56,8 +56,8 @@ share/lookup/List500_520_546aParallelPlusTerms_CaseNo.xml
 share/lookup/List500_520ParallelOnlyTerms_CaseNo.xml
 share/lookup/List520aCollectionTerms.xml
 share/lookup/List546aNotParallelTerms.xml
-share/lookup/ListAgent$4Aggregators.xml
-share/lookup/ListAgent$eAggregators.xml
+share/lookup/ListAgentdollar4Aggregators.xml
+share/lookup/ListAgentdollareAggregators.xml
 share/lookup/ListInvertedEtcTerms.xml
 share/lookup/ListMusicCCT-MLA_Medium.xml
 share/lookup/ListMusicCCT-MLA_Type_Plural.xml
@@ -109,7 +109,6 @@ share/lookup/rda/typeRec.xml
 share/lookup/rda/videoFormat.xml
 share/lookup/rdaVocabularies.xml
 share/lookup/relatorTable-2024-05-15.xml
-share/m2r-$5.xsl
 share/m2r-00x-named.xsl
 share/m2r-00x.xsl
 share/m2r-0xx-named.xsl
@@ -130,6 +129,7 @@ share/m2r-8xx.xsl
 share/m2r-aggregates.xsl
 share/m2r-aps.xsl
 share/m2r-basicValidation.xsl
+share/m2r-dollar5.xsl
 share/m2r-functions.xsl
 share/m2r-iris.xsl
 share/m2r-loadLookupFiles.xsl

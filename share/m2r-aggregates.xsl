@@ -7,8 +7,8 @@
     version="3.0">
     
     <xsl:variable name="listTextsCCT" select="document('lookup/ListTextsCCT.xml')/items/item"/>
-    <xsl:variable name="listAgentE" select="document('lookup/ListAgent$eAggregators.xml')/items/item"/>
-    <xsl:variable name="listAgent4" select="document('lookup/ListAgent$4Aggregators.xml')/items/item"/>
+    <xsl:variable name="listAgentE" select="document('lookup/ListAgentdollareAggregators.xml')/items/item"/>
+    <xsl:variable name="listAgent4" select="document('lookup/ListAgentdollar4Aggregators.xml')/items/item"/>
     <xsl:variable name="listMusicCCT_MLA_Type_Plural" select="document('lookup/ListMusicCCT-MLA_Type_Plural.xml')/items/item"/>
     <xsl:variable name="listMusicCCT_MLA_Medium" select="document('lookup/ListMusicCCT-MLA_Medium.xml')/items/item"/>
     <xsl:variable name="patterns" select="document('lookup/aggregatePatterns.xml')/patterns/pattern" />
