@@ -23,6 +23,8 @@ sub new {
 	# Process parameters.
 	set_params($self, @params);
 
+	$self->{'_messages'} = [];
+
 	return $self;
 }
 
@@ -32,8 +34,17 @@ sub transform {
 	my $xslt = slurp($self->{'xslt_transformation_file'});
 
 	my $trans  = XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
+	my $output = $trans->transform($marc_xml, @params);
+	my @messages = $trans->messages;
+	$self->{'_messages'} = \@messages;
 
-	return $trans->transform($marc_xml, @params);
+	return $output;
+}
+
+sub messages {
+	my $self = shift;
+
+	return @{$self->{'_messages'}};
 }
 
 1;
