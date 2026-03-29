@@ -4,6 +4,8 @@ use strict;
 use warnings;
 
 use Class::Utils qw(set_params);
+use English;
+use Error::Pure qw(err);
 use File::Share ':all';
 use Perl6::Slurp qw(slurp);
 use XML::Saxon::XSLT3;
@@ -33,7 +35,17 @@ sub transform {
 
 	my $xslt = slurp($self->{'xslt_transformation_file'});
 
-	my $trans  = XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
+	my $trans = eval {
+		XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
+	};
+	if ($EVAL_ERROR) {
+		my $e = $EVAL_ERROR;
+		# TODO Add 'StackTrace' err parameter.
+		# $e->getStackTrace returns java objects.
+		err "Error with construction of 'XML::Saxon::XSLT3'.",
+			'Message' => $e->getMessage,
+		;
+	}
 	my $output = $trans->transform($marc_xml, @params);
 	my @messages = $trans->messages;
 	$self->{'_messages'} = \@messages;

@@ -3,7 +3,8 @@ TODO
 1. Doc.
 4. Add devel version.
 5. Rewrite to multiple versions.
-6.
+6. Return java stack trace in error. See TODO in code.
+7.
 
 Applied
 =======

@@ -19,6 +19,8 @@ name 'NKC-Transform-MARC2RDA';
 readme_from 'MARC2RDA.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0;
+requires 'English' => 0;
+requires 'Error::Pure' => 0;
 requires 'File::Share' => 0;
 requires 'Perl6::Slurp' => 0;
 # XXX My provisional version.
