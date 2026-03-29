@@ -142,6 +142,7 @@ SIGNATURE
 t/data/cnb002955079-expected.xml
 t/data/cnb002955079.xml
 t/data/cnb003004194.xml
+t/data/cnb003439598.xml
 t/NKC-Transform-MARC2RDA/01-use.t
 t/NKC-Transform-MARC2RDA/02-version.t
 t/NKC-Transform-MARC2RDA/03-new.t

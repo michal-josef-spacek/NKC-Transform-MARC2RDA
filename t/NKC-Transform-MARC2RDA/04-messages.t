@@ -20,18 +20,16 @@ is_deeply(
 	[
 		'Record nkc20172955079 identified as cam aggregate and was not processed.',
 	],
-	'No messages.',
+	'Message about no processing (cnb002955079).',
 );
 
 # Test.
 $obj = NKC::Transform::MARC2RDA->new;
-$input = slurp($data_dir->file('cnb003004194.xml')->s);
+$input = slurp($data_dir->file('cnb003439598.xml')->s);
 $ret = $obj->transform($input);
 @ret = $obj->messages;
 is_deeply(
 	\@ret,
-	[
-		'Record nkc20183004194 identified as cam aggregate and was not processed.',
-	],
-	'No messages.',
+	[],
+	'No messages (cnb003439598).',
 );
