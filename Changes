@@ -1,3 +1,5 @@
+0.05
+
 0.04 2026-03-30T09:11:15+02:00
  - Update to Module::Install@1.21. Bad downgrade in previous version.
 
