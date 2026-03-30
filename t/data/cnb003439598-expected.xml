@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:fake="http://fakePropertiesForDemo"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+         xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+         xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+         xmlns:rdae="http://rdaregistry.info/Elements/e/"
+         xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+         xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+         xmlns:rdai="http://rdaregistry.info/Elements/i/"
+         xmlns:rdaid="http://rdaregistry.info/Elements/i/datatype/"
+         xmlns:rdaio="http://rdaregistry.info/Elements/i/object/"
+         xmlns:rdam="http://rdaregistry.info/Elements/m/"
+         xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+         xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+         xmlns:rdan="http://rdaregistry.info/Elements/n/"
+         xmlns:rdand="http://rdaregistry.info/Elements/n/datatype/"
+         xmlns:rdano="http://rdaregistry.info/Elements/n/object/"
+         xmlns:rdap="http://rdaregistry.info/Elements/p/"
+         xmlns:rdapd="http://rdaregistry.info/Elements/p/datatype/"
+         xmlns:rdapo="http://rdaregistry.info/Elements/p/object/"
+         xmlns:rdat="http://rdaregistry.info/Elements/t/"
+         xmlns:rdatd="http://rdaregistry.info/Elements/t/datatype/"
+         xmlns:rdato="http://rdaregistry.info/Elements/t/object/"
+         xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+         xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+         xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marcczprnkcpz20223439598">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+      <rdawd:P10400>CZ PrNKcpz20223439598</rdawd:P10400>
+      <rdawd:P10004>Metadata work</rdawd:P10004>
+      <rdawd:P10002>wor#marcczprnkcpz20223439598</rdawd:P10002>
+      <rdawo:P10072 rdf:resource="http://marc2rda.info/testing/man#marcczprnkcpz20223439598"/>
+      <rdawo:P10621 rdf:resource="http://marc2rda.info/testing/wor#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1voda"/>
+      <rdawo:P10615 rdf:resource="http://marc2rda.info/testing/exp#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1vodaspokenwordczechonehotbook"/>
+      <rdawo:P10617 rdf:resource="http://marc2rda.info/testing/man#b%C3%ADl%C3%A1voda2022onehotbookaudiodisc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/man#marcczprnkcpz20223439598">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+      <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marcczprnkcpz20223439598"/>
+      <rdamd:P30335>Metadata manifestation</rdamd:P30335>
+      <rdamd:P30004>man#marcczprnkcpz20223439598</rdamd:P30004>
+      <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
+      <rdamd:P30137>F  02347nim a2200673 i 4500
+F001  cpz20223439598
+F003  CZ PrNK
+F005  20220815193824.0
+F007  sd fungnnmmned
+F008  220801t20222022xr nnnng       f  n cze  
+F015 ## $a cnb003439598
+F024 3# $a 8594169485003
+F028 01 $a AK500 $b OneHotBook
+F040 ## $a ABA001 $b cze $e rda
+F043 ## $a e-xr--- $b e-xr-ol $2 czenas
+F045 ## $a x4x8
+F072 #7 $a 821.162.3-3 $x Česká próza $2 Konspekt $9 25
+F080 ## $a 821.162.3-31 $2 MRF
+F080 ## $a 27-788-055.2 $2 MRF
+F080 ## $a 2-67 $2 MRF
+F080 ## $a 321.74 $2 MRF
+F080 ## $a 27-674.5 $2 MRF
+F080 ## $a 2-72-67-021.452 $2 MRF
+F080 ## $a 27-558.5-055.2 $2 MRF
+F080 ## $a (437.325) $2 MRF
+F080 ## $a (0:82-311.6) $2 MRF
+F080 ## $a (086.7)08 $2 MRF
+F080 ## $a (086.76) $2 MRF
+F100 1# $a Tučková, Kateřina, $d 1980- $7 mzk2006348534 $4 aut
+F245 10 $a Bílá Voda / $c Kateřina Tučková
+F264 #1 $a [Praha] : $b OneHotBook, $c 2022
+F264 #4 $c ℗2022
+F300 ## $a 3 audiodisky (28 hod., 46 min.) ; $c 12 cm
+F306 ## $a 284600
+F336 ## $a mluvené slovo $b spw $2 rdacontent
+F337 ## $a audio $b s $2 rdamedia
+F338 ## $a audiodisk $b sd $2 rdacarrier
+F344 ## $a digital $b optical $2 rda
+F347 ## $a audio soubor $b MP3 $2 rda
+F500 ## $a Název z disku
+F500 ## $a Podle stejnojmenné knihy vydané nakladatelstvím Host (2022)
+F508 ## $a Režie Jitka Škápíková
+F511 0# $a Čtou různí herci
+F648 #7 $a 1948-1989 $7 ch460661 $2 czenas
+F650 07 $a ženské řeholní řády $7 ph311264 $z Česko $2 czenas
+F650 07 $a ženské řeholní kongregace $7 ph337771 $z Česko $2 czenas
+F650 07 $a stát a církev $7 ph116308 $z Česko $y 1948-1989 $2 czenas
+F650 07 $a komunistický režim $7 ph114960 $z Česko $y 1948-1989 $2 czenas
+F650 07 $a náboženská perzekuce $7 ph117342 $z Česko $y 1948-1989 $2 czenas
+F650 07 $a skrytá církev $7 ph303226 $z Česko $y 1948-1989 $2 czenas
+F650 07 $a kněžské svěcení žen $7 ph967253 $2 czenas
+F651 #7 $a Bílá Voda (Jeseník, Česko) $7 ge174005 $2 czenas
+F655 #7 $a české romány $7 fd133974 $2 czenas
+F655 #7 $a historické romány $7 fd132414 $2 czenas
+F655 #7 $a audioknihy $7 fd119452 $2 czenas
+F655 #7 $a kompaktní disky $7 fd201991 $2 czenas
+F700 1# $a Škápíková, Jitka, $d 1967- $7 mzk2007382100 $4 drt
+F910 ## $a ABA001
+F998 ## $a 003439598
+</rdamd:P30137>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/wor#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1voda">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+      <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marcczprnkcpz20223439598"/>
+      <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1vodaspokenwordczechonehotbook"/>
+      <rdawd:P10328>Tučková, Kateřina, 1980-. Bílá Voda</rdawd:P10328>
+      <rdaw:P10004 rdf:resource="https://doi.org/10.6069/uwlswd.23tq-5e25#f"/>
+      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-xr"/>
+      <rdawd:P10321 rdf:resource="http://marc2rda.info/testing/czenas/pla#e-xr-ol"/>
+      <rdawo:P10219 rdf:resource="http://marc2rda.info/testing/tim#DATE"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#8211623-31"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#27-788-0552"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#2-67"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#32174"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#27-6745"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#2-72-67-021452"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#27-5585-0552"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#437325"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#082-3116"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#086708"/>
+      <rdawo:P10256 rdf:resource="http://marc2rda.info/testing/udc/con#08676"/>
+      <rdawo:P10436 rdf:resource="http://marc2rda.info/testing/age#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-"/>
+      <rdawd:P10088>Bílá Voda</rdawd:P10088>
+      <rdawo:P10322 rdf:resource="http://marc2rda.info/testing/czenas/tim#1948-1989"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#%C5%BEensk%C3%A9%C5%99eholn%C3%AD%C5%99%C3%A1dy%C4%8Desko"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#%C5%BEensk%C3%A9%C5%99eholn%C3%ADkongregace%C4%8Desko"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#st%C3%A1tac%C3%ADrkev%C4%8Desko1948-1989"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#komunistick%C3%BDre%C5%BEim%C4%8Desko1948-1989"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#n%C3%A1bo%C5%BEensk%C3%A1perzekuce%C4%8Desko1948-1989"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#skryt%C3%A1c%C3%ADrkev%C4%8Desko1948-1989"/>
+      <rdaw:P10256 rdf:resource="http://marc2rda.info/testing/czenas/con#kn%C4%9B%C5%BEsk%C3%A9sv%C4%9Bcen%C3%AD%C5%BEen"/>
+      <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/czenas/pla#b%C3%ADl%C3%A1vodajesen%C3%ADk%C4%8Desko"/>
+      <rdaw:P10004 rdf:resource="http://marc2rda.info/testing/czenas/con#%C4%8Desk%C3%A9rom%C3%A1ny"/>
+      <rdaw:P10004 rdf:resource="http://marc2rda.info/testing/czenas/con#historick%C3%A9rom%C3%A1ny"/>
+      <rdaw:P10004 rdf:resource="http://marc2rda.info/testing/czenas/con#audioknihy"/>
+      <rdaw:P10004 rdf:resource="http://marc2rda.info/testing/czenas/con#kompaktn%C3%ADdisky"/>
+      <rdawo:P10455 rdf:resource="http://marc2rda.info/testing/age#%C5%A1k%C3%A1p%C3%ADkov%C3%A1jitka1967-"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/exp#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1vodaspokenwordczechonehotbook">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
+      <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marcczprnkcpz20223439598"/>
+      <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#b%C3%ADl%C3%A1voda2022onehotbookaudiodisc"/>
+      <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1voda"/>
+      <rdaed:P20310>Tučková, Kateřina, 1980-. Bílá Voda (Spoken word : Czech : OneHotBook)</rdaed:P20310>
+      <rdae:P20006 rdf:resource="http://id.loc.gov/vocabulary/languages/cze"/>
+      <rdae:P20322 rdf:resource="https://doi.org/10.6069/uwlswd.aec4-nv40#g"/>
+      <rdaed:P20312>Bílá Voda</rdaed:P20312>
+      <rdaed:P20219 rdf:datatype="xsd:time">28:46:00</rdaed:P20219>
+      <rdaed:P20001>mluvené slovo</rdaed:P20001>
+      <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/man#b%C3%ADl%C3%A1voda2022onehotbookaudiodisc">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+      <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marcczprnkcpz20223439598"/>
+      <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-b%C3%ADl%C3%A1vodaspokenwordczechonehotbook"/>
+      <rdamd:P30276>Bílá Voda (2022 : OneHotBook : Audio disc)</rdamd:P30276>
+      <rdamo:P30335 rdf:resource="https://doi.org/10.6069/uwlswd.h5tb-zk94#s"/>
+      <rdamo:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
+      <rdamo:P30335 rdf:resource="https://doi.org/10.6069/uwlswd.enb6-8r41#d"/>
+      <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1004"/>
+      <rdamo:P30201 rdf:resource="https://doi.org/10.6069/uwlswd.m935-w309#f"/>
+      <rdamd:P30169>4 3/4 in. or 12 cm.</rdamd:P30169>
+      <rdamo:P30191 rdf:resource="https://doi.org/10.6069/uwlswd.4sxq-pn90#m"/>
+      <rdamo:P30304 rdf:resource="https://doi.org/10.6069/uwlswd.hteb-5554#m"/>
+      <rdamo:P30304 rdf:resource="http://rdaregistry.info/termList/RDAMaterial/1022"/>
+      <rdamo:P30304 rdf:resource="http://rdaregistry.info/termList/RDAMaterial/1029"/>
+      <rdamo:P30138 rdf:resource="https://doi.org/10.6069/uwlswd.a3v4-v844#e"/>
+      <rdamo:P30125 rdf:resource="https://doi.org/10.6069/uwlswd.v4qn-rb56#d"/>
+      <rdamd:P30011>2022</rdamd:P30011>
+      <rdamo:P30279 rdf:resource="http://id.loc.gov/vocabulary/countries/xr"/>
+      <rdamo:P30004 rdf:resource="http://marc2rda.info/testing/nom#DATE"/>
+      <rdamo:P30004 rdf:resource="http://marc2rda.info/testing/nom#DATE"/>
+      <rdamo:P30004 rdf:resource="http://marc2rda.info/testing/nom#DATE"/>
+      <rdamd:P30156>Bílá Voda</rdamd:P30156>
+      <rdamd:P30105>Kateřina Tučková</rdamd:P30105>
+      <rdamd:P30111>[Praha] : OneHotBook, 2022</rdamd:P30111>
+      <rdamd:P30088>Praha</rdamd:P30088>
+      <rdamd:P30176>OneHotBook</rdamd:P30176>
+      <rdamd:P30011>2022</rdamd:P30011>
+      <rdamd:P30137>Copyright notice date: ℗2022.</rdamd:P30137>
+      <rdamd:P30007>2022</rdamd:P30007>
+      <rdamd:P30182>3 audiodisky (28 hod., 46 min.) ; 12 cm</rdamd:P30182>
+      <rdamo:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
+      <rdamo:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
+      <rdamd:P30001>audiodisk</rdamd:P30001>
+      <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1004"/>
+      <rdamo:P30172 rdf:resource="http://marc2rda.info/testing/rda/con#digital"/>
+      <rdamo:P30206 rdf:resource="http://marc2rda.info/testing/rda/con#optical"/>
+      <rdam:P30018 rdf:resource="http://marc2rda.info/testing/rda/con#audiosoubor"/>
+      <rdam:P30096 rdf:resource="http://marc2rda.info/testing/rda/con#mp3"/>
+      <rdamd:P30137>Název z disku</rdamd:P30137>
+      <rdamd:P30137>Podle stejnojmenné knihy vydané nakladatelstvím Host (2022)</rdamd:P30137>
+      <rdamd:P30137>Credits: Režie Jitka Škápíková</rdamd:P30137>
+      <rdamd:P30137>Čtou různí herci</rdamd:P30137>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/nom#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>cnb003439598</rdand:P80068>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/nom#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>8594169485003</rdand:P80068>
+      <rdan:P80069 rdf:resource="https://id.loc.gov/vocabulary/identifiers/ean"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/nom#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>AK500</rdand:P80068>
+      <rdand:P80073>OneHotBook</rdand:P80073>
+      <rdand:P80078>Issue number</rdand:P80078>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/plaNom#e-xr-ol">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>e-xr-ol</rdand:P80068>
+      <rdand:P80069>czenas</rdand:P80069>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/marc045timeperiodcode/timNom#x4x8">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10014"/>
+      <rdand:P80026>x4x8</rdand:P80026>
+      <rdand:P80069>MARC 045 Time Period Code</rdand:P80069>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/timNom#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>1948-1989</rdand:P80068>
+      <rdan:P80069 rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/plaNom#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
+      <rdand:P80068>Bílá Voda (Jeseník, Česko)</rdand:P80068>
+      <rdan:P80069 rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/age#tu%C4%8Dkov%C3%A1kate%C5%99ina1980-">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10004"/>
+      <rdaad:P50377>Tučková, Kateřina, 1980-</rdaad:P50377>
+      <rdaad:P50111>Tučková, Kateřina</rdaad:P50111>
+      <rdaad:P50121>1980</rdaad:P50121>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/age#%C5%A1k%C3%A1p%C3%ADkov%C3%A1jitka1967-">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10004"/>
+      <rdaad:P50377>Škápíková, Jitka, 1967-</rdaad:P50377>
+      <rdaad:P50111>Škápíková, Jitka</rdaad:P50111>
+      <rdaad:P50121>1967</rdaad:P50121>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#8211623-31">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">821.162.3-31</skos:notation>
+      <skos:altLabel>821.162.3-31</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#27-788-0552">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">27-788-055.2</skos:notation>
+      <skos:altLabel>27-788-055.2</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#2-67">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">2-67</skos:notation>
+      <skos:altLabel>2-67</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#32174">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">321.74</skos:notation>
+      <skos:altLabel>321.74</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#27-6745">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">27-674.5</skos:notation>
+      <skos:altLabel>27-674.5</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#2-72-67-021452">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">2-72-67-021.452</skos:notation>
+      <skos:altLabel>2-72-67-021.452</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#27-5585-0552">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">27-558.5-055.2</skos:notation>
+      <skos:altLabel>27-558.5-055.2</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#437325">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">(437.325)</skos:notation>
+      <skos:altLabel>(437.325)</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#082-3116">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">(0:82-311.6)</skos:notation>
+      <skos:altLabel>(0:82-311.6)</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#086708">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">(086.7)08</skos:notation>
+      <skos:altLabel>(086.7)08</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/udc/con#08676">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:notation rdf:datatype="http://www.wikidata.org/entity/Q130324897">(086.76)</skos:notation>
+      <skos:altLabel>(086.76)</skos:altLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/classSchemes/udc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/rda/con#digital">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>digital</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/genreFormSchemes/rda"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/rda/con#optical">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>optical</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/genreFormSchemes/rda"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/rda/con#audiosoubor">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>audio soubor</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/genreFormSchemes/rda"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/rda/con#mp3">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>MP3</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/genreFormSchemes/rda"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#1948-1989">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>1948-1989</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#%C5%BEensk%C3%A9%C5%99eholn%C3%AD%C5%99%C3%A1dy%C4%8Desko">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>ženské řeholní řády--Česko</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#%C5%BEensk%C3%A9%C5%99eholn%C3%ADkongregace%C4%8Desko">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>ženské řeholní kongregace--Česko</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#st%C3%A1tac%C3%ADrkev%C4%8Desko1948-1989">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>stát a církev--Česko--1948-1989</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#komunistick%C3%BDre%C5%BEim%C4%8Desko1948-1989">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>komunistický režim--Česko--1948-1989</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#n%C3%A1bo%C5%BEensk%C3%A1perzekuce%C4%8Desko1948-1989">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>náboženská perzekuce--Česko--1948-1989</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#skryt%C3%A1c%C3%ADrkev%C4%8Desko1948-1989">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>skrytá církev--Česko--1948-1989</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#kn%C4%9B%C5%BEsk%C3%A9sv%C4%9Bcen%C3%AD%C5%BEen">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>kněžské svěcení žen</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#%C4%8Desk%C3%A9rom%C3%A1ny">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>české romány</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#historick%C3%A9rom%C3%A1ny">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>historické romány</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#audioknihy">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>audioknihy</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/con#kompaktn%C3%ADdisky">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel>kompaktní disky</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/czenas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/pla#e-xr-ol">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10009"/>
+      <rdapo:P70020 rdf:resource="http://marc2rda.info/testing/czenas/plaNom#e-xr-ol"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/pla#b%C3%ADl%C3%A1vodajesen%C3%ADk%C4%8Desko">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10009"/>
+      <rdapo:P70018 rdf:resource="http://marc2rda.info/testing/plaNom#DATE"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#DATE">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdato:P70015 rdf:resource="http://marc2rda.info/testing/marc045timeperiodcode/timNom#x4x8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/czenas/tim#1948-1989">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
+      <rdato:P70015 rdf:resource="http://marc2rda.info/testing/timNom#DATE"/>
+   </rdf:Description>
+</rdf:RDF>
