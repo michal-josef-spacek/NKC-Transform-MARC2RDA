@@ -1,4 +1,5 @@
 0.04
+ - Update to Module::Install@1.21. Bad downgrade in previous version.
 
 0.03 2026-03-30T08:58:56+02:00
  - Add LICENSE to XSLT transformations.
