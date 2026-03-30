@@ -6,4 +6,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($NKC::Transform::MARC2RDA::VERSION, 0.03, 'Version.');
+is($NKC::Transform::MARC2RDA::VERSION, 0.04, 'Version.');
