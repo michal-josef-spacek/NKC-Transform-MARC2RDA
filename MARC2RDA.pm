@@ -10,7 +10,7 @@ use File::Share ':all';
 use Perl6::Slurp qw(slurp);
 use XML::Saxon::XSLT3;
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 sub new {
 	my ($class, @params) = @_;
