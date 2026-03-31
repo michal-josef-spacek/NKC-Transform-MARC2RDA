@@ -39,12 +39,7 @@ sub transform {
 		XML::Saxon::XSLT3->new($xslt, $self->{'xslt_transformation_dir'});
 	};
 	if ($EVAL_ERROR) {
-		my $e = $EVAL_ERROR;
-		# TODO Add 'StackTrace' err parameter.
-		# $e->getStackTrace returns java objects.
-		err "Error with construction of 'XML::Saxon::XSLT3'.",
-			'Message' => $e->getMessage,
-		;
+		err "Error with construction of 'XML::Saxon::XSLT3'.";
 	}
 	my $output = $trans->transform($marc_xml, @params);
 	my @messages = $trans->messages;

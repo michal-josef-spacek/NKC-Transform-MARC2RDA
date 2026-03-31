@@ -24,7 +24,7 @@ requires 'Error::Pure' => 0;
 requires 'File::Share' => 0;
 requires 'Perl6::Slurp' => 0;
 # XXX My provisional version.
-requires 'XML::Saxon::XSLT3' => 0.012;
+requires 'XML::Saxon::XSLT3' => 0.015;
 requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/NKC-Transform-MARC2RDA/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/NKC-Transform-MARC2RDA';
